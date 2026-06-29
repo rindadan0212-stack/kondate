@@ -1,0 +1,14 @@
+{
+  "_comment": "今週の入力。dinner/bento は all / weekday / none / 「月,火,水」/「月-金」。inventory は食材名で。",
+  "dinner": "all",
+  "bento": "weekday",
+  "month": 6,
+  "inventory": {
+    "鶏もも肉": 300,
+    "玉ねぎ": 2,
+    "にんじん": 1,
+    "ほうれん草": 1,
+    "じゃがいも": 3
+  },
+  "missing_staples": []
+}

@@ -1,0 +1,12 @@
+{
+  "dinner_servings": 2,
+  "bento_servings": 2,
+  "weekday_time_limit": 30,
+  "skill": 2,
+  "staple_keys": [
+    "soy_sauce", "miso", "salt", "sugar", "oil", "mirin", "sake", "dashi",
+    "rice", "sesame_oil", "sesame_paste", "ketchup", "mayo", "vinegar",
+    "potato_starch", "breadcrumb", "doubanjiang"
+  ],
+  "exclude": []
+}

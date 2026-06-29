@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>献立</title>
+  <meta name="theme-color" content="#b8482a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="献立">
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #boot { position: fixed; inset: 0; display: grid; place-items: center; background: #f7f4ee;
+      color: #6b6155; font-family: "Noto Sans JP", system-ui, sans-serif; z-index: 9999;
+      text-align: center; padding: 24px; line-height: 1.9; }
+    #boot b { font-family: "Noto Serif JP", serif; color: #b8482a; font-size: 22px; display: block; margin-bottom: 10px; }
+    #boot small { color: #9a9082; font-size: 12px; }
+    .spin { width: 26px; height: 26px; margin: 16px auto 0; border: 3px solid #e4ddd0;
+      border-top-color: #b8482a; border-radius: 50%; animation: sp 0.9s linear infinite; }
+    @keyframes sp { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="boot">
+    <div>
+      <b>献立</b>
+      準備中…<br><small>初回は数十秒かかります（次回からは速くなります）</small>
+      <div class="spin"></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <nav class="tabs" aria-label="表示切替">
+      <button class="tab-btn tab-btn--on" data-view="plan">献立</button>
+      <button class="tab-btn" data-view="cal">カレンダー</button>
+    </nav>
+
+    <div id="viewPlan">
+      <div class="wiz-steps" id="wizSteps" aria-label="進捗"></div>
+
+      <section class="screen" data-step="0">
+        <div class="screen__head">
+          <p class="screen__kicker">STEP 1 / 5</p>
+          <h1 class="screen__title">いつ作る？</h1>
+          <p class="screen__lead">来週、夕食と弁当が要る日を選びます。</p>
+        </div>
+        <div class="group">
+          <span class="group__label">夕食が要る日</span>
+          <div class="daypick" id="pickDinner"></div>
+          <p class="group__hint">作る日をタップ（柿色＋✓＝あり／うすい色＝なし）。</p>
+        </div>
+        <div class="group">
+          <span class="group__label">弁当が要る朝</span>
+          <div class="daypick" id="pickBento"></div>
+          <p class="group__hint">前夜の夕食を翌朝の弁当に回します。日曜の夕食は「翌月（翌週月曜）」の弁当に。買い物は月曜に行く前提です。</p>
+        </div>
+        <div class="screen__nav">
+          <span></span>
+          <button class="primary" data-go="1" data-dir="fwd">次へ：残り食材</button>
+        </div>
+      </section>
+
+      <section class="screen" data-step="1" hidden>
+        <div class="screen__head">
+          <p class="screen__kicker">STEP 2 / 5</p>
+          <h1 class="screen__title">残り食材は？</h1>
+          <p class="screen__lead">冷蔵庫にある使い切りたいものを入れると、献立に組み込みます。</p>
+        </div>
+        <div class="group">
+          <span class="group__label">入っているもの</span>
+          <div class="inv" id="inv"></div>
+          <div class="inv__add">
+            <input id="invName" list="catalogList" placeholder="食材を選ぶ（例: キャベツ）" autocomplete="off">
+            <datalist id="catalogList"></datalist>
+            <input id="invQty" type="number" step="0.5" min="0" placeholder="量" inputmode="decimal">
+            <span class="inv__unit" id="invUnit"></span>
+            <button id="invAdd" class="ghost">追加</button>
+          </div>
+          <p class="group__hint">量は「キャベツ 0.5」のように半端でも入ります。単位は食材ごとに自動表示。</p>
+        </div>
+        <div class="screen__nav">
+          <button class="ghost" data-go="0" data-dir="back">戻る</button>
+          <button class="primary" data-go="2" data-dir="fwd">次へ：仕上げ</button>
+        </div>
+      </section>
+
+      <section class="screen" data-step="2" hidden>
+        <div class="screen__head">
+          <p class="screen__kicker">STEP 3 / 5</p>
+          <h1 class="screen__title">仕上げの設定</h1>
+          <p class="screen__lead">季節と、メイン以外を付けるかを決めて献立を作ります。</p>
+        </div>
+        <div class="group">
+          <div class="field field--inline">
+            <label class="group__label" for="month">月</label>
+            <input class="num" id="month" type="number" min="1" max="12" inputmode="numeric">
+            <span class="hint">6〜9月は夏の弁当ルール</span>
+          </div>
+        </div>
+        <div class="group">
+          <span class="group__label">献立の構成</span>
+          <label class="check"><input type="checkbox" id="optSide"> 副菜も付ける</label>
+          <label class="check"><input type="checkbox" id="optSoup"> 汁物も付ける</label>
+          <label class="check"><input type="checkbox" id="optWa" checked> 和食を多めに</label>
+        </div>
+        <div class="screen__nav">
+          <button class="ghost" data-go="1" data-dir="back">戻る</button>
+          <button id="btnApply" class="primary">この内容で献立を作る</button>
+        </div>
+      </section>
+
+      <section class="screen" data-step="3" hidden>
+        <div class="screen__head">
+          <p class="screen__kicker">STEP 4 / 5</p>
+          <h1 class="screen__title">来週の献立</h1>
+          <p class="screen__meta" id="heroMeta"></p>
+          <div class="chips" id="chips"></div>
+        </div>
+        <main id="days" class="days" aria-live="polite"></main>
+        <details class="tweak">
+          <summary class="tweak__label">気に入らない所だけ手直し</summary>
+          <div class="toolbar" aria-label="献立の手直し">
+            <button class="tool" data-cmd="more" data-group="fish">魚を増やす</button>
+            <button class="tool" data-cmd="less" data-group="meat">肉を減らす</button>
+            <button class="tool" data-cmd="time" data-min="20">時短（20分）</button>
+            <button class="tool" data-cmd="shuffle">シャッフル</button>
+            <button class="tool tool--quiet" data-cmd="reset">最初から</button>
+          </div>
+        </details>
+        <div class="screen__nav">
+          <button class="ghost" data-go="2" data-dir="back">条件を変える</button>
+          <button class="primary" data-go="4" data-dir="fwd">次へ：買い物リスト</button>
+        </div>
+      </section>
+
+      <section class="screen" data-step="4" hidden>
+        <div class="screen__head">
+          <p class="screen__kicker">STEP 5 / 5</p>
+          <h1 class="screen__title">買い物リスト</h1>
+          <p class="screen__lead">足りないものを手入力で足して、買い物へ。終わったらカレンダーに記録します。</p>
+        </div>
+        <div id="shopping"></div>
+        <div class="screen__nav">
+          <button class="ghost" data-go="3" data-dir="back">献立に戻る</button>
+          <button id="btnRecord" class="primary">カレンダーに記録</button>
+        </div>
+      </section>
+    </div>
+
+    <div id="viewCal" hidden>
+      <div class="cal-head">
+        <button id="calPrev" class="mini" aria-label="前の月">‹</button>
+        <h2 id="calTitle"></h2>
+        <button id="calNext" class="mini" aria-label="次の月">›</button>
+      </div>
+      <div class="cal-dow" id="calDow"></div>
+      <div id="calGrid" class="cal-grid"></div>
+      <div id="calDetail" class="cal-detail"></div>
+    </div>
+
+    <footer class="foot">オフライン版（スマホ内で計算）／実行時LLMなし</footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
+  <script>
+    // /api/* を「スマホ内のPythonエンジン(Pyodide)」へ振り向ける（バックエンド不要）
+    function installLocalApi(pyodide) {
+      const py = (expr) => pyodide.runPython('json.dumps(' + expr + ', ensure_ascii=False)');
+      const setArg = (o) => pyodide.globals.set('ARG', JSON.stringify(o));
+      const persist = () => localStorage.setItem('kondate_session', py('_core.dump()'));
+      const calAll = () => JSON.parse(localStorage.getItem('kondate_calendar') || '{}');
+      const mergeCal = (e) => { const c = calAll(); Object.assign(c, e || {}); localStorage.setItem('kondate_calendar', JSON.stringify(c)); };
+      const todayISO = () => { const d = new Date(); const z = n => String(n).padStart(2, '0'); return `${d.getFullYear()}-${z(d.getMonth() + 1)}-${z(d.getDate())}`; };
+      const getCal = (path) => {
+        const q = path.split('?')[1] || '';
+        const month = new URLSearchParams(q).get('month') || todayISO().slice(0, 7);
+        const c = calAll(); const entries = {};
+        for (const k in c) if (k.startsWith(month)) entries[k] = c[k];
+        return { month, today: todayISO(), entries };
+      };
+      const handle = (path, body) => {
+        if (path === '/api/state') return { ok: true, data: JSON.parse(py('_core.state()')) };
+        if (path === '/api/week') { setArg(body || {}); const d = JSON.parse(py('_core.week(json.loads(ARG))')); persist(); return { ok: true, data: d }; }
+        if (path === '/api/command') { setArg(body || {}); const d = JSON.parse(py('_core.command(json.loads(ARG))')); persist(); return { ok: !d.error, data: d }; }
+        if (path === '/api/record') { const r = JSON.parse(py('_core.record()')); if (!r.error) mergeCal(r.entries); return { ok: !r.error, data: { recorded: r.recorded } }; }
+        if (path.startsWith('/api/calendar')) return { ok: true, data: getCal(path) };
+        if (path.startsWith('/api/recipe/')) { setArg(decodeURIComponent(path.split('/').pop().split('?')[0])); const d = JSON.parse(py('_core.recipe(json.loads(ARG))')); return { ok: !d.error, data: d }; }
+        return { ok: false, data: { error: 'unknown ' + path } };
+      };
+      const orig = window.fetch.bind(window);
+      window.fetch = async function (path, opt) {
+        if (typeof path === 'string' && path.startsWith('/api/')) {
+          let res;
+          try { res = handle(path, opt && opt.body ? JSON.parse(opt.body) : null); }
+          catch (e) { res = { ok: false, data: { error: String(e) } }; }
+          return { ok: res.ok, status: res.ok ? 200 : 400, statusText: res.data.error || '', json: async () => res.data };
+        }
+        return orig(path, opt);
+      };
+    }
+
+    (async () => {
+      const boot = document.getElementById('boot');
+      try {
+        const pyodide = await loadPyodide();
+        const [bundle, rj, pj, wj] = await Promise.all([
+          fetch('kondate_bundle.py').then(r => r.text()),
+          fetch('recipes.json').then(r => r.text()),
+          fetch('profile.json').then(r => r.text()),
+          fetch('week.json').then(r => r.text()),
+        ]);
+        pyodide.runPython(bundle);
+        pyodide.runPython('import json');
+        pyodide.globals.set('RJ', rj);
+        pyodide.globals.set('PJ', pj);
+        pyodide.globals.set('WJ', wj);
+        pyodide.globals.set('SJ', localStorage.getItem('kondate_session') || '');
+        pyodide.runPython([
+          '_core = Core(json.loads(RJ), json.loads(PJ))',
+          'try:',
+          '    _core.restore(json.loads(SJ)) if SJ else _core.init_default(json.loads(WJ))',
+          'except Exception:',
+          '    _core.init_default(json.loads(WJ))',
+        ].join('\n'));
+        installLocalApi(pyodide);
+        document.getElementById('boot').remove();
+        await new Promise(r => { const s = document.createElement('script'); s.src = 'app.js'; s.onload = r; document.body.appendChild(s); });
+        if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => { });
+      } catch (e) {
+        boot.innerHTML = '<div style="color:#9a6b16">読み込みに失敗しました。<br>通信状況を確認して再読み込みしてください。<br><small>' + String(e) + '</small></div>';
+      }
+    })();
+  </script>
+</body>
+</html>
