@@ -38,7 +38,7 @@ let likedSet = new Set();
 function render() {
   const s = STATE, m = s.metrics;
   likedSet = new Set(((s.prefs && s.prefs.liked) || []).map(x => x.id));
-  $("#heroMeta").textContent = `夕食${s.profile.dinner}人 ・ 弁当${s.profile.bento}人 ・ ${s.week.month}月`;
+  $("#heroMeta").textContent = `夕食${s.profile.dinner}人 ・ 弁当${s.profile.bento}人`;
 
   const chips = $("#chips"); chips.replaceChildren();
   if (m.error) { chips.append(el("span", "chip chip--warn", m.error)); }
@@ -211,7 +211,13 @@ function renderDays() {
     if (d.main) {
       const meta = el("div", "day__sub day__meta",
         `${CUISINE[d.main.cuisine] || d.main.cuisine} ・ ${d.main.cook}分`);
-      if (d.main.bento === false) meta.append(el("span", "day__nobento", "翌日の弁当に不向き"));
+      if (d.main.bento === false) {
+        const nb = el("span", "day__nobento");
+        nb.title = "翌日のお弁当には向きません";
+        nb.setAttribute("aria-label", "翌日の弁当に不向き");
+        nb.innerHTML = '<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3.5" y="7.5" width="17" height="11" rx="2.5"/><line x1="12" y1="7.5" x2="12" y2="18.5"/><line x1="4.5" y1="20" x2="19.5" y2="6" stroke-width="2.2"/></svg>';
+        meta.append(nb);
+      }
       main.append(meta);
     }
     if (d.side) main.append(el("div", "day__sub", "副菜: " + d.side.name));
@@ -335,7 +341,6 @@ function syncPanel() {
   bentoDraft = STATE.week.bento_days.slice();
   buildDayPick("#pickDinner", dinnerDraft, () => { });
   buildDayPick("#pickBento", bentoDraft, () => { }, BENTO_LABELS);
-  $("#month").value = STATE.week.month;
   $("#catalogList").replaceChildren(...(STATE.catalog || []).map(c => {
     const o = el("option"); o.value = c.name; return o;
   }));
@@ -411,7 +416,7 @@ function bind() {
     // ドラフトを先に確定（configの再描画でinvDraft等が旧値に戻る前に取り込む）
     const weekPayload = {
       dinner: dinnerDraft.slice(), bento: bentoDraft.slice(),
-      month: parseInt($("#month").value) || 6,
+      month: (STATE.week && STATE.week.month) || (new Date().getMonth() + 1),
       inventory: invDraft.map(it => ({ key: it.key, qty: it.qty })),
     };
     const wt = $("#optWa").checked ? 0.8 : null;

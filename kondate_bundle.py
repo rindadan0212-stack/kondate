@@ -617,8 +617,6 @@ def bento_eligible(r: Recipe, is_summer: bool) -> bool:
         return False
     if s.get("raw_or_undercooked"):
         return False
-    if is_summer and s.get("summer_risk"):
-        return False
     return True
 
 
@@ -626,8 +624,6 @@ def side_bento_ok(r: Recipe, profile: Profile, is_summer: bool) -> bool:
     if not r.bento_ok or not allergy_ok(r, profile):
         return False
     if r.bento_safety.get("raw_or_undercooked"):
-        return False
-    if is_summer and r.bento_safety.get("summer_risk"):
         return False
     return True
 
@@ -968,7 +964,7 @@ def schedule_week(recipes: list[Recipe], profile: Profile,
 
 def _assign_makeahead_sides(plan: Plan, sides: list[Recipe], profile: Profile,
                             request: WeekRequest) -> None:
-    keep_window = 2 if request.is_summer else 3
+    keep_window = 3   # 作り置き保存日数の上限（夏ルールは廃止）
     bento_day_list = [d for d in range(7) if request.bento_days[d] and request.dinner_days[d]]
     if not bento_day_list:
         return
@@ -1012,7 +1008,7 @@ def _contiguous_split(days: list[int], n: int) -> list[list[int]]:
 def _assign_dinner_sides(plan: Plan, sides: list[Recipe], profile: Profile,
                          request: WeekRequest) -> None:
     inv_keys = set(request.inventory)
-    keep_window = 2 if request.is_summer else 3
+    keep_window = 3   # 作り置き保存日数の上限（夏ルールは廃止）
     avail = [s for s in sides if allergy_ok(s, profile)]
 
     # 副菜の延べ出現回数（作り置きの弁当カバー分を初期値に）。多用するほど減点して単調を防ぐ

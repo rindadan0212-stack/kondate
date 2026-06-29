@@ -44,78 +44,60 @@
 
       <section class="screen" data-step="0">
         <div class="screen__head">
-          <p class="screen__kicker">STEP 1 / 5</p>
           <h1 class="screen__title">いつ作る？</h1>
-          <p class="screen__lead">来週、夕食と弁当が要る日を選びます。</p>
         </div>
         <div class="group">
           <span class="group__label">夕食が要る日</span>
           <div class="daypick" id="pickDinner"></div>
-          <p class="group__hint">作る日をタップ（柿色＋✓＝あり／うすい色＝なし）。</p>
         </div>
         <div class="group">
           <span class="group__label">弁当が要る朝</span>
           <div class="daypick" id="pickBento"></div>
-          <p class="group__hint">前夜の夕食を翌朝の弁当に回します。日曜の夕食は「翌月（翌週月曜）」の弁当に。買い物は月曜に行く前提です。</p>
         </div>
         <div class="screen__nav">
           <span></span>
-          <button class="primary" data-go="1" data-dir="fwd">次へ：残り食材</button>
+          <button class="primary" data-go="1" data-dir="fwd">次へ</button>
         </div>
       </section>
 
       <section class="screen" data-step="1" hidden>
         <div class="screen__head">
-          <p class="screen__kicker">STEP 2 / 5</p>
           <h1 class="screen__title">残り食材は？</h1>
-          <p class="screen__lead">冷蔵庫にある使い切りたいものを入れると、献立に組み込みます。</p>
         </div>
         <div class="group">
-          <span class="group__label">入っているもの</span>
+          <span class="group__label">使い切りたいもの</span>
           <div class="inv" id="inv"></div>
           <div class="inv__add">
-            <input id="invName" list="catalogList" placeholder="食材を選ぶ（例: キャベツ）" autocomplete="off">
+            <input id="invName" list="catalogList" placeholder="食材（例: キャベツ）" autocomplete="off">
             <datalist id="catalogList"></datalist>
             <input id="invQty" type="number" step="0.5" min="0" placeholder="量" inputmode="decimal">
             <span class="inv__unit" id="invUnit"></span>
             <button id="invAdd" class="ghost">追加</button>
           </div>
-          <p class="group__hint">量は「キャベツ 0.5」のように半端でも入ります。単位は食材ごとに自動表示。</p>
         </div>
         <div class="screen__nav">
           <button class="ghost" data-go="0" data-dir="back">戻る</button>
-          <button class="primary" data-go="2" data-dir="fwd">次へ：仕上げ</button>
+          <button class="primary" data-go="2" data-dir="fwd">次へ</button>
         </div>
       </section>
 
       <section class="screen" data-step="2" hidden>
         <div class="screen__head">
-          <p class="screen__kicker">STEP 3 / 5</p>
-          <h1 class="screen__title">仕上げの設定</h1>
-          <p class="screen__lead">季節と、メイン以外を付けるかを決めて献立を作ります。</p>
+          <h1 class="screen__title">献立の構成</h1>
         </div>
         <div class="group">
-          <div class="field field--inline">
-            <label class="group__label" for="month">月</label>
-            <input class="num" id="month" type="number" min="1" max="12" inputmode="numeric">
-            <span class="hint">6〜9月は夏の弁当ルール</span>
-          </div>
-        </div>
-        <div class="group">
-          <span class="group__label">献立の構成</span>
           <label class="check"><input type="checkbox" id="optSide"> 副菜も付ける</label>
           <label class="check"><input type="checkbox" id="optSoup"> 汁物も付ける</label>
           <label class="check"><input type="checkbox" id="optWa" checked> 和食を多めに</label>
         </div>
         <div class="screen__nav">
           <button class="ghost" data-go="1" data-dir="back">戻る</button>
-          <button id="btnApply" class="primary">この内容で献立を作る</button>
+          <button id="btnApply" class="primary">献立を作る</button>
         </div>
       </section>
 
       <section class="screen" data-step="3" hidden>
         <div class="screen__head">
-          <p class="screen__kicker">STEP 4 / 5</p>
           <h1 class="screen__title">来週の献立</h1>
           <p class="screen__meta" id="heroMeta"></p>
           <div class="chips" id="chips"></div>
@@ -130,9 +112,7 @@
 
       <section class="screen" data-step="4" hidden>
         <div class="screen__head">
-          <p class="screen__kicker">STEP 5 / 5</p>
           <h1 class="screen__title">買い物リスト</h1>
-          <p class="screen__lead">足りないものを手入力で足して、買い物へ。終わったらカレンダーに記録します。</p>
         </div>
         <div id="shopping"></div>
         <div class="screen__nav">
@@ -160,12 +140,9 @@
       </section>
       <section class="pref-sec">
         <h2 class="pref-sec__title">✕ バッドした料理</h2>
-        <p class="pref-sec__note">今後の提案・候補から外しています。「プールに戻す」で元に戻せます。</p>
         <div id="bannedList" class="pref-list"></div>
       </section>
     </div>
-
-    <footer class="foot">オフライン版（スマホ内で計算）／実行時LLMなし</footer>
   </div>
 
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
