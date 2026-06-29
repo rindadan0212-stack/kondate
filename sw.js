@@ -1,5 +1,5 @@
 // 献立 オフラインキャッシュ（初回ロード後はネット無しでも動く）
-const CACHE = 'kondate-v1';
+const CACHE = 'kondate-v2';
 const CORE = ['./', 'index.html', 'app.js', 'style.css', 'kondate_bundle.py',
   'recipes.json', 'profile.json', 'week.json', 'manifest.json', 'icon-192.png', 'icon-512.png'];
 
