@@ -3096,85 +3096,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1850026678",
-      "name": "豆腐の塩麹漬けカプレーゼ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "tofu",
-      "richness": 1,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "tofu",
-          "name": "木綿豆腐",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "shio_koji",
-          "name": "塩麹",
-          "qty": 1.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "shiso",
-          "name": "大葉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩胡椒",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "soy"
-      ],
-      "cook_time_min": 5,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "木綿豆腐を冷蔵庫で30分ほど冷やし固め、一口大に切る。",
-        "トマトは洗い、半分に切り、種を取り除き薄く切る。大葉は細かく刻む。",
-        "フライパンにオリーブオイルを熱し、豆腐を中火で3〜4分焼いて表面に色がつくまで両面を焼く。",
-        "耐熱容器に豆腐を並べ、塩麹をのせ、トマトと大葉を重ねる。",
-        "全体にオリーブオイルをたらし、塩胡椒で味を調える。",
-        "冷蔵庫で30分ほど漬け込み、食べ頃になるまで待つ。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "main_1250018710",
       "name": "納豆パスタ",
       "type": "main",
@@ -3495,93 +3416,6 @@
         "赤玉ねぎの水分を取り除いた後、ツナマヨネーズと混ぜ合わせ、よくかき混ぜる。",
         "粗挽き黒胡椒0.2少々を振って味を整える。",
         "冷蔵庫で1時間ほど漬け込んでから出汁を取った具材と一緒に提供する。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1150018858",
-      "name": "もやしナムル",
-      "type": "side",
-      "cuisine": "エスニック",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "moyashi",
-          "name": "もやし",
-          "qty": 1.0,
-          "unit": "袋",
-          "category": "vegetable"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 20.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "mentsuyu",
-          "name": "麺つゆ",
-          "qty": 10.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "薄口醤油",
-          "qty": 15.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "chili",
-          "name": "一味唐辛子",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 5,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "もやしを洗い、よく水気を取る。",
-        "フライパンにごま油20mlを入れ、中火で熱する。",
-        "熱が通ったらもやしを加え、約3分間炒める。",
-        "麺つゆ10ml、薄口醤油15ml、塩適量（もやしが十分に塩味が付くように）、一味唐辛子小さじ1、おろしにんにく0.1cmを加える。",
-        "材料を混ぜ均匀にする。火から外して完成。"
       ],
       "tags": [
         "定番"
@@ -4638,115 +4472,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "main_1390032207",
-      "name": "ぷりぷり海老マヨ",
-      "type": "main",
-      "cuisine": "和",
-      "protein": "seafood",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "shrimp",
-          "name": "むきエビ",
-          "qty": 400.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "sake",
-          "name": "酒",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "potato_starch",
-          "name": "片栗粉",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "oil",
-          "name": "サラダ油",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "lettuce",
-          "name": "レタス",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "mayo",
-          "name": "マヨネーズ",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "ketchup",
-          "name": "ケチャップ",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "beef_slice",
-          "name": "牛乳",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "protein"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 0.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "seafood",
-        "shrimp"
-      ],
-      "cook_time_min": 30,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "むきエビを流水で洗い、水気を取る。酒大さじ1と片栗粉大さじ2を加えてよく混ぜて下ごしらえする。",
-        "フライパンにサラダ油大さじ3を入れて中火で熱し、エビを並べて炒め、両面がピンク色になるまで約4分間焼く。",
-        "レタス4枚を適当な大きさに切る。",
-        "別のボウルにマヨネーズ大さじ3、ケチャップ大さじ1、牛乳大さじ1、砂糖大さじ0.5を入れて混ぜ合わせる。",
-        "炒めたエビにケチャプマヨソースを加えてよく絡ませる。",
-        "レタスと一緒に盛り付ける。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "main_1090001352",
       "name": "ホイコーロー",
       "type": "main",
@@ -5174,177 +4899,6 @@
         "卵液が半固形になったら、たまねぎ、ハム、パプリカ、小松菜を並べる。",
         "チーズ50gをのせ、全体に塩こしょう少量を振る。",
         "フライパンを弱火にして蒸らし、表面がカリッとなるまで焼く。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1770022546",
-      "name": "アンデスレッドとウインナーのジャーマンポテト",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "pork",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "x_アンデスレッド",
-          "name": "アンデスレッド",
-          "qty": 4.0,
-          "unit": "個",
-          "category": "other"
-        },
-        {
-          "key": "sausage",
-          "name": "ウインナー",
-          "qty": 1.0,
-          "unit": "袋",
-          "category": "protein"
-        },
-        {
-          "key": "salt",
-          "name": "塩こしょう",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "oil",
-          "name": "サラダ油",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [],
-      "cook_time_min": 60,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "アンデスレッド4個を洗って水気を切る。ウインナー1袋を一口大に切る。",
-        "フライパンにサラダ油2小匙を入れ、中火で熱し、アンデスレッドとウインナーを炒め、両面がきつね色になるまで約5分間炒める。",
-        "調味料として醤油大さじ2とみりん大さじ1を加え、さらに1分間炒めてから塩こしょう適量で味を調整する。",
-        "フライパンに蓋をして弱火で3分間蒸し焼きにする。",
-        "出来上がりの温度が手で触れられる程度まで冷ましてから盛り付ける。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1100023599",
-      "name": "フラメンカエッグ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "egg",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "egg",
-          "name": "卵",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "protein"
-        },
-        {
-          "key": "sausage",
-          "name": "ウィンナー",
-          "qty": 3.0,
-          "unit": "本",
-          "category": "protein"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "paprika",
-          "name": "パプリカ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマトソース",
-          "qty": 150.0,
-          "unit": "ml",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "ピザ用チーズ",
-          "qty": 20.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩胡椒",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "parsley",
-          "name": "パセリ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "baguette",
-          "name": "バゲット",
-          "qty": 0,
-          "unit": "適量",
-          "category": "staple"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk",
-        "wheat"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "卵2個を室温に取り出し、洗います。玉ねぎとパプリカは薄切りにし、ウィンナーも細切りにします。",
-        "フライパンにオリーブオイル大さじ1を入れ、中火で熱します。油が熱ったら、玉ねぎとパプリカを加え、約3分間炒めます。",
-        "卵2個を割り、卵白はフライパンの外側、卵黄は中央に配置し、弱火にして約1分半蒸らします。卵が固まったら、中心部にウィンナーを入れ、さらに10秒ほど蒸らします。",
-        "トマトソース150mlを加え、全体的に混ぜます。沸騰したら、塩胡椒適量で味を調整します。",
-        "フライパンから取り出し、ピザ用チーズ20gをのせ、弱火でチーズが溶けるまで約1分間温めます。",
-        "パセリを細かく刻み、卵に加えます。バゲット5.5枚は斜めに切り、トースターで軽く焼きます。フラメンカエッグをのせた後、バゲットとお皿に盛り付けます。"
       ],
       "tags": [
         "定番"
@@ -5992,102 +5546,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1800035215",
-      "name": "豆腐のふわふわ焼き",
-      "type": "side",
-      "cuisine": "和",
-      "protein": "tofu",
-      "richness": 1,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "tofu",
-          "name": "木綿豆腐",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "green_onion",
-          "name": "細ねぎ",
-          "qty": 30.0,
-          "unit": "g",
-          "category": "vegetable"
-        },
-        {
-          "key": "egg",
-          "name": "卵",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "potato_starch",
-          "name": "片栗粉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "vinegar",
-          "name": "酢",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "しょうゆ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "oil",
-          "name": "サラダ油",
-          "qty": 0.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "木綿豆腐200gを一口大に切る。",
-        "細ねぎ30gをみじん切りにする。",
-        "卵を1つ割り、塩1つまみと混ぜておく。",
-        "豆腐とねぎを器に盛り、片栗粉9大さじ1を薄くまぶす。",
-        "フライパンにサラダ油大さじ0.5を入れ、中火で熱し、豆腐を焼く。",
-        "両面がきつね色になるまで焼いた後、卵液を流し入れて全体に広げる。",
-        "卵が固まったら、火から取り出し、適量の酢としょうゆを加えて味を調える。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "main_1990051812",
       "name": "厚揚げと鶏ひき肉のさっと煮",
       "type": "main",
@@ -6680,132 +6138,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1990051823",
-      "name": "サーモンと人参のアベックサラダ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "fish",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "carrot",
-          "name": "人参",
-          "qty": 0.5,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0.25,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "lemon",
-          "name": "レモン汁",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "honey",
-          "name": "はちみつ",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "mustard",
-          "name": "粒マスタード",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "粗びき黒こしょう",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salmon",
-          "name": "サーモン",
-          "qty": 100.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "tomato",
-          "name": "ミニトマト",
-          "qty": 5.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "lettuce",
-          "name": "フリルレタス",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "basil",
-          "name": "バジル",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "salmon"
-      ],
-      "cook_time_min": 10,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "人参を皮ごと洗い、薄切りにする。その後、沸騰したお湯で2分ほど茹で、氷水につけ冷却し、スライスする。サーモンは皮を剥き、一口大に切る。ミニトマトも一口大に切る。レタスは適宜切る。",
-        "フライパンにオリーブオイルと塩（小さじ0.25）を入れて中火で温める。サーモンを加え、両面を軽く焼き目が付くまで焼く。すぐに取り出し、冷ましておく。",
-        "大さじ1のオリーヴオイル、小さじ1のレモン汁、小さじ1のはちみつ、小さじ1の粒マスタード、適量の粗びき黒こしょうを混ぜ合わせ、サーモンに塗る。冷めたら器に盛り付ける。",
-        "人参スライス、ミニトマト、レタスを器に並べ、サーモンを添える。バジルの葉を散らす。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1150017187",
       "name": "きゅうりとミョウガの大葉和え",
       "type": "side",
@@ -6878,128 +6210,6 @@
         "かつおぶしパックを温かい水で溶かし、その液を少しずつ加えながら和え物をよく混ぜる。適度な濃度になるまで調節する。",
         "冷蔵庫で1時間ほど漬け込んでから出汁を捨て、再度大葉と野菜を混ぜる。",
         "味見して必要に応じて微調整し、完成させる。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1080025472",
-      "name": "黄色いバラのオムライス",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "pork",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "rice",
-          "name": "ご飯",
-          "qty": 0,
-          "unit": "適量",
-          "category": "staple"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "sausage",
-          "name": "ウインナー",
-          "qty": 50.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "ketchup",
-          "name": "ケチャップ",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "consomme",
-          "name": "コンソメ",
-          "qty": 4.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "tomato",
-          "name": "トマトジュース",
-          "qty": 20.0,
-          "unit": "cc",
-          "category": "vegetable"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "胡椒",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "tomato",
-          "name": "ミニトマト",
-          "qty": 5.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "egg",
-          "name": "卵",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "protein"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "avocado",
-          "name": "アボカド",
-          "qty": 0.25,
-          "unit": "個",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": false,
-        "summer_risk": true
-      },
-      "make_ahead_days": 0,
-      "steps": [
-        "ご飯を電子レンジで3分加熱し、冷ましておく。玉ねぎは薄く切る。ウインナーは一口大に切る。ミニトマトも半分に切る。アボカドは一口大に切る。",
-        "フライパンにオリーブオイルを引いて中火で熱し、玉ねぎを炒め色が付くまで炒める。ウインナーを加えて1分炒め、ケチャップ、コンソメ、トマトジュース、砂糖を加え、沸騰したら弱火に弱火で5分煮る。",
-        "卵を割り入れ、火を通すまで混ぜながら中火で2分半。卵が固まったら、ご飯を盛り付け、ケチャップソースをのせる。",
-        "フライパンを洗い、オリーブオイルを引いて中火にかけ、卵を割り入れて片面1分半焼く。",
-        "黄色いバラの形にするために、中央に卵を置き、周りにご飯とケチャップソースを広げる。ミニトマトとアボカドを飾る。",
-        "全体に胡椒を振って完成。"
       ],
       "tags": [
         "定番"
@@ -7167,281 +6377,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "main_1420020078",
-      "name": "たれのよだれ鶏",
-      "type": "main",
-      "cuisine": "中",
-      "protein": "chicken",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "chicken_breast",
-          "name": "鶏むね肉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "cucumber",
-          "name": "きゅうり",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 600.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 2.5,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "ginger",
-          "name": "生姜",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "vinegar",
-          "name": "酢",
-          "qty": 1.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 1.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame",
-          "name": "すりごま",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "rayu",
-          "name": "ラー油",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "sesame",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "鶏むね肉を一口大に切る。生姜とにんにくも薄切りにする。（準備）",
-        "鍋に水600mlを入れ、火にかけ、沸騰したら鶏むね肉と生姜、にんにくを加える。中火で約5分間煮る。（鶏肉の加熱）",
-        "煮た鶏むね肉を取り出し、冷水で冷ます。皮目が向いている方を下にして切る。皮の部分は取り除く。（鶏肉の皮の除去と切る）",
-        "きゅうりを薄切りにする。塩2.5gを加えて10分間浸す。その後、水洗いして水分をきる。（きゅうりの下ごしらえ）",
-        "フライパンにごま油1大さじを入れて中火で熱し、鶏むね肉を皮目が向いている方を下にして焼く。両面きつね色になるまで焼く。（鶏肉の焼き色付け）",
-        "別の鍋に酢1.5大さじ、醤油1.5大さじ、水1大さじ、砂糖1小さじ、すりごま1大さじ、塩少々、ラー油1小さじを入れ、中火で沸騰させる。弱火で2〜3分間煮る。（たれの作成）",
-        "鶏むね肉に作成したたれを絡める。きゅうりも加えて完成。（盛付）"
-      ],
-      "tags": [
-        "定番",
-        "子供向け"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1070035131",
-      "name": "シーフードパエリア",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "seafood",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "rice",
-          "name": "米",
-          "qty": 2.0,
-          "unit": "合",
-          "category": "staple"
-        },
-        {
-          "key": "water",
-          "name": "湯",
-          "qty": 400.0,
-          "unit": "cc",
-          "category": "seasoning"
-        },
-        {
-          "key": "consomme",
-          "name": "ブイヨン",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "seasoning"
-        },
-        {
-          "key": "spice",
-          "name": "サフラン",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "shrimp",
-          "name": "エビ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "clam",
-          "name": "あさり",
-          "qty": 1.0,
-          "unit": "パック",
-          "category": "protein"
-        },
-        {
-          "key": "mushroom",
-          "name": "ブラウンマッシュルーム",
-          "qty": 1.0,
-          "unit": "パック",
-          "category": "vegetable"
-        },
-        {
-          "key": "onion",
-          "name": "たまねぎ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "paprika",
-          "name": "パプリカ",
-          "qty": 0.25,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 2.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "wine",
-          "name": "白ワイン",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "shrimp"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "米2合を洗い、水気を切る。ブイヨン1個と湯400ccを鍋に入れて沸騰させる。その後、サフラン1つまみと塩0.5小匙を加え、弱火で約10分間煮る。",
-        "にんにく2片をみじん切りにする。たまねぎ0.5個もみじん切りにしておき、トマト1個は薄切り、パプリカ0.25個もみじん切りにする。エビ8匹は尾と目玉を除いて洗い、あさり1パックは水洗いする。ブラウンマッシュルーム1パックは薄切りにする。",
-        "鍋に白ワイン適量を加え、にんにくとたまねぎを炒める。その後、エビとあさりを加えて中火で約3分間炒め、トマトとパプリカを加えてさらに2分間炒める。",
-        "米とその下ごしらえた野菜を鍋に入れ、塩適量を加える。全体が混ざったら弱火にして蓋をして蒸す。約15分間蒸した後、火を止め、蓋を取らずに10分間置く。",
-        "最後に、パエリアの上にブラウンマッシュルームを並べ、完成。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "main_1740033753",
       "name": "カボチャのスパニッシュオムレツ",
       "type": "main",
@@ -7527,104 +6462,6 @@
         "カボチャは薄切りにし、玉ねぎは細かく刻む。オリーブオイルをフライパンに中火で熱し、ベーコンを炒めて透明になるまで焼く。その後、カボチャと玉ねぎを入れて10分ほど煮る。",
         "卵を5個割り、粉チーズ、塩コショウ、おろしニンニクを加えてよく混ぜる。フライパンを弱火にし、残ったオリーブオイルを薄く広げる。",
         "カボチャと玉ねぎの液気が引いた後、卵液を流し入れて全体的に広がったら、片面が固まったら反転させる。片面がもう少し固まったら火から取り出し、適度な温度で加熱したプレートに盛る。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1670028729",
-      "name": "ケバブ丼",
-      "type": "main",
-      "cuisine": "エスニック",
-      "protein": "chicken",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "chicken_breast",
-          "name": "鶏むね肉",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "x_ヨーグルト",
-          "name": "ヨーグルト",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "other"
-        },
-        {
-          "key": "pepper",
-          "name": "レッドペッパー",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "lemon",
-          "name": "レモン汁",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "ニンニク",
-          "qty": 3.0,
-          "unit": "cm",
-          "category": "vegetable"
-        },
-        {
-          "key": "yakiniku_sauce",
-          "name": "焼肉のタレ",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "curry",
-          "name": "カレー粉",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "cabbage",
-          "name": "キャベツ",
-          "qty": 30.0,
-          "unit": "g",
-          "category": "vegetable"
-        },
-        {
-          "key": "rice",
-          "name": "ごはん",
-          "qty": 0,
-          "unit": "適量",
-          "category": "staple"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "鶏むね肉200gを一口大に切る。ニンニクチューブ3cmをすりおろし、ヨーグルト2大さじ、レモン汁2小さじ、すりおろしたニンニク、レッドペッパー1大さじ、焼肉のタレ3大さじ、カレー粉1大さじを混ぜ合わせたソースを作り、鶏肉に塗る。冷蔵庫で30分以上置く",
-        "フライパンにサラダ油少々を熱し、鶏肉を焼いて火が通ったら取り出す。キャベツ千切り30gを加えて軽く炒める",
-        "ごはん150gを用意し、適量の温かいお湯でかき混ぜてとろみをつけたものを器に盛る",
-        "鶏肉を上にのせ、キャベツと一緒にケバブ丼にする。残りのソースも一緒に添える"
       ],
       "tags": [
         "定番"
@@ -8449,208 +7286,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1180006214",
-      "name": "韓国風チョレギサラダ",
-      "type": "side",
-      "cuisine": "エスニック",
-      "protein": "none",
-      "richness": 1,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "lettuce",
-          "name": "サニーレタス",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "cucumber",
-          "name": "きゅうり",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "vinegar",
-          "name": "酢",
-          "qty": 0.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 5,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "サニーレタスを4～5枚洗い、千切ります。きゅうりは縦半分に切り、薄く斜めの長方形に刻みます。にんにくチューブ1センチをすりおろします。",
-        "ごま油大さじ1と塩小さじ0.5をフライパンに入れて弱火で温め、きゅうりを加えて約2分間炒め煮込みます。その後、にんにくを加え、さらに1分間炒めます。",
-        "砂糖小さじ1、醤油小さじ1、酢大さじ0.5を混ぜ合わせ、きゅうりとよく絡ませます。",
-        "サラダ🥗のサニーレタスを器に盛り、作成したソースをかけます。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1420012505",
-      "name": "焼肉のタレ利用チャプチェ",
-      "type": "main",
-      "cuisine": "エスニック",
-      "protein": "beef",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "beef_slice",
-          "name": "牛肉",
-          "qty": 300.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "yakiniku_sauce",
-          "name": "焼肉のタレ",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "harusame",
-          "name": "春雨",
-          "qty": 70.0,
-          "unit": "g",
-          "category": "staple"
-        },
-        {
-          "key": "nira",
-          "name": "にら",
-          "qty": 0.5,
-          "unit": "束",
-          "category": "vegetable"
-        },
-        {
-          "key": "carrot",
-          "name": "にんじん",
-          "qty": 0.5,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ゴマ油",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "yakiniku_sauce",
-          "name": "焼肉のタレ",
-          "qty": 5.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame",
-          "name": "白ごま",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "sesame"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "牛肉300gを一口大に切る。にんにくチューブ2センチを薄くスライスする。",
-        "春雨70gを塩を少々加えて水で洗い、充分に水気を絞る。",
-        "にら0.5束、にんじん0.5本、玉ねぎ0.5個も一口大に切る。",
-        "フライパンにゴマ油を熱し、牛肉とにんにくを炒め、火が通ったら取り出す。",
-        "フライパンに残った油を使用して、にら、にんじん、玉ねぎを炒め、春雨を加えて炒める。",
-        "全体に焼肉のタレ大さじ5を加え、蓋をして弱火で10分ほど煮る。",
-        "最後に牛肉と炒めた野菜を戻し、白ごまを振って完成。"
-      ],
-      "tags": [
-        "定番",
-        "簡単"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1510017395",
       "name": "ツナマヨコーンピザ",
       "type": "side",
@@ -8733,87 +7368,6 @@
         "マヨネーズを加え、よく混ぜてから火を止める。",
         "ピザ用の生地にチーズを散らし、その上にタレを均等に広げる。",
         "180度のオーブンで20分焼く。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1080034081",
-      "name": "チーズリゾット",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "beef",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "rice",
-          "name": "ご飯",
-          "qty": 0,
-          "unit": "適量",
-          "category": "staple"
-        },
-        {
-          "key": "beef_slice",
-          "name": "牛乳",
-          "qty": 300.0,
-          "unit": "cc",
-          "category": "protein"
-        },
-        {
-          "key": "consomme",
-          "name": "コンソメ",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩こしょう",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "cheese",
-          "name": "ピザ用チーズ",
-          "qty": 40.0,
-          "unit": "g",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": false,
-        "summer_risk": true
-      },
-      "make_ahead_days": 0,
-      "steps": [
-        "米を洗い、水気を切る。",
-        "鍋に牛乳を入れて中火で温める。",
-        "牛乳が温まったら、適量のご飯を加えて炒め、約2分間炒める。",
-        "コンソメ大さじ1、塩こしょう適量、砂糖小さじ1を加え、よく混ぜる。",
-        "火を弱火にし、牛乳が少しずつ吸収されるまで煮込み続ける。",
-        "チーズ40gを細かく刻んで、最後の5分間一緒に煮込む。",
-        "チーズが溶けたら完成。すぐに盛り付ける。"
       ],
       "tags": [
         "定番"
@@ -8930,272 +7484,6 @@
         "赤ワイン50ccを加え、アルコールが飛ぶまで煮詰める。ケチャップ大さじ2とウスターソース大さじ2、コンソメ小さじ0.5、塩胡椒少々を加えて混ぜる。",
         "中火で約10分煮込み、とろみがついたら完成する。パスタ2人分をゆでて取り出す。",
         "ボロネーゼとパスタを混ぜ合わせ、お好みでパルメザンチーズをまぶしてサーブする。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1340005475",
-      "name": "カプレーゼ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "モッツァレラチーズ",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "seasoning"
-        },
-        {
-          "key": "spinach",
-          "name": "ほうれん草",
-          "qty": 0.5,
-          "unit": "束",
-          "category": "vegetable"
-        },
-        {
-          "key": "olive_oil",
-          "name": "Aオリーブオイル",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "lemon",
-          "name": "Aレモン汁",
-          "qty": 1.5,
-          "unit": "tbsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "A塩コショウ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "トマトを4〜6つの厚切りにし、モッツァレラチーズを一口大に切る。",
-        "フライパンにオリーブオイル2大さじを入れて中火で温める。モッツァレラチーズを並べ、1分ほど焼く。",
-        "トマトの上にモッツァレラチーズを重ね、ほうれん草を散らす。",
-        "Aオリーブオイル2大さじ、Aレモン汁1.5大さじ、A塩コショウ適量を混ぜてトマト全体にかけ、よく絡める。",
-        "冷蔵庫で10分ほど冷やし、食べ頃になるまで待つ。"
-      ],
-      "tags": [
-        "定番",
-        "簡単"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1140057965",
-      "name": "トルティーヤ",
-      "type": "main",
-      "cuisine": "エスニック",
-      "protein": "mixed",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "x_トルティーヤの皮",
-          "name": "トルティーヤ の皮",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        },
-        {
-          "key": "mince",
-          "name": "肉",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 1.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "コショウ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "spice",
-          "name": "クミンパウダー",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "spice",
-          "name": "ナツメグパウダー",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "spice",
-          "name": "コリアンダー",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "lettuce",
-          "name": "レタス",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "cabbage",
-          "name": "キャベツ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "cucumber",
-          "name": "きゅうり",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "carrot",
-          "name": "にんじん",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "onion",
-          "name": "紫玉ねぎ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "avocado",
-          "name": "アボガド",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "チーズ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "mayo",
-          "name": "マヨネーズ",
-          "qty": 5.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "ketchup",
-          "name": "ケチャップ",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "vinegar",
-          "name": "お酢",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "ニンニク",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 3,
-      "steps": [
-        "トルティーヤの皮を敷き、肉（200g）を塩（小さじ1.5）、コショウ（1ふり）、クミンパウダー（1ふり）、ナツメグパウダー（1ふり）、コリアンダー（1ふり）でよく混ぜたものをのせる。",
-        "肉が全体に広がるように均一に伸ばす。",
-        "レタス、キャベツ、きゅうり、にんじん、トマト、紫玉ねぎを適量洗って細切りにする。",
-        "切った野菜を肉の上に並べる。",
-        "アボガドをスライスし、その上に乗せる。",
-        "スライスチーズを全体に広げ、オリーブオイル（大さじ1）、お酢（大さじ1）、砂糖（小さじ2）、おろしニンニク（小さじ0.5）で作ったソースをかけ、マヨネーズ（大さじ5）とケチャップ（大さじ2）を混ぜたものをさらにかける。",
-        "全体を軽く押さえながらトルティーヤの上端を下に被せ、しっかりと巻き上げる。"
       ],
       "tags": [
         "定番"
@@ -10287,71 +8575,6 @@
         "フライパンに少々の油を引いて中火で熱し、豚肉を焼く。(3分) 焼き色がついたら取り出しておいた水大さじ3とみそ大さじ2、しょうゆ大さじ1、砂糖小さじ2を入れて煮る。途中で混ぜながら、沸騰したら弱火にして5分間煮込む。(7分)",
         "細ねぎの葉を千切って青じそ、みつば、みょうがも細かく刻む。(1分)",
         "豚肉に野菜をトッピングする。好みにより薄味で召し上がる。(2分)"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1310001939",
-      "name": "ズッキーニの天ぷら",
-      "type": "side",
-      "cuisine": "和",
-      "protein": "none",
-      "richness": 1,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "zucchini",
-          "name": "ズッキーニ",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "flour",
-          "name": "天ぷら粉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "x_つけだれ",
-          "name": "つけだれ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "wheat"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "ズッキーニを長さの約2/3程度に切る。",
-        "カットしたズッキーニを軽く水分を切る。",
-        "天ぷら粉と水を混ぜて薄い天ぷら糊を作り、ズッキーニに均匀にまぶす。",
-        "フライパンに油を熱し、中火でズッキーニを揚げ、きつね色になるまで炒める。時間は約2〜3分程度。",
-        "油をきってお皿に盛り、好みでつけだれを付けて提供する。"
       ],
       "tags": [
         "定番"
@@ -12081,171 +10304,6 @@
       "tags": [
         "定番",
         "子ども向け"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1950021651",
-      "name": "肉団子醤油ちゃんこ鍋",
-      "type": "main",
-      "cuisine": "中",
-      "protein": "tofu",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "hakusai",
-          "name": "白菜",
-          "qty": 0.25,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "nira",
-          "name": "ニラ",
-          "qty": 1.0,
-          "unit": "束",
-          "category": "vegetable"
-        },
-        {
-          "key": "tofu",
-          "name": "焼き豆腐",
-          "qty": 1.0,
-          "unit": "丁",
-          "category": "protein"
-        },
-        {
-          "key": "enoki",
-          "name": "えのき",
-          "qty": 1.0,
-          "unit": "袋",
-          "category": "vegetable"
-        },
-        {
-          "key": "shiitake",
-          "name": "椎茸",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "carrot",
-          "name": "にんじん",
-          "qty": 0.5,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "chicken_mince",
-          "name": "鶏挽肉",
-          "qty": 300.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "green_onion",
-          "name": "青ネギ",
-          "qty": 4.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "ginger",
-          "name": "生姜or",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "potato_starch",
-          "name": "片栗粉",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 1000.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "酒",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "mirin",
-          "name": "みりん",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "chicken_stock",
-          "name": "鶏がらスープの素",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにくor",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 60,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "白菜、にんじん、椎茸、えのきを洗い、適当な大きさに切る。鶏挽肉は手でこねて団子を作る。",
-        "フライパンにごま油を熱し、にんにくチューブと生姜を炒める。",
-        "肉団子を加え、酒とみりんを加えて中火で2分ほど焼く。",
-        "鍋に水を入れ、鶏がらスープの素、塩、醤油を加える。沸騰したら弱火にして全体を混ぜる。",
-        "白菜、にんじん、椎茸、えのき、焼き豆腐、ニラを順次加えて煮込む。",
-        "最後に青ネギと片栗粉を加え、とろみがついたら完成。"
-      ],
-      "tags": [
-        "定番"
       ],
       "_steps_enriched": true
     },
@@ -14040,72 +12098,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1290024788",
-      "name": "豆腐白玉のあんこもち",
-      "type": "side",
-      "cuisine": "和",
-      "protein": "tofu",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "x_白玉粉",
-          "name": "白玉粉",
-          "qty": 100.0,
-          "unit": "g",
-          "category": "other"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "tofu",
-          "name": "絹豆腐",
-          "qty": 150.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "x_あんこ",
-          "name": "あんこ",
-          "qty": 300.0,
-          "unit": "g",
-          "category": "other"
-        }
-      ],
-      "allergens": [
-        "soy"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "絹豆腐を細かく刻み、白玉粉と砂糖を混ぜ合わせた生地を作り、直径約2cmの丸い形に成形して蒸し器で6分ほど蒸す",
-        "あんこを沸騰した鍋に入れ、中火で溶かしながら混ぜながら10分程度煮る。途中で味見をして甘さが足りない場合は砂糖を追加する",
-        "白玉を冷水に一時的に浸けてから取り出し、あんこの中に包み込むようにして丸める",
-        "包んだ白玉を再度蒸し器で6分ほど蒸す",
-        "出汁（水150mlと昆布1片）を沸かし、火が通ったら中火にして10分程度煮る。途中で味見をして味が濃いければ火加減を落とす",
-        "最後に出汁を白玉の上から注ぐようにしてかける",
-        "完成した豆腐白玉のあんこもちを器に盛り付ける"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1790009845",
       "name": "みぞれ生姜焼き",
       "type": "side",
@@ -15647,115 +13639,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "main_1380017002",
-      "name": "なすピーマンオイスターグラタン",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "eggplant",
-          "name": "なす",
-          "qty": 3.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "green_pepper",
-          "name": "ピーマン",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "potato_starch",
-          "name": "片栗粉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "oil",
-          "name": "サラダ油",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "oyster_sauce",
-          "name": "オイスターソース",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "お酒",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "mirin",
-          "name": "みりん",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "しょうゆ",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame",
-          "name": "白ごま",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "sesame",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "なす3本を縦半分に切る。ピーマン2個を一口大に切る。",
-        "フライパンにサラダ油を薄く引いて、なすとピーマンを炒め、5分ほど弱火で炒める。",
-        "オイスターソース大さじ2、お酒大さじ2、みりん大さじ2、砂糖小さじ1、しょうゆ小さじ1を混ぜた調味料を加え、10分ほど煮る。途中で味を確認し、必要に応じて塩を加える。",
-        "片栗粉を少しずつ加えながらとろみをつけ、さらに3分ほど弱火で煮る。",
-        "グラタン皿にこのソースを入れ、表面に白ごまを振って完成。オーブンで180度で20分程度焼く。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1420022047",
       "name": "みょうがと大葉のごま油和え",
       "type": "side",
@@ -16182,106 +14065,6 @@
       "tags": [
         "定番",
         "節約"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "soup_1100042007",
-      "name": "三十雑穀味噌スープ",
-      "type": "soup",
-      "cuisine": "和",
-      "protein": "chicken",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "chicken_wing",
-          "name": "手羽元",
-          "qty": 4.0,
-          "unit": "本",
-          "category": "protein"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "こしょう",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "green_onion",
-          "name": "長ねぎ",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 0.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 400.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "ginger",
-          "name": "しょうが",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "miso",
-          "name": "三十雑穀味噌",
-          "qty": 40.0,
-          "unit": "g",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "soy"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "手順1: 手羽元を流水で洗い、表面の毛を取り除きます。こしょうと塩を振って下ごしらえします。",
-        "手順2: 鍋にごま油を中火で熱し、手羽元を入れて3分間焼きます。その後、水を加えて沸騰させます。",
-        "手順3: にんにくとしょうがをみじん切りにして、長ねぎも薄切りします。",
-        "手順4: 水が沸騰したら火を弱め、手羽元を取り出し、鍋から取り出します。",
-        "手順5: 鍋に長ねぎ、にんにく、しょうがを入れて炒めて1分間煮込みます。その後、三十雑穀味噌を加えてよく混ぜます。",
-        "手順6: 手羽元と一緒に鍋に戻し、中火で再沸騰させます。約3分間煮込んでから火を止め、とろみが付くまでさらに1分間煮込みます。"
-      ],
-      "tags": [
-        "定番"
       ],
       "_steps_enriched": true
     },
@@ -18764,79 +16547,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1240045488",
-      "name": "ピーマンの塩昆布和え",
-      "type": "side",
-      "cuisine": "和",
-      "protein": "none",
-      "richness": 1,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "green_pepper",
-          "name": "ピーマン",
-          "qty": 4.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "塩こんぶ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame",
-          "name": "いりごま",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "sesame",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 20,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "ピーマンを十字に切り、種と薄く切った皮を取り除き、一口大に切る。",
-        "フライパンにごま油2さじを入れ、中火で熱し、ピーマンを炒め、3分間炒める。",
-        "塩こんぶ1.5さじを加えてさらに3分間炒め、水分が飛んだら火力を落とす。",
-        "醤油0.5さじを加え、全体に絡めて均一に調味料がついてきたら火から取り除く。",
-        "いりごまを適量ふりかけて完成。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1810038245",
       "name": "ピーマンの塩昆布和え",
       "type": "side",
@@ -19049,179 +16759,6 @@
         "チーズが溶けたらマヨネーズを加え、全体にからめる。",
         "さらに1分間焼いて熱いうちに青のりを振る。",
         "出来上がり。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1750089444",
-      "name": "三杯煮",
-      "type": "main",
-      "cuisine": "和",
-      "protein": "chicken",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "chicken_thigh",
-          "name": "鶏もも肉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "potato",
-          "name": "じゃがいも",
-          "qty": 3.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.25,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "green_pepper",
-          "name": "ピーマン",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "ginger",
-          "name": "生姜",
-          "qty": 6.0,
-          "unit": "g",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 2.0,
-          "unit": "かけ",
-          "category": "vegetable"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 4.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "酒",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 40,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 3,
-      "steps": [
-        "鶏もも肉を一口大に切る。じゃがいもは輪切り、玉ねぎは薄切りにする。",
-        "フライパンにごま油を中火で熱し、にんにくを香ばしくする。",
-        "にんにくを取り除き、鶏肉を炒め色が変わったらじゃがいもと玉ねぎを加える。",
-        "全体が均一に色がついたら、酒、砂糖、醤油を加え、沸騰させる。",
-        "中火にし、煮汁が少しずつ減ってみるまで煮込む。",
-        "ピーマンを加えて1分ほど炒めたら完成。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1220012287",
-      "name": "豚肉と小松菜のオイスターグラタン",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "pork",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "komatsuna",
-          "name": "小松菜",
-          "qty": 1.0,
-          "unit": "袋",
-          "category": "vegetable"
-        },
-        {
-          "key": "pork_komagire",
-          "name": "豚こま肉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "oyster_sauce",
-          "name": "オイスターソース",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩コショウ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "小松菜を適度な長さに切る。豚こま肉は薄切りにする。",
-        "フライパンに中火で温め、豚こま肉を炒めて肉がピンク色から白色になるまで炒め、塩コショウで味を調える。",
-        "小松菜を加えて1分ほど炒め、オイスターソース大さじ2を入れてさらに1分炒める。",
-        "グラタン皿に具材を詰めて、表面にチーズをまぶす。",
-        "オーブンで200度に予熱し、チーズが溶けたまで約15分焼く。"
       ],
       "tags": [
         "定番"
@@ -19446,150 +16983,6 @@
         "ピーマンとじゃがいもを入れて中火で炒め、5分程度煮る。",
         "オイスターソース大さじ2、醤油大さじ2、砂糖大さじ1、酒大さじ4、片栗粉大さじ1と水大さじ2を混ぜたものを加え、沸騰したら弱火で1分ほど煮る。",
         "牛肉を戻し入れて全体的に味がついてきたら完成。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1510016843",
-      "name": "青椒肉丝",
-      "type": "main",
-      "cuisine": "中",
-      "protein": "beef",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "beef_slice",
-          "name": "牛バラ肉",
-          "qty": 300.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "potato_starch",
-          "name": "片栗粉",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "green_pepper",
-          "name": "ピーマン",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "water",
-          "name": "たけのこ水煮",
-          "qty": 80.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "ニンニク",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "ginger",
-          "name": "生姜",
-          "qty": 1.0,
-          "unit": "cm",
-          "category": "vegetable"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "chicken_stock",
-          "name": "鶏ガラスープの素",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "water",
-          "name": "お湯",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "酒",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "oyster_sauce",
-          "name": "オイスターソース",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "牛バラ肉300gを薄切りにし、片栗粉大さじ2と酒大さじ1を加えてよく混ぜる。",
-        "ピーマン4〜5個は斜め薄切りにする。たけのこ水煮80gは適当な大きさに切る。ニンニク1片はみじん切りにする。おろし生姜1cmはすりおろす。",
-        "フライパンにごま油大さじ1を熱し、肉を炒め色が変わったら取り出す。",
-        "フライパンに残った油を少々追加し、ニンニクとおろし生姜を炒める。",
-        "ピーマンとたけのこを入れて炒め、約2分間炒めた後、炒めた肉を入れる。",
-        "鶏ガラスープの素大さじ1、醤油大さじ1、オイスターソース大さじ1、砂糖大さじ1を加えて混ぜ、沸騰したら火を弱め、蓋をして約3分間煮込む。"
       ],
       "tags": [
         "定番"
@@ -20133,231 +17526,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "main_1990050922",
-      "name": "小松菜のホイコーロー",
-      "type": "main",
-      "cuisine": "中",
-      "protein": "pork",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "pork_komagire",
-          "name": "豚肉",
-          "qty": 150.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "komatsuna",
-          "name": "小松菜",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "vegetable"
-        },
-        {
-          "key": "atsuage",
-          "name": "厚揚げ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "oil",
-          "name": "サラダ油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "tenmenjan",
-          "name": "甜面醤",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "酒",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "doubanjiang",
-          "name": "豆板醤",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "potato_starch",
-          "name": "片栗粉",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame",
-          "name": "白ゴマ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "sesame",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "豚肉を一口大に切ります。",
-        "小松菜は根と茎の部分を切り落として洗います。",
-        "厚揚げは薄くスライスし、フライパンで軽く焼きます。",
-        "熱したサラダ油でにんにくを炒めます。",
-        "にんにくが香ばくなると、醤油、甜面醤、酒、砂糖、豆板醤を加えて混ぜ合わせます。",
-        "豚肉と小松菜を入れて炒め、最後に片栗粉を加えてとろみをつけます。",
-        "ごま油で白ゴマを香らせた後、その油を使用してホイコーローを炒め出します。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1100041559",
-      "name": "シューマイ",
-      "type": "side",
-      "cuisine": "和",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "spice",
-          "name": "観音池ポークミンチ",
-          "qty": 300.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "corn",
-          "name": "コーン",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "potato_starch",
-          "name": "片栗粉",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "ginger",
-          "name": "しょうが",
-          "qty": 0.5,
-          "unit": "tbsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "shumai_wrapper",
-          "name": "シュウマイの皮",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 100.0,
-          "unit": "ml",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 30,
-      "skill": 1,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "ポークミンチ300g、玉ねぎ0.5個（みじん切り）、しょうが大さじ0.5（すりおろし）、コーン24粒（細かく切る）をボウルに混ぜる。しょうがと塩適量を加えてよく混ぜる。",
-        "片栗粉大さじ1を水100mlで溶いて、先程の具材と一緒に混ぜ合わせる。",
-        "シューマイの皮30枚を用意し、片面に薄く具を広げる。",
-        "皮の端から約2cm幅で包み、口元を閉じて形にする。",
-        "蒸籠に入れ、中火で沸騰した水が再び沸騰する直前にシューマイを入れ、蓋をして6〜8分ほど蒸す。",
-        "蒸し終えたらすぐに取り出し、冷まして皿に盛る。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1810028034",
       "name": "紫キャベツのマリネ",
       "type": "side",
@@ -20420,548 +17588,6 @@
         "水分が出てきたら、ざるで水気をきり、再度ボウルに戻す。",
         "小さじ1の砂糖と小さじ1の酢を混ぜてから、オリーブオイル大さじ1を加えて紫キャベツに絡める。",
         "よく混ぜ均匀にマリネ液がついてきたら、冷蔵庫で2〜3時間漬け込む。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1740033752",
-      "name": "しらすとごぼうのアヒージョ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "x_新ゴボウ",
-          "name": "新ゴボウ",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "other"
-        },
-        {
-          "key": "shirasu",
-          "name": "しらす",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "garlic",
-          "name": "ニンニク",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.0,
-          "unit": "cup",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "新ゴボウを約2mmの幅に切る。",
-        "フライパンにオリーブオイルを中火で熱し、ニンニクを炒め色が付くまで弱火で炒める。",
-        "ゴボウを加え、中火で1分ほど炒め、水分が飛んで軽く焦げ目が付くまで炒める。",
-        "しらすを加えて軽く混ぜる。",
-        "全体に塩をふり、よく混ぜて味を均す。",
-        "蓋をして弱火で約5分蒸し煮する。",
-        "火を止め、とろみが付いたら完成。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1030024954",
-      "name": "たことホタテのアヒージョ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "chili",
-          "name": "唐辛子",
-          "qty": 5.0,
-          "unit": "個",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 5.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0.25,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "octopus",
-          "name": "たこ",
-          "qty": 60.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "scallop",
-          "name": "ホタテ",
-          "qty": 4.0,
-          "unit": "個",
-          "category": "protein"
-        },
-        {
-          "key": "broccoli",
-          "name": "ブロッコリー",
-          "qty": 30.0,
-          "unit": "g",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "ミニトマト",
-          "qty": 4.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "mushroom",
-          "name": "マッシュルーム",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "seafood"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "オリーブオイル大さじ5を熱し、にんにく1片を中火で炒める（約1分）。",
-        "輪切り唐辛子5個を加え、1分ほど炒め、塩小さじ0.25で味を調える。",
-        "たこ60gとホタテ4個を加えて蓋をして弱火で3分煮る。",
-        "ブロッコリー30gを加え、さらに2分煮る。",
-        "ミニトマト4個とマッシュルーム2個を加えて1分ほど炒め、完成する。"
-      ],
-      "tags": [
-        "定番",
-        "簡単"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1010041554",
-      "name": "あさりのアヒージョ",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "seafood",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "clam",
-          "name": "あさり",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 2.0,
-          "unit": "かけ",
-          "category": "vegetable"
-        },
-        {
-          "key": "karashi",
-          "name": "とうがらし",
-          "qty": 2.0,
-          "unit": "本",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.57,
-          "unit": "cup",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "あさりを洗い、貝尘を取り除き、水気を切る。",
-        "にんにくを薄切りにし、とうがらしは細かく刻む。",
-        "深皿または耐熱袋にオリーブオイルを注ぎ、にんにくととうがらしを加える。",
-        "あさりを加えてよく混ぜ合わせ、塩（小さじ0.5）で味を調える。",
-        "耐熱性のラップで覆い、電子レンジで6分間加熱する。",
-        "温まった後、中身が固まり始めたら火から取り出し、すぐに食べるために冷めないうちに提供する。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1020011349",
-      "name": "アヒージョ風チーズリゾット",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "x_アヒージョの残り汁",
-          "name": "アヒージョの残り汁",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        },
-        {
-          "key": "rice",
-          "name": "ごはん",
-          "qty": 0,
-          "unit": "適量",
-          "category": "staple"
-        },
-        {
-          "key": "cheese",
-          "name": "チーズ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "basil",
-          "name": "乾燥バジル",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "milk",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "アヒージョの残り汁2〜3大さじとごはん1軽く1膳を混ぜる。",
-        "中火で温めながら、時々かき混ぜて約5分間調理する。",
-        "チーズ1つまみを加え、さらに1分間かき混ぜる。",
-        "醤油2滴と乾燥バジル1つまみを加えてよく混ぜる。",
-        "完成したアヒージョ風チーズリゾットを器に盛り付ける。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1510019307",
-      "name": "ビーフストロガノフ",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "beef",
-      "richness": 3,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "beef_slice",
-          "name": "牛肉",
-          "qty": 450.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "mushroom",
-          "name": "マッシュルーム",
-          "qty": 5.67,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "ニンニク",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "butter",
-          "name": "バター",
-          "qty": 20.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "flour",
-          "name": "薄力粉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 300.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "consomme",
-          "name": "固形コンソメ",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "seasoning"
-        },
-        {
-          "key": "ketchup",
-          "name": "ケチャップ",
-          "qty": 4.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sauce",
-          "name": "ウスターソース",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "mirin",
-          "name": "みりん",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "cream",
-          "name": "生クリーム",
-          "qty": 100.0,
-          "unit": "ml",
-          "category": "seasoning"
-        },
-        {
-          "key": "vinegar",
-          "name": "酢",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk",
-        "wheat"
-      ],
-      "cook_time_min": 45,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": false,
-        "summer_risk": true
-      },
-      "make_ahead_days": 0,
-      "steps": [
-        "牛薄切り肉450gを一口大に切る。玉ねぎ2個とマッシュルーム5.67個も一口大に切る。",
-        "フライパンにバター20gを入れ、中火で溶かす。肉と一緒に炒め、半生になるまで加熱する（約3分）。",
-        "ニンニク1さじを加えて炒める。",
-        "薄力粉を少しずつ加えながら混ぜ、とろみがつくまで煮る（約2分）。",
-        "水300ml、固形コンソメ2個を加え、沸騰したら弱火で5分間煮る。",
-        "ケチャップ大さじ4、ウスターソース大さじ3、みりん大さじ2、塩適量を加えて味を調える。生クリーム100mlと酢大さじ1を加え、さらに弱火で5分間煮る。",
-        "完成したビーフストロガノフを器に盛り付ける。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1170011695",
-      "name": "きとことベーコンのアヒージョ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "pork",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "mushroom",
-          "name": "きのこ",
-          "qty": 150.0,
-          "unit": "g",
-          "category": "vegetable"
-        },
-        {
-          "key": "bacon",
-          "name": "ベーコン",
-          "qty": 25.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "olive_oil",
-          "name": "エキストラバージンオリーブオイル",
-          "qty": 50.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "ブラックペッパー",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "parsley",
-          "name": "パセリ",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "きのこを洗い、水気を切ります。ベーコンは細切りにします。にんにくは薄くスライスします。",
-        "オリーブオイルをフライパンに注ぎ、中火で温めます。にんにくを加えて30秒ほど炒め、香ばしくなりましたら取り出します。",
-        "ベーコンときのこをフライパンに入れて炒め、約5分間煮込みます。きのこの水分が飛んできたら火を弱めます。",
-        "塩1つまみとブラックペッパー適量を加え、よく混ぜ合わせます。",
-        "蓋をして弱火で10分ほど蒸し焼きにします。",
-        "最後にパセリを粗熱が取れたら加えてかき混ぜて完成です。"
       ],
       "tags": [
         "定番"
@@ -21032,173 +17658,6 @@
         "ネギを加え、さらに1分間炒める。塩と胡椒を少量のごま油に混ぜてから加える。",
         "フタをして弱火で5分間蒸し焼きにする。",
         "火を止めてホイルに盛り、そのまま出汁やソースをかけて完成する。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1940011957",
-      "name": "パエリア",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "seafood",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "clam",
-          "name": "あさり",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "squid",
-          "name": "いか",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "shrimp",
-          "name": "エビ",
-          "qty": 6.0,
-          "unit": "尾",
-          "category": "protein"
-        },
-        {
-          "key": "chicken_thigh",
-          "name": "鶏もも肉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "green_pepper",
-          "name": "ピーマン",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "paprika",
-          "name": "パプリカ",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.25,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "ニンニク",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "rice",
-          "name": "米",
-          "qty": 2.0,
-          "unit": "cup",
-          "category": "staple"
-        },
-        {
-          "key": "spice",
-          "name": "サフラン",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "consomme",
-          "name": "ブイヨンスープ",
-          "qty": 1.67,
-          "unit": "cup",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "wine",
-          "name": "白ワイン",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "bay_leaf",
-          "name": "ローリエ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "こしょう",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "parsley",
-          "name": "イタリアンパセリ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "seafood",
-        "shrimp",
-        "squid"
-      ],
-      "cook_time_min": 50,
-      "skill": 3,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": false,
-        "summer_risk": true
-      },
-      "make_ahead_days": 0,
-      "steps": [
-        "あさり、いか、エビを洗い、適量の水でさらして下ごしらえします。",
-        "鶏もも肉は一口大に切ります。ピーマン、パプリカ、トマトは薄切りにして玉ねぎはみじん切りにします。ニンニクはみじん切りにします。",
-        "フライパンにオリーブオイルを中火で熱し、ニンニクと鶏肉を入れて炒めます。",
-        "鶏肉が白くなるまで炒め、あさり、いか、エビを加えて2〜3分炒めます。",
-        "米を加え、よく混ぜ合わせ、1杯ずつブイヨンスープを加えて炊き込みます。途中でかき混ぜながら、全体がおもに吸収されるまで調節します。",
-        "白ワインを加え、沸騰したら弱火にしてサフランを入れて数分煮込みます。",
-        "最後にトマト、ピーマン、パプリカ、塩、こしょうで味を調整し、イタリアンパセリを混ぜて出鍋します。"
       ],
       "tags": [
         "定番"
@@ -21315,84 +17774,6 @@
         "卵が固まってきたらチーズを散らし、さらに1〜2分蒸らす。",
         "出来上がったスパニッシュオムレツを皿に盛り、トッピングとしてプチトマトをのせる。",
         "味塩胡椒で調節して完成する。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1170024102",
-      "name": "ホロホロチキン",
-      "type": "main",
-      "cuisine": "和",
-      "protein": "chicken",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "chicken_thigh",
-          "name": "鶏もも肉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "x_玉ねギ",
-          "name": "玉ねギ",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "other"
-        },
-        {
-          "key": "salt",
-          "name": "有塩バター",
-          "qty": 30.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "bay_leaf",
-          "name": "ローリエ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "黒粒胡椒",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [],
-      "cook_time_min": 60,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 3,
-      "steps": [
-        "鶏もも肉を皮目を下にして真ん中に切り込みを入れ、有塩バター20gと塩小さじ1/2を加えてよくマリネする。",
-        "フライパンに残りのバター10gを熱し、鶏肉を皮目から焼く。両面きつね色になるまで焼く。",
-        "玉ねぎをみじん切りにしてフライパンに入れて中火で炒め、透明になるまで炒める。",
-        "ローリエ5枚と残りのバター10gを入れて全体に香ばしさが付くまで炒め、鶏肉を戻し蓋をして弱火で蒸す。",
-        "蒸した後、中火にして汁気がなくなるまで煮詰める。",
-        "最後に黒粒胡椒10粒を加えて味を整える。",
-        "出来上がりのホロホロチキンはお皿に盛り付けて完成。"
       ],
       "tags": [
         "定番"
@@ -22432,289 +18813,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "main_1950027646",
-      "name": "生姜焼き",
-      "type": "main",
-      "cuisine": "和",
-      "protein": "pork",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "pork_loin",
-          "name": "豚ロース",
-          "qty": 400.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "flour",
-          "name": "小麦粉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "ginger",
-          "name": "生姜",
-          "qty": 7.0,
-          "unit": "cm",
-          "category": "vegetable"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "mirin",
-          "name": "みりん",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "酒",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "豚ロース400gを一口大に切る。玉ねぎ1個を薄切りにする。生姜チューブ7cmをすりおろし、そのうち3分の1を使用する。",
-        "フライパンに中火で温め、小麦粉を薄く広げたタッパーに入れて豚肉全体をまぶす。",
-        "フライパンに油を引いて熱し、豚肉を焼き目が付くまで2〜3分焼く。玉ねぎと一緒に炒める。",
-        "醤油大さじ2とみりん大さじ2、酒大さじ1、砂糖小さじ2を入れて混ぜる。火加減は中強火で、全体的に味が付くまで5〜7分煮込む。",
-        "最後にすりおろした生姜の残りを加え、全体的に香ばしさが出るまで1〜2分炒める。",
-        "蓋をして弱火で3〜4分蒸し焼きにする。完成。"
-      ],
-      "tags": [
-        "定番",
-        "時短"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1010024819",
-      "name": "赤から鍋",
-      "type": "main",
-      "cuisine": "中",
-      "protein": "pork",
-      "richness": 3,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "doubanjiang",
-          "name": "豆板醤",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "酒",
-          "qty": 90.0,
-          "unit": "cc",
-          "category": "seasoning"
-        },
-        {
-          "key": "mirin",
-          "name": "みりん",
-          "qty": 90.0,
-          "unit": "cc",
-          "category": "seasoning"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 1000.0,
-          "unit": "cc",
-          "category": "seasoning"
-        },
-        {
-          "key": "x_がらスープの素",
-          "name": "がらスープの素",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "other"
-        },
-        {
-          "key": "soy_sauce",
-          "name": "醤油",
-          "qty": 100.0,
-          "unit": "cc",
-          "category": "seasoning"
-        },
-        {
-          "key": "gochujang",
-          "name": "コチジャン",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "miso",
-          "name": "赤味噌",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "honey",
-          "name": "はちみつ",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 8.0,
-          "unit": "g",
-          "category": "vegetable"
-        },
-        {
-          "key": "hakusai",
-          "name": "白菜",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "moyashi",
-          "name": "もやし",
-          "qty": 1.0,
-          "unit": "袋",
-          "category": "vegetable"
-        },
-        {
-          "key": "green_onion",
-          "name": "長ネギ",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "pork_komagire",
-          "name": "豚ばら肉",
-          "qty": 150.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "abura_age",
-          "name": "油揚げ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "x_とうふ",
-          "name": "とうふ",
-          "qty": 1.0,
-          "unit": "丁",
-          "category": "other"
-        },
-        {
-          "key": "chicken_thigh",
-          "name": "鶏肉の肉団子",
-          "qty": 5.0,
-          "unit": "個",
-          "category": "protein"
-        },
-        {
-          "key": "nira",
-          "name": "にら",
-          "qty": 1.0,
-          "unit": "袋",
-          "category": "vegetable"
-        },
-        {
-          "key": "udon",
-          "name": "うどん",
-          "qty": 2.0,
-          "unit": "袋",
-          "category": "staple"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "soy",
-        "wheat"
-      ],
-      "cook_time_min": 60,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "ごま油大さじ1を熱した鍋に豆板醤大さじ1と酒90ccを入れて中火で炒め、香りが出るまで炒める。",
-        "みりん90ccと水1000cc、がらスープの素大さじ2を加えて混ぜ合わせ、沸騰するまで煮る。",
-        "醤油100cc、コチジャン大さじ2、赤味噌大さじ3、はちみつ大さじ3、砂糖大さじ2、おろしにんにく8gを加え、再び混ぜ合わせて沸騰するまで煮る。",
-        "白菜1個を縦半分に切り、さらに細かく切る。もやし1袋と長ネギ1本（斜め薄切り）を準備する。",
-        "豚ばら肉の薄切り150gを一口大に切る。油揚げ3枚を千切りにする。とうふ1丁は一口大に切る。鶏肉の肉団子5個も用意する。",
-        "すべての具材（白菜、もやし、長ネギ、豚肉、油揚げ、とうふ、肉団子）を順番に入れ、中火で煮込む。沸騰したら弱火にし、10分間煮る。",
-        "にら1袋を粗熱が取れたら加え、2分ほど煮て完成。うどん2袋を別々の器に入れて赤から鍋の汁を注ぐ。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1940031632",
       "name": "野菜たっぷりチヂミ",
       "type": "side",
@@ -23499,91 +19597,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1330035660",
-      "name": "サムギョプサルの付け合せ",
-      "type": "side",
-      "cuisine": "中",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "green_onion",
-          "name": "ネギ",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "vinegar",
-          "name": "酢",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sesame_oil",
-          "name": "ごま油",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "chili",
-          "name": "七味唐辛子",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "rayu",
-          "name": "ラー油",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 10,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "豚肉を解凍し、薄くスライスする。",
-        "フライパンにごま油を熱し、豚肉を焼いて火が通ったら取り出す。",
-        "フライパンに残った油を少し足し、ネギを炒め、香りが出たら取り出す。",
-        "酢、砂糖、ラー油、塩を混ぜ合わせ、そのソースでネギを和える。",
-        "焼いた豚肉を皿に盛り、作成した付け合せを添える。七味唐辛子を振る。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1740033830",
       "name": "キャベツナムル",
       "type": "side",
@@ -23907,171 +19920,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1510019248",
-      "name": "焼きカプレーゼ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "モッツァレラチーズ",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "EXオリーブオイル",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "ブラックペッパー",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "basil",
-          "name": "バジル",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "milk"
-      ],
-      "cook_time_min": 15,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "トマトを4〜6cm幅に切る。モッツァレラチーズは一口大に切る。",
-        "ボウルにオリーブオイルを引いた皿を用意し、塩とブラックペッパーを振る。",
-        "トマトの上にモッツァレラチーズを重ね、バジルの葉を添える。",
-        "各材料にオリーブオイルとブラックペッパーを加え、よく絡ませる。",
-        "冷蔵庫で10分ほど冷ましてから提供する。"
-      ],
-      "tags": [
-        "定番",
-        "簡単"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "side_1820017681",
-      "name": "カルパッチョ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "fish",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "yellowtail",
-          "name": "ハマチ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "shiso",
-          "name": "大葉",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "lemon",
-          "name": "レモン汁",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "粗挽き塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "粗挽きコショウ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "fish"
-      ],
-      "cook_time_min": 10,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "ハマチを薄切りにし、流水で洗い流して水気を取る。大葉は薄くスライスする。玉ねぎも薄く切る。",
-        "ハマチの上に大葉と玉ねぎを並べ、オリーブオイル大さじ2とレモン汁大さじ1をかけ、全体に均す。",
-        "さらに残りのオリーブオイル大さじ1をかけて、粗挽き塩大さじ半分と粗挽きコショウ適量を振る。",
-        "冷蔵庫で1時間ほど漬け込んでから提供する。",
-        "提供前に再度レモン汁と塩コショウを調整して完成。"
-      ],
-      "tags": [
-        "定番",
-        "ヘルシー"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "main_1490006720",
       "name": "カルボナーラ",
       "type": "main",
@@ -24167,84 +20015,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1830009327",
-      "name": "生ハムアボカドのカプレーゼ",
-      "type": "side",
-      "cuisine": "洋",
-      "protein": "pork",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "ham",
-          "name": "生ハム",
-          "qty": 100.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "avocado",
-          "name": "アボカド",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "モッツァレラチーズ",
-          "qty": 100.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "basil",
-          "name": "バジル",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "pepper",
-          "name": "こしょう",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 5,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": false,
-        "summer_risk": false
-      },
-      "make_ahead_days": 0,
-      "steps": [
-        "生ハムを薄切りにし、アボカドは半分に切って種を取り除く。モッツァレラチーズも薄切りにする。（下ごしらえ）",
-        "フライパンにオリーブオイルを中火で熱し、生ハムを軽く焼いて香ばしくする。約1分間。（1分）",
-        "フライパンから生ハムを取り出し、アボカドとモッツァレラチーズを並べる。バジルを散らす。（2分）",
-        "全体にオリーブオイルを回し、こしょうで味を調える。（30秒）"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "side_1900016668",
       "name": "ミネストローネ",
       "type": "side",
@@ -24331,129 +20101,6 @@
       ],
       "tags": [
         "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1720048722",
-      "name": "アクアパッツァ",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "fish",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "white_fish",
-          "name": "たら",
-          "qty": 2.0,
-          "unit": "切",
-          "category": "protein"
-        },
-        {
-          "key": "clam",
-          "name": "あさり",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "zucchini",
-          "name": "ズッキーニ",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "shimeji",
-          "name": "しめじ",
-          "qty": 0.5,
-          "unit": "株",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト缶",
-          "qty": 1.0,
-          "unit": "缶",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "ニンニク",
-          "qty": 2.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sake",
-          "name": "料理酒",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩胡椒",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "x_ローズマリー",
-          "name": "ローズマリー",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        },
-        {
-          "key": "parsley",
-          "name": "パセリ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        }
-      ],
-      "allergens": [
-        "seafood"
-      ],
-      "cook_time_min": 30,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "たら2切れを縦半分に切る。あさり200gを洗い、水気をきる。玉ねぎ0.5個を薄切りにする。ズッキーニ1本を一口大に切る。しめじ0.5株を軸から取り、細かく切る。",
-        "オリーブオイル大さじ1を入れて中火で熱したフライパンに、ニンニク2片を炒める。",
-        "ニンニクが透明になるまで炒めたら、玉ねぎとしめじを入れて炒める。約3分間炒め、味付け調味料（料理酒大さじ2）を加えてさらに1分間炒める。",
-        "トマト缶1缶をフライパンに加え、中火で沸騰させる。沸騰したら火力を弱め、アクを取る。",
-        "たらとあさりを入れて蓋をして5分間煮込む。",
-        "ズッキーニを入れて2分間煮込む。",
-        "塩胡椒少々とローズマリー5振り、パセリ1つまみを加えて味を整える。完成。"
-      ],
-      "tags": [
-        "定番",
-        "簡単"
       ],
       "_steps_enriched": true
     },
@@ -24560,78 +20207,6 @@
         "炊いたご飯をフライパンに加え、トマトソースとよく混ぜる。塩コショウで味を調える。",
         "しめじを追加して約2分間炒める。最後にベーコンとパセリを加えて混ぜ合わせる。",
         "火から離れてとろみがついたら出汁を完成させる。適量のチーズを加え、よく混ぜてとろけるチーズが溶けたら完成する。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1850004846",
-      "name": "フレッシュトマトのリゾット",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 0.25,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "rice",
-          "name": "冷やご飯",
-          "qty": 0,
-          "unit": "適量",
-          "category": "staple"
-        },
-        {
-          "key": "cheese",
-          "name": "とろけるチーズ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩コショウ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "玉ねギ半分をみじん切りにして熱したフライパンで炒め、中火で2分間炒める。",
-        "トマトを一口大に切って加え、さらに1分間炒める。",
-        "冷やご飯を加えてよく混ぜ、中火で3分間炒めながら調理する。",
-        "適量の塩コショウで味を調整し、とろけるチーズを加える。",
-        "弱火にし、チーズがとろけたら完成。全体的に1〜2分間温める。"
       ],
       "tags": [
         "定番"
@@ -24851,335 +20426,6 @@
       "_steps_enriched": true
     },
     {
-      "id": "main_1530004684",
-      "name": "トマトチーズリゾット",
-      "type": "main",
-      "cuisine": "洋",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "tomato",
-          "name": "トマト水煮缶",
-          "qty": 1.0,
-          "unit": "缶",
-          "category": "vegetable"
-        },
-        {
-          "key": "water",
-          "name": "水",
-          "qty": 200.0,
-          "unit": "cc",
-          "category": "seasoning"
-        },
-        {
-          "key": "green_onion",
-          "name": "タマネギ",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "butter",
-          "name": "バター",
-          "qty": 5.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "rice",
-          "name": "ご飯",
-          "qty": 0,
-          "unit": "適量",
-          "category": "staple"
-        },
-        {
-          "key": "consomme",
-          "name": "コンソメ",
-          "qty": 2.0,
-          "unit": "個",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "cheese",
-          "name": "とろけるチーズ",
-          "qty": 60.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "粗挽き黒胡椒",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 1,
-      "steps": [
-        "トマトチーズリゾットの材料を準備する。タマネギは薄切りにする。",
-        "フライパンにバターを加え、中火で熱し、タマネギを炒める（約5分間）。",
-        "タマネギが透明になるまで炒めたら、水とコンソメを加えて沸騰させる。その後、弱火にして10分間煮る。",
-        "ご飯を加え、中火で2〜3分間混ぜながら炒める。",
-        "トマト水煮缶を加えてさらに2〜3分煮込み、塩と粗挽き黒胡椒を加える。",
-        "最後に、チーズを加え、溶かすまで強火で1〜2分煮る。",
-        "完成したトマトチーズリゾットを器に盛り付ける。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1090056151",
-      "name": "チキンタコス",
-      "type": "main",
-      "cuisine": "エスニック",
-      "protein": "chicken",
-      "richness": 3,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "chicken_breast",
-          "name": "鶏むね肉",
-          "qty": 3.5,
-          "unit": "個",
-          "category": "protein"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 1.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "tomato",
-          "name": "トマトペースト",
-          "qty": 2.0,
-          "unit": "tbsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "sugar",
-          "name": "きび砂糖",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "x_チキンスープ",
-          "name": "チキンスープ",
-          "qty": 250.0,
-          "unit": "ml",
-          "category": "other"
-        },
-        {
-          "key": "lemon",
-          "name": "レモン汁",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 2.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "spice",
-          "name": "ガーリックパウダー",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "spice",
-          "name": "オニオンパウダー",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "x_ドライオレガノ",
-          "name": "ドライオレガノ",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "other"
-        },
-        {
-          "key": "spice",
-          "name": "クミンパウダー",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "カイエンペッパー",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 1.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "pepper",
-          "name": "黑胡椒",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 60,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 3,
-      "steps": [
-        "鶏むね肉を一口大に切る（3ステップ）。",
-        "フライパンにオリーブオイルを熱し、鶏肉を中火で炒め、両面に色がついたら取り出し、フライパンから除く（4ステップ）。",
-        "同じフライパンにトマトペーストときび砂糖を加え、弱火で1分間煮詰める（5ステップ）。",
-        "チキンスープ、レモン汁、にんにく（みじん切り）、ガーリックパウダー、オニオンパウダー、ドライオレガノ、クミンパウダー、カイエンペッパー、塩、黒胡椒を加え、よく混ぜる（6ステップ）。",
-        "鶏肉を取り戻し、全体的に味がついてきたら弱火で5分間煮込む（7ステップ）。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1580046815",
-      "name": "ナチョス",
-      "type": "main",
-      "cuisine": "エスニック",
-      "protein": "beef",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "x_ドリトス",
-          "name": "ドリトス",
-          "qty": 2.0,
-          "unit": "袋",
-          "category": "other"
-        },
-        {
-          "key": "cabbage",
-          "name": "キャベツ",
-          "qty": 0.25,
-          "unit": "玉",
-          "category": "vegetable"
-        },
-        {
-          "key": "beef_pork_mince",
-          "name": "合い挽き肉",
-          "qty": 300.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "sauce",
-          "name": "ウスターソース",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "ketchup",
-          "name": "ケチャップ",
-          "qty": 3.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "tomato",
-          "name": "ミニトマト",
-          "qty": 6.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "シュレッドチーズ",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "beef_slice",
-          "name": "牛乳",
-          "qty": 100.0,
-          "unit": "cc",
-          "category": "protein"
-        }
-      ],
-      "allergens": [
-        "egg",
-        "milk"
-      ],
-      "cook_time_min": 30,
-      "skill": 1,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "ドリトス2袋を用意し、中火で熱したフライパンに並べて焼く。両面がカリッとなるまで約5分間焼く。（注意：頻繁に裏返して均等に焼く）",
-        "キャベツ0.25玉を細かく刻み、合わせ挽き肉300gと混ぜる。中火でフライパンに炒め、ウスターソース大さじ1とケチャップ大さじ3を加えてさらに2分間炒める",
-        "キャベツと合わせ挽き肉の炒めた物をドリトスの上に乗せる",
-        "ミニトマト6個を細かく切ってドリトスの上に散らす",
-        "牛乳100ccを加え、全体が温まったらシュレッドチーズ200gを乗せ、チーズが溶けたら完成するまで更に約5分間中火で焼く"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
       "id": "main_1460012542",
       "name": "ガパオごはん",
       "type": "main",
@@ -25309,310 +20555,76 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1490014339",
-      "name": "ワカモレ",
-      "type": "side",
-      "cuisine": "エスニック",
-      "protein": "none",
-      "richness": 2,
-      "base_servings": 2,
-      "ingredients": [
-        {
-          "key": "avocado",
-          "name": "アボカド",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "lemon",
-          "name": "レモン",
-          "qty": 0.25,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "onion",
-          "name": "新玉ねぎ",
-          "qty": 0.125,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0.25,
-          "unit": "tsp",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [],
-      "cook_time_min": 5,
-      "skill": 1,
-      "bento_ok": true,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "アボカド1個を半分に切って種を取り除き、薄切りにする。新玉ねぎ0.125個は細かく刻む。レモン0.25個の汁と皮を絞り、果汁のみを使用する。",
-        "大さじ2の塩をアボカドの薄切りにまぶし、よく混ぜる。",
-        "玉ねぎをアボカドと混ぜ合わせる。",
-        "レモン汁大さじ1を加えて再度混ぜる。",
-        "冷蔵庫で30分程度置き、味を染み込ませる。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1420015989",
-      "name": "チリコンカン",
+      "id": "main_yakisoba",
+      "name": "焼きそば",
       "type": "main",
-      "cuisine": "エスニック",
-      "protein": "beef",
-      "richness": 2,
-      "base_servings": 4,
-      "ingredients": [
-        {
-          "key": "beef_pork_mince",
-          "name": "合挽き肉",
-          "qty": 200.0,
-          "unit": "g",
-          "category": "protein"
-        },
-        {
-          "key": "x_ミックスビーンズ",
-          "name": "ミックスビーンズ",
-          "qty": 60.0,
-          "unit": "g",
-          "category": "other"
-        },
-        {
-          "key": "onion",
-          "name": "玉ねぎ",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "carrot",
-          "name": "人参",
-          "qty": 1.0,
-          "unit": "本",
-          "category": "vegetable"
-        },
-        {
-          "key": "garlic",
-          "name": "にんにく",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "ginger",
-          "name": "生姜",
-          "qty": 1.0,
-          "unit": "片",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト缶",
-          "qty": 1.0,
-          "unit": "缶",
-          "category": "vegetable"
-        },
-        {
-          "key": "consomme",
-          "name": "マギーブイヨン",
-          "qty": 1.0,
-          "unit": "個",
-          "category": "seasoning"
-        },
-        {
-          "key": "ketchup",
-          "name": "ケチャップ",
-          "qty": 1.0,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "sauce",
-          "name": "ウスターソース",
-          "qty": 2.0,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "spice",
-          "name": "クミンパウダー",
-          "qty": 0.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "bay_leaf",
-          "name": "ローリエ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        }
-      ],
-      "allergens": [
-        "egg"
-      ],
-      "cook_time_min": 30,
-      "skill": 2,
-      "bento_ok": false,
-      "scalable": true,
-      "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
-        "freezer_ok": true,
-        "summer_risk": false
-      },
-      "make_ahead_days": 2,
-      "steps": [
-        "合挽き肉200gと玉ねぎ1個（みじん切り）、人参1本（細かく刻む）を混ぜる。にんにく1片（みじん切り）、生姜1片（みじん切り）も加える。",
-        "オリーブオイル適量でフライパンを熱し、材料を炒め、合挽き肉が白くなるまで炒める。",
-        "トマト缶1缶（あらかじめ開封し、粗熱を取り）とケチャップ大さじ1、ウスターソース小さじ2、クミンパウダー小さじ0.5を加える。",
-        "沸騰するまで弱火で煮込み、火が通ったらマギーブイヨン1個（あらかじめ溶かしておく）とローリエの葉1枚を入れる。",
-        "沸騰したら中火にし、約20分間煮込む。途中で味を調整し、必要であれば塩適量を加える。",
-        "最後の5分間で火加減を弱くし、トッピングとしてミックスビーンズ60g（あらかじめ水で洗い流して粗熱を取り）を入れて混ぜる。",
-        "煮込みが完成したらケチャップやレモン汁などで味を調整し、盛り付ける。"
-      ],
-      "tags": [
-        "定番"
-      ],
-      "_steps_enriched": true
-    },
-    {
-      "id": "main_1230020780",
-      "name": "ヤムウンセン",
-      "type": "main",
-      "cuisine": "エスニック",
+      "cuisine": "和",
       "protein": "pork",
       "richness": 2,
       "base_servings": 2,
       "ingredients": [
         {
-          "key": "chili",
-          "name": "生唐辛子",
-          "qty": 5.0,
-          "unit": "本",
-          "category": "seasoning"
-        },
-        {
-          "key": "fish_sauce",
-          "name": "ナムプラー",
-          "qty": 3.5,
-          "unit": "tbsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "lemon",
-          "name": "レモン",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "sugar",
-          "name": "砂糖",
-          "qty": 1.5,
-          "unit": "tsp",
-          "category": "seasoning"
-        },
-        {
-          "key": "pork_mince",
-          "name": "豚ひき肉",
-          "qty": 120.0,
+          "key": "pork_komagire",
+          "name": "豚こま切れ肉",
+          "qty": 150,
           "unit": "g",
           "category": "protein"
         },
         {
-          "key": "shrimp",
-          "name": "バナメイエビ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "protein"
-        },
-        {
-          "key": "harusame",
-          "name": "春雨",
-          "qty": 80.0,
-          "unit": "g",
+          "key": "chinese_noodle",
+          "name": "中華麺",
+          "qty": 2,
+          "unit": "玉",
           "category": "staple"
         },
         {
-          "key": "tomato",
-          "name": "プチトマト",
-          "qty": 6.0,
-          "unit": "個",
+          "key": "cabbage",
+          "name": "キャベツ",
+          "qty": 0.25,
+          "unit": "玉",
           "category": "vegetable"
         },
         {
-          "key": "celery",
-          "name": "セロリ",
+          "key": "moyashi",
+          "name": "もやし",
+          "qty": 1,
+          "unit": "袋",
+          "category": "vegetable"
+        },
+        {
+          "key": "carrot",
+          "name": "にんじん",
           "qty": 0.5,
           "unit": "本",
           "category": "vegetable"
         },
         {
-          "key": "onion",
-          "name": "赤玉ねぎ",
-          "qty": 0.25,
-          "unit": "本",
-          "category": "vegetable"
+          "key": "sauce",
+          "name": "ウスターソース",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
         },
         {
-          "key": "x_ピーナッツ",
-          "name": "ピーナッツ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
         },
         {
-          "key": "carrot",
-          "name": "人参",
-          "qty": 0,
+          "key": "salt",
+          "name": "塩こしょう",
+          "qty": 1,
           "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "lettuce",
-          "name": "レタス",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
+          "category": "seasoning"
         }
       ],
       "allergens": [
-        "seafood",
-        "shrimp"
+        "wheat"
       ],
       "cook_time_min": 15,
-      "skill": 2,
+      "skill": 1,
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
@@ -25623,79 +20635,394 @@
       },
       "make_ahead_days": 1,
       "steps": [
-        "豚ひき肉を粗めの挽き肉にし、ナムプラー大さじ3.5、砂糖小さじ1.5、生唐辛子5本（種を取り除く）を加えてよく混ぜる。",
-        "セロリと赤玉ねぎは薄切りにして、ピーナッツは粗めの挽きにし、春雨は水で戻す。プチトマトは一口大に切る。",
-        "フライパンにサラダ油を熱し、豚ひき肉を炒めて焦げ目が付くまで炒める。",
-        "セロリと赤玉ねぎ、ピーナッツ、春雨を入れて炒め、生唐辛子の皮も加えてさらに炒める。",
-        "レタスは半分に切って用意し、残りの材料（プチトマト、人参）を洗い、適量のレモン汁を加えて軽く混ぜる。",
-        "炒めた肉と野菜にレモン果汁を少し加えて味を整え、火から離してピーナッツを散らす。",
-        "盛り付ける際はレタスを器の底に並べ、その上にヤムウンセンを重ねる。"
+        "豚こま肉は一口大、キャベツはざく切り、にんじんは細切りにする。",
+        "中華麺は袋の口を少し開け、電子レンジで30秒ほど温めてほぐす。",
+        "フライパンに油を熱し、豚肉を中火で炒め、色が変わったらにんじん・キャベツ・もやしを加えて炒める。",
+        "野菜がしんなりしたら麺を加え、ほぐしながら炒め合わせる。",
+        "ウスターソース大さじ3を回し入れ、塩こしょうで味を調えて完成。"
       ],
       "tags": [
         "定番",
-        "タイ料理"
+        "ごはんが進む"
       ],
       "_steps_enriched": true
     },
     {
-      "id": "side_1010047973",
-      "name": "ブリトー",
-      "type": "side",
-      "cuisine": "エスニック",
+      "id": "main_okonomiyaki",
+      "name": "お好み焼き",
+      "type": "main",
+      "cuisine": "和",
       "protein": "pork",
-      "richness": 1,
+      "richness": 2,
       "base_servings": 2,
       "ingredients": [
         {
-          "key": "x_春巻きの皮",
-          "name": "春巻きの皮",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        },
-        {
-          "key": "bacon",
-          "name": "ベーコン",
-          "qty": 0,
-          "unit": "適量",
+          "key": "pork_belly",
+          "name": "豚バラ薄切り肉",
+          "qty": 100,
+          "unit": "g",
           "category": "protein"
         },
         {
-          "key": "cheese",
-          "name": "とろけるチーズ",
-          "qty": 15.0,
+          "key": "cabbage",
+          "name": "キャベツ",
+          "qty": 0.25,
+          "unit": "玉",
+          "category": "vegetable"
+        },
+        {
+          "key": "egg",
+          "name": "卵",
+          "qty": 2,
+          "unit": "個",
+          "category": "protein"
+        },
+        {
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 100,
           "unit": "g",
           "category": "seasoning"
         },
         {
-          "key": "water",
-          "name": "水",
-          "qty": 0.5,
+          "key": "dashi",
+          "name": "だし",
+          "qty": 80,
+          "unit": "ml",
+          "category": "seasoning"
+        },
+        {
+          "key": "sauce",
+          "name": "中濃ソース",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mayo",
+          "name": "マヨネーズ",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 1,
           "unit": "tbsp",
           "category": "seasoning"
         }
       ],
       "allergens": [
         "egg",
-        "milk"
+        "wheat"
       ],
-      "cook_time_min": 5,
+      "cook_time_min": 20,
       "skill": 1,
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
       },
-      "make_ahead_days": 0,
+      "make_ahead_days": 1,
       "steps": [
-        "春巻きの皮2枚を広げ、中央にベーコン2枚（横約1cm幅で切る）、とろけるチーズ15gをそれぞれ均等にのせます。",
-        "チーズが全体的に溶けはじめたら、春巻きの皮の端から始めて両側を重ねて巻きます。巻く際は手早く行い、しっかりと締めましょう。",
-        "フライパンに少々油を引いて熱し、ブリトーを中火で約2分間焼きます。片面がきつね色になるまで焼きます。",
-        "両面を焼いたらフライパンから取り出し、残りの調味料である醤油大さじ1とみりん大さじ1を加えてさらに1分間焼いて、とろみが付くまで炒めます。",
-        "完成したブリトーはそのまま食べたり、切って食べたりしてお召し上がりください。"
+        "キャベツは粗みじん切りにする。",
+        "ボウルに薄力粉100gとだし80mlを入れて混ぜ、卵2個とキャベツを加えてさっくり混ぜる。",
+        "フライパンに油を熱し、生地を流して丸く整え、豚バラ肉を上にのせる。",
+        "中火で4〜5分焼き、焼き色がついたら裏返してさらに4〜5分焼く。",
+        "皿に移し、中濃ソースとマヨネーズをかけて完成。お好みで青のりやかつお節を散らす。"
+      ],
+      "tags": [
+        "定番",
+        "週末ごはん"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_sukiyaki",
+      "name": "すき焼き",
+      "type": "main",
+      "cuisine": "和",
+      "protein": "beef",
+      "richness": 3,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "beef_slice",
+          "name": "牛薄切り肉",
+          "qty": 250,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "tofu",
+          "name": "焼き豆腐",
+          "qty": 1,
+          "unit": "丁",
+          "category": "protein"
+        },
+        {
+          "key": "green_onion",
+          "name": "長ねぎ",
+          "qty": 1,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "shiitake",
+          "name": "しいたけ",
+          "qty": 4,
+          "unit": "枚",
+          "category": "vegetable"
+        },
+        {
+          "key": "konnyaku",
+          "name": "こんにゃく",
+          "qty": 1,
+          "unit": "枚",
+          "category": "vegetable"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 4,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sake",
+          "name": "酒",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 30,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": false,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "長ねぎは斜め切り、しいたけは石づきを取り、焼き豆腐とこんにゃくは食べやすく切る。",
+        "鍋を熱して牛肉を数枚広げ、砂糖大さじ1と醤油大さじ1をふって焼きつける。",
+        "醤油大さじ3・砂糖大さじ2・酒大さじ3を合わせた割り下を注ぎ入れる。",
+        "長ねぎ・しいたけ・焼き豆腐・こんにゃくを並べ、中火で5〜6分煮る。",
+        "残りの牛肉を加えてさっと火を通し、溶き卵にくぐらせて食べる。"
+      ],
+      "tags": [
+        "定番",
+        "週末ごはん"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_chikuzenni",
+      "name": "筑前煮",
+      "type": "main",
+      "cuisine": "和",
+      "protein": "chicken",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "chicken_thigh",
+          "name": "鶏もも肉",
+          "qty": 200,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "carrot",
+          "name": "にんじん",
+          "qty": 1,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "renkon",
+          "name": "れんこん",
+          "qty": 1,
+          "unit": "節",
+          "category": "vegetable"
+        },
+        {
+          "key": "gobo",
+          "name": "ごぼう",
+          "qty": 0.5,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "shiitake",
+          "name": "しいたけ",
+          "qty": 4,
+          "unit": "枚",
+          "category": "vegetable"
+        },
+        {
+          "key": "konnyaku",
+          "name": "こんにゃく",
+          "qty": 1,
+          "unit": "枚",
+          "category": "vegetable"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mirin",
+          "name": "みりん",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 200,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 40,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 3,
+      "steps": [
+        "鶏もも肉は一口大、にんじん・れんこん・ごぼうは乱切り、こんにゃくは手でちぎる。",
+        "鍋に油を熱し、鶏肉を中火で炒めて表面の色を変える。",
+        "野菜とこんにゃくを加えてさっと炒め合わせる。",
+        "だし200mlを注ぎ、醤油大さじ3・みりん大さじ2・砂糖大さじ1を加える。",
+        "落としぶたをして弱めの中火で20分ほど、煮汁が少なくなるまで煮て完成。"
+      ],
+      "tags": [
+        "定番",
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_nikudofu",
+      "name": "肉豆腐",
+      "type": "main",
+      "cuisine": "和",
+      "protein": "beef",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "beef_slice",
+          "name": "牛薄切り肉",
+          "qty": 150,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "tofu",
+          "name": "木綿豆腐",
+          "qty": 1,
+          "unit": "丁",
+          "category": "protein"
+        },
+        {
+          "key": "green_onion",
+          "name": "長ねぎ",
+          "qty": 1,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mirin",
+          "name": "みりん",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 150,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 20,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": false,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "木綿豆腐は大きめの一口大に切り、長ねぎは斜め切りにする。",
+        "鍋にだし150mlと醤油大さじ3・みりん大さじ2・砂糖大さじ1を入れて煮立てる。",
+        "牛肉を広げて入れ、アクを取りながら火を通す。",
+        "豆腐と長ねぎを加え、落としぶたをして弱めの中火で8分ほど煮る。",
+        "味が染みたら火を止めて完成。"
       ],
       "tags": [
         "定番"
@@ -25703,47 +21030,235 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1220032488",
-      "name": "コーングリッツでトルティーヤ",
-      "type": "side",
-      "cuisine": "エスニック",
+      "id": "main_buri_daikon",
+      "name": "ぶり大根",
+      "type": "main",
+      "cuisine": "和",
+      "protein": "fish",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "yellowtail",
+          "name": "ぶり",
+          "qty": 2,
+          "unit": "切",
+          "category": "protein"
+        },
+        {
+          "key": "daikon",
+          "name": "大根",
+          "qty": 0.3,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "ginger",
+          "name": "生姜",
+          "qty": 1,
+          "unit": "片",
+          "category": "vegetable"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mirin",
+          "name": "みりん",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sake",
+          "name": "酒",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 40,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 2,
+      "steps": [
+        "大根は2cm厚さの半月切りにして下ゆでする。生姜は薄切りにする。",
+        "ぶりは熱湯にさっとくぐらせ、冷水で洗って臭みを取る（霜降り）。",
+        "鍋に水200mlと醤油大さじ3・みりん大さじ2・酒大さじ2・砂糖大さじ1、生姜を入れて煮立てる。",
+        "大根とぶりを加え、落としぶたをして弱めの中火で20分ほど煮る。",
+        "煮汁が半分ほどになり、大根に味が染みたら完成。"
+      ],
+      "tags": [
+        "定番"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_katsudon",
+      "name": "カツ丼",
+      "type": "main",
+      "cuisine": "和",
+      "protein": "pork",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "pork_loin",
+          "name": "豚ロース",
+          "qty": 2,
+          "unit": "枚",
+          "category": "protein"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 0.5,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "egg",
+          "name": "卵",
+          "qty": 3,
+          "unit": "個",
+          "category": "protein"
+        },
+        {
+          "key": "rice",
+          "name": "ご飯",
+          "qty": 400,
+          "unit": "g",
+          "category": "staple"
+        },
+        {
+          "key": "breadcrumb",
+          "name": "パン粉",
+          "qty": 4,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mentsuyu",
+          "name": "めんつゆ",
+          "qty": 4,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "egg",
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 25,
+      "skill": 2,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": false,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "豚ロースに塩こしょうをふり、薄力粉・溶き卵・パン粉の順に衣をつけ、170℃の油で揚げて一口大に切る。",
+        "玉ねぎは薄切りにする。",
+        "小鍋に水100mlとめんつゆ大さじ4・砂糖大さじ1を入れて煮立て、玉ねぎを加えて煮る。",
+        "とんかつをのせ、溶き卵2個分を回し入れてふたをし、半熟になるまで火を通す。",
+        "丼によそったご飯にのせて完成。"
+      ],
+      "tags": [
+        "定番",
+        "丼"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_yasai_tempura",
+      "name": "野菜の天ぷら",
+      "type": "main",
+      "cuisine": "和",
       "protein": "none",
       "richness": 2,
       "base_servings": 2,
       "ingredients": [
         {
-          "key": "corn",
-          "name": "コーングリッツ",
-          "qty": 75.0,
-          "unit": "g",
+          "key": "eggplant",
+          "name": "なす",
+          "qty": 1,
+          "unit": "本",
           "category": "vegetable"
         },
         {
-          "key": "water",
-          "name": "水①",
-          "qty": 100.0,
-          "unit": "ml",
-          "category": "seasoning"
+          "key": "satsumaimo",
+          "name": "さつまいも",
+          "qty": 0.5,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "green_pepper",
+          "name": "ピーマン",
+          "qty": 2,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "pumpkin",
+          "name": "かぼちゃ",
+          "qty": 0.125,
+          "unit": "個",
+          "category": "vegetable"
         },
         {
           "key": "flour",
-          "name": "強力粉",
-          "qty": 175.0,
+          "name": "天ぷら粉",
+          "qty": 100,
           "unit": "g",
           "category": "seasoning"
         },
         {
-          "key": "olive_oil",
-          "name": "オリーブオイル",
-          "qty": 20.0,
-          "unit": "g",
-          "category": "seasoning"
-        },
-        {
-          "key": "salt",
-          "name": "塩",
-          "qty": 1.0,
-          "unit": "g",
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 300,
+          "unit": "ml",
           "category": "seasoning"
         }
       ],
@@ -25752,21 +21267,21 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
-        "freezer_ok": true,
+        "freezer_ok": false,
         "summer_risk": false
       },
-      "make_ahead_days": 2,
+      "make_ahead_days": 1,
       "steps": [
-        "コーングリッツ75gと水①100mlを混ぜて均一な粒状にし、約10分間休ませる。",
-        "強力粉175g、塩1gを混ぜ合わせ、コーングリッツの上に広げる。",
-        "フライパンにオリーブオイル20gを熱し、混ざった粉を薄く広げたトルティーヤ状に焼く。火加減は中火で、約1分間焼いて片面が黄色くなるまで。",
-        "片面が黄色くなり、もう一面も焼く。片面ずつ約1分間焼く。",
-        "両面が黄ばみ、香ばしくなったら完成。すぐに食べるのがおすすめ。"
+        "なすは縦に切り込みを入れ、さつまいもとかぼちゃは薄切り、ピーマンは半分に切る。",
+        "天ぷら粉100gを冷水150mlで軽く溶き、衣を作る（混ぜすぎない）。",
+        "野菜に衣をくぐらせる。",
+        "170℃の油で、火の通りにくいさつまいも・かぼちゃから揚げる。",
+        "なす・ピーマンを揚げ、衣がカラッとしたら油を切って完成。"
       ],
       "tags": [
         "定番"
@@ -25774,78 +21289,193 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1390029268",
-      "name": "ハムとチェダーチーズのトルティーヤ",
-      "type": "side",
-      "cuisine": "エスニック",
+      "id": "main_mabo_nasu",
+      "name": "麻婆茄子",
+      "type": "main",
+      "cuisine": "中",
       "protein": "pork",
       "richness": 2,
       "base_servings": 2,
       "ingredients": [
         {
-          "key": "x_トルティーヤ生地",
-          "name": "トルティーヤ生地",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        },
-        {
-          "key": "x_野菜",
-          "name": "野菜",
-          "qty": 20.0,
+          "key": "pork_mince",
+          "name": "豚ひき肉",
+          "qty": 150,
           "unit": "g",
-          "category": "other"
-        },
-        {
-          "key": "lettuce",
-          "name": "レタス",
-          "qty": 0,
-          "unit": "適量",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "チェダーチーズ",
-          "qty": 0,
-          "unit": "適量",
-          "category": "seasoning"
-        },
-        {
-          "key": "ham",
-          "name": "ハム",
-          "qty": 0,
-          "unit": "適量",
           "category": "protein"
         },
         {
-          "key": "x_ドレッシング",
-          "name": "ドレッシング",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
+          "key": "eggplant",
+          "name": "なす",
+          "qty": 3,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "green_onion",
+          "name": "長ねぎ",
+          "qty": 0.5,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "doubanjiang",
+          "name": "豆板醤",
+          "qty": 1,
+          "unit": "tsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "tenmenjan",
+          "name": "甜麺醤",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "chicken_stock",
+          "name": "鶏ガラスープの素",
+          "qty": 1,
+          "unit": "tsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "potato_starch",
+          "name": "片栗粉",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
         }
       ],
       "allergens": [
-        "egg",
-        "milk"
+        "soy",
+        "wheat"
       ],
-      "cook_time_min": 5,
+      "cook_time_min": 20,
       "skill": 1,
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
       },
       "make_ahead_days": 1,
       "steps": [
-        "トルティーヤ生地を火加減の弱いフライパンで両面を軽く焼く（約1分）。",
-        "ハム2枚とチェダースライスチーズ1枚を千切り野菜20g、レタス0.5枚と一緒に中心に重ねる。",
-        "トルティーヤの端から始めて折りたたみながら包み込む。",
-        "両面をさらに約1分焼いて熱々になるまで加熱する。",
-        "ドレッシング適量を上からかけ、すぐに食べやすい大きさに切る。"
+        "なすは乱切りにして油で炒め、しんなりしたら一度取り出す。長ねぎはみじん切りにする。",
+        "フライパンに油を熱し、豚ひき肉と長ねぎを炒め、豆板醤小さじ1を加えて香りを出す。",
+        "甜麺醤大さじ1・醤油大さじ1・鶏ガラスープの素小さじ1と水100mlを加えて煮立てる。",
+        "なすを戻し入れてからめる。",
+        "水溶き片栗粉（片栗粉大さじ1＋水大さじ2）でとろみをつけて完成。"
+      ],
+      "tags": [
+        "定番",
+        "ごはんが進む"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_harumaki",
+      "name": "春巻き",
+      "type": "main",
+      "cuisine": "中",
+      "protein": "pork",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "pork_komagire",
+          "name": "豚こま切れ肉",
+          "qty": 150,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "bamboo",
+          "name": "たけのこ",
+          "qty": 80,
+          "unit": "g",
+          "category": "vegetable"
+        },
+        {
+          "key": "carrot",
+          "name": "にんじん",
+          "qty": 0.5,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "harusame",
+          "name": "春雨",
+          "qty": 30,
+          "unit": "g",
+          "category": "staple"
+        },
+        {
+          "key": "x_春巻きの皮",
+          "name": "春巻きの皮",
+          "qty": 8,
+          "unit": "枚",
+          "category": "other"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "oyster_sauce",
+          "name": "オイスターソース",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sesame_oil",
+          "name": "ごま油",
+          "qty": 1,
+          "unit": "tsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 300,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 30,
+      "skill": 2,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "豚肉・たけのこ・にんじんは細切り、春雨は戻して食べやすく切る。",
+        "フライパンにごま油を熱し、豚肉と野菜を炒め、醤油大さじ1・オイスターソース大さじ1で味つけする。",
+        "春雨を加えて汁気がなくなるまで炒め、バットに広げて冷ます。",
+        "春巻きの皮で具を包み、巻き終わりを水溶き薄力粉でとめる。",
+        "170℃の油できつね色になるまで揚げて完成。"
       ],
       "tags": [
         "定番"
@@ -25853,82 +21483,1443 @@
       "_steps_enriched": true
     },
     {
-      "id": "side_1290031712",
-      "name": "チリミートのピリ辛ブリトー",
-      "type": "side",
-      "cuisine": "エスニック",
-      "protein": "none",
+      "id": "main_ebi_fry",
+      "name": "エビフライ",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "seafood",
       "richness": 2,
       "base_servings": 2,
       "ingredients": [
         {
-          "key": "x_春巻きの皮",
-          "name": "春巻きの皮",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
+          "key": "shrimp",
+          "name": "えび",
+          "qty": 8,
+          "unit": "尾",
+          "category": "protein"
         },
         {
-          "key": "x_チリミート",
-          "name": "チリミート",
-          "qty": 0,
-          "unit": "適量",
-          "category": "other"
-        },
-        {
-          "key": "avocado",
-          "name": "アボカド",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "tomato",
-          "name": "トマト",
-          "qty": 0.5,
-          "unit": "個",
-          "category": "vegetable"
-        },
-        {
-          "key": "cheese",
-          "name": "ピザ用 チーズ",
-          "qty": 0,
-          "unit": "適量",
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 3,
+          "unit": "tbsp",
           "category": "seasoning"
         },
         {
-          "key": "lettuce",
-          "name": "サニーレタス",
-          "qty": 0,
+          "key": "egg",
+          "name": "卵",
+          "qty": 1,
+          "unit": "個",
+          "category": "protein"
+        },
+        {
+          "key": "breadcrumb",
+          "name": "パン粉",
+          "qty": 60,
+          "unit": "g",
+          "category": "seasoning"
+        },
+        {
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 300,
+          "unit": "ml",
+          "category": "seasoning"
+        },
+        {
+          "key": "salt",
+          "name": "塩こしょう",
+          "qty": 1,
           "unit": "適量",
-          "category": "vegetable"
+          "category": "seasoning"
         }
       ],
       "allergens": [
         "egg",
-        "milk"
+        "shrimp",
+        "wheat"
       ],
-      "cook_time_min": 30,
+      "cook_time_min": 25,
       "skill": 2,
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "えびは殻と背わたを取り、腹側に数か所切り込みを入れてまっすぐにのばす。",
+        "塩こしょうをふり、薄力粉・溶き卵・パン粉の順に衣をつける。",
+        "170〜180℃の油で2〜3分、きつね色になるまで揚げる。",
+        "油をよく切り、皿に盛る。お好みでタルタルソースやレモンを添えて完成。"
+      ],
+      "tags": [
+        "定番"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_korokke",
+      "name": "コロッケ",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "beef",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "beef_pork_mince",
+          "name": "合いびき肉",
+          "qty": 100,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "potato",
+          "name": "じゃがいも",
+          "qty": 3,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 0.5,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "egg",
+          "name": "卵",
+          "qty": 1,
+          "unit": "個",
+          "category": "protein"
+        },
+        {
+          "key": "breadcrumb",
+          "name": "パン粉",
+          "qty": 60,
+          "unit": "g",
+          "category": "seasoning"
+        },
+        {
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 300,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "egg",
+        "wheat"
+      ],
+      "cook_time_min": 40,
+      "skill": 2,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "じゃがいもは茹でて湯を切り、熱いうちにつぶす。玉ねぎはみじん切りにする。",
+        "フライパンで玉ねぎと合いびき肉を炒め、塩こしょうで味つけし、つぶしたじゃがいもと混ぜる。",
+        "小判形に成形し、薄力粉・溶き卵・パン粉の順に衣をつける。",
+        "180℃の油できつね色になるまで揚げる。",
+        "油を切って皿に盛り、お好みでソースをかけて完成。"
+      ],
+      "tags": [
+        "定番",
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_menchi",
+      "name": "メンチカツ",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "beef",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "beef_pork_mince",
+          "name": "合いびき肉",
+          "qty": 250,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 0.5,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "egg",
+          "name": "卵",
+          "qty": 1,
+          "unit": "個",
+          "category": "protein"
+        },
+        {
+          "key": "breadcrumb",
+          "name": "パン粉",
+          "qty": 80,
+          "unit": "g",
+          "category": "seasoning"
+        },
+        {
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 300,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "egg",
+        "wheat"
+      ],
+      "cook_time_min": 35,
+      "skill": 2,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "玉ねぎはみじん切りにして軽く炒め、冷ます。",
+        "ボウルに合いびき肉・玉ねぎ・パン粉大さじ2・塩こしょうを入れてよく練り、小判形に成形する。",
+        "薄力粉・溶き卵・残りのパン粉の順に衣をつける。",
+        "170℃の油で5〜6分、中まで火が通るまで揚げる。",
+        "油を切って皿に盛って完成。"
+      ],
+      "tags": [
+        "定番"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_napolitan",
+      "name": "ナポリタン",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "pork",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "sausage",
+          "name": "ウインナー",
+          "qty": 4,
+          "unit": "本",
+          "category": "protein"
+        },
+        {
+          "key": "pasta",
+          "name": "スパゲティ",
+          "qty": 200,
+          "unit": "g",
+          "category": "staple"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 0.5,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "green_pepper",
+          "name": "ピーマン",
+          "qty": 2,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "ketchup",
+          "name": "ケチャップ",
+          "qty": 5,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "butter",
+          "name": "バター",
+          "qty": 10,
+          "unit": "g",
+          "category": "seasoning"
+        },
+        {
+          "key": "oil",
+          "name": "サラダ油",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "milk",
+        "wheat"
+      ],
+      "cook_time_min": 20,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "スパゲティは塩を加えた湯で表示時間通りにゆでる。",
+        "玉ねぎは薄切り、ピーマンは細切り、ウインナーは斜め切りにする。",
+        "フライパンに油を熱し、ウインナーと玉ねぎ・ピーマンを炒める。",
+        "ケチャップ大さじ5を加えて軽く炒め、酸味をとばす。",
+        "ゆでたスパゲティとバター10gを加えて炒め合わせて完成。"
+      ],
+      "tags": [
+        "定番"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_cream_stew",
+      "name": "クリームシチュー",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "chicken",
+      "richness": 3,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "chicken_thigh",
+          "name": "鶏もも肉",
+          "qty": 200,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "potato",
+          "name": "じゃがいも",
+          "qty": 2,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "carrot",
+          "name": "にんじん",
+          "qty": 1,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 1,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "beef_slice",
+          "name": "牛乳",
+          "qty": 300,
+          "unit": "ml",
+          "category": "protein"
+        },
+        {
+          "key": "butter",
+          "name": "バター",
+          "qty": 20,
+          "unit": "g",
+          "category": "seasoning"
+        },
+        {
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "milk",
+        "wheat"
+      ],
+      "cook_time_min": 40,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
       },
       "make_ahead_days": 2,
       "steps": [
-        "春巻きの皮を2枚準備し、中央にチリミート1食分（約180g）を広げます。アボカド0.5個（約130g）、トマト0.5個（約60g）、ピザ用チーズ1つかみ（約20g）を加えます。サニーレタス1枚（約40g）をさらに重ねます。",
-        "春巻きの皮の端から始めて、食材を包み込みながら巻いていきます。巻き終わりは軽く水で濡らし、しっかりと閉じます。",
-        "フライパンに少なめの油（大さじ1）を熱し、ブリトーを中火で約2分間焼きます。両面がきつね色になるまで焼きます。",
-        "残りの調理時間は弱火にして、約3分間加熱します。これでチリミートの香りと味がしみ込みます。",
-        "出来上がりのブリトーを切板に切り分けて、そのまま提供できます。好みによりピリ辛ソースを添えてお召し上がりください。"
+        "鶏もも肉とじゃがいも・にんじんは一口大、玉ねぎはくし切りにする。",
+        "鍋にバターを熱し、鶏肉と野菜を炒める。",
+        "薄力粉大さじ3をふり入れ、粉っぽさがなくなるまで炒める。",
+        "水300mlを少しずつ加えてのばし、ふたをして弱火で15分煮る。",
+        "牛乳300mlを加え、とろみがつくまで煮て塩こしょうで味を調えて完成。"
       ],
       "tags": [
         "定番",
-        "ピリ辛"
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_macaroni_gratin",
+      "name": "マカロニグラタン",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "chicken",
+      "richness": 3,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "chicken_thigh",
+          "name": "鶏もも肉",
+          "qty": 150,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "x_マカロニ",
+          "name": "マカロニ",
+          "qty": 100,
+          "unit": "g",
+          "category": "other"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 0.5,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "beef_slice",
+          "name": "牛乳",
+          "qty": 300,
+          "unit": "ml",
+          "category": "protein"
+        },
+        {
+          "key": "butter",
+          "name": "バター",
+          "qty": 20,
+          "unit": "g",
+          "category": "seasoning"
+        },
+        {
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "cheese",
+          "name": "チーズ",
+          "qty": 60,
+          "unit": "g",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "milk",
+        "wheat"
+      ],
+      "cook_time_min": 35,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "マカロニは表示時間通りにゆでる。鶏肉は一口大、玉ねぎは薄切りにする。",
+        "フライパンにバターを熱し、鶏肉と玉ねぎを炒める。",
+        "薄力粉大さじ3をふり、牛乳300mlを少しずつ加えてとろみのあるホワイトソースを作る。",
+        "ゆでたマカロニを加えて混ぜ、塩こしょうで味を調える。",
+        "耐熱皿に入れチーズをのせ、トースターで焼き色がつくまで焼いて完成。"
+      ],
+      "tags": [
+        "定番"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_roll_cabbage",
+      "name": "ロールキャベツ",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "beef",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "beef_pork_mince",
+          "name": "合いびき肉",
+          "qty": 200,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "cabbage",
+          "name": "キャベツ",
+          "qty": 0.5,
+          "unit": "玉",
+          "category": "vegetable"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 0.5,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "egg",
+          "name": "卵",
+          "qty": 1,
+          "unit": "個",
+          "category": "protein"
+        },
+        {
+          "key": "breadcrumb",
+          "name": "パン粉",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "consomme",
+          "name": "コンソメ",
+          "qty": 2,
+          "unit": "個",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "egg",
+        "wheat"
+      ],
+      "cook_time_min": 45,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 2,
+      "steps": [
+        "キャベツの葉を1枚ずつはがし、さっとゆでてやわらかくする。玉ねぎはみじん切りにする。",
+        "合いびき肉に玉ねぎ・卵・パン粉大さじ3・塩こしょうを加えてよく練る。",
+        "キャベツの葉でタネを包み、巻き終わりを楊枝でとめる。",
+        "鍋に並べ、水400mlとコンソメ2個を加える。",
+        "落としぶたをして弱火で25分ほど煮込み、味を調えて完成。"
+      ],
+      "tags": [
+        "定番",
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "main_hayashi",
+      "name": "ハヤシライス",
+      "type": "main",
+      "cuisine": "洋",
+      "protein": "beef",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "beef_slice",
+          "name": "牛薄切り肉",
+          "qty": 200,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "onion",
+          "name": "玉ねぎ",
+          "qty": 1,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "mushroom",
+          "name": "マッシュルーム",
+          "qty": 1,
+          "unit": "パック",
+          "category": "vegetable"
+        },
+        {
+          "key": "ketchup",
+          "name": "ケチャップ",
+          "qty": 4,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sauce",
+          "name": "中濃ソース",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "butter",
+          "name": "バター",
+          "qty": 15,
+          "unit": "g",
+          "category": "seasoning"
+        },
+        {
+          "key": "flour",
+          "name": "薄力粉",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "rice",
+          "name": "ご飯",
+          "qty": 400,
+          "unit": "g",
+          "category": "staple"
+        }
+      ],
+      "allergens": [
+        "milk",
+        "wheat"
+      ],
+      "cook_time_min": 35,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "牛肉は一口大、玉ねぎは薄切り、マッシュルームは薄切りにする。",
+        "鍋にバターを熱し、玉ねぎをしんなりするまで炒め、牛肉とマッシュルームを加えて炒める。",
+        "薄力粉大さじ2をふり入れて炒め、水300mlを加えて煮立てる。",
+        "ケチャップ大さじ4・中濃ソース大さじ2を加え、弱火で10分煮込む。",
+        "とろみがついたら皿によそったご飯にかけて完成。"
+      ],
+      "tags": [
+        "定番"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "side_hiyayakko",
+      "name": "冷奴",
+      "type": "side",
+      "cuisine": "和",
+      "protein": "tofu",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "tofu",
+          "name": "木綿豆腐",
+          "qty": 1,
+          "unit": "丁",
+          "category": "protein"
+        },
+        {
+          "key": "green_onion",
+          "name": "長ねぎ",
+          "qty": 0.25,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "ginger",
+          "name": "生姜",
+          "qty": 0.5,
+          "unit": "片",
+          "category": "vegetable"
+        },
+        {
+          "key": "dashi",
+          "name": "かつお節",
+          "qty": 1,
+          "unit": "適量",
+          "category": "seasoning"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 5,
+      "skill": 1,
+      "bento_ok": false,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
+        "freezer_ok": false,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "豆腐は水気を切り、食べやすい大きさに切って器に盛る。",
+        "長ねぎは小口切り、生姜はすりおろす。",
+        "豆腐に長ねぎ・生姜・かつお節をのせる。",
+        "醤油をかけて完成。"
+      ],
+      "tags": [
+        "さっぱり",
+        "あと一品"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "side_macaroni_salad",
+      "name": "マカロニサラダ",
+      "type": "side",
+      "cuisine": "洋",
+      "protein": "pork",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "x_マカロニ",
+          "name": "マカロニ",
+          "qty": 80,
+          "unit": "g",
+          "category": "other"
+        },
+        {
+          "key": "cucumber",
+          "name": "きゅうり",
+          "qty": 1,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "carrot",
+          "name": "にんじん",
+          "qty": 0.3,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "ham",
+          "name": "ハム",
+          "qty": 3,
+          "unit": "枚",
+          "category": "protein"
+        },
+        {
+          "key": "mayo",
+          "name": "マヨネーズ",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "salt",
+          "name": "塩こしょう",
+          "qty": 1,
+          "unit": "適量",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "egg"
+      ],
+      "cook_time_min": 15,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
+        "freezer_ok": false,
+        "summer_risk": true
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "マカロニは表示時間通りにゆで、ざるにあげて冷ます。",
+        "きゅうりは薄い輪切りにして塩もみし、水気を絞る。にんじんは細切りにしてさっとゆでる。",
+        "ハムは短冊切りにする。",
+        "ボウルにすべてを入れ、マヨネーズ大さじ3・塩こしょうで和えて完成。"
+      ],
+      "tags": [
+        "定番",
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "side_harusame_salad",
+      "name": "春雨サラダ",
+      "type": "side",
+      "cuisine": "中",
+      "protein": "pork",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "harusame",
+          "name": "春雨",
+          "qty": 40,
+          "unit": "g",
+          "category": "staple"
+        },
+        {
+          "key": "cucumber",
+          "name": "きゅうり",
+          "qty": 1,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "carrot",
+          "name": "にんじん",
+          "qty": 0.3,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "ham",
+          "name": "ハム",
+          "qty": 3,
+          "unit": "枚",
+          "category": "protein"
+        },
+        {
+          "key": "vinegar",
+          "name": "酢",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sesame_oil",
+          "name": "ごま油",
+          "qty": 1,
+          "unit": "tsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 15,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
+        "freezer_ok": false,
+        "summer_risk": true
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "春雨は熱湯で戻し、食べやすい長さに切って冷ます。",
+        "きゅうり・にんじん・ハムは細切りにする。にんじんはさっとゆでる。",
+        "酢大さじ2・醤油大さじ2・砂糖大さじ1・ごま油小さじ1を合わせてタレを作る。",
+        "すべての材料をタレで和え、白ごまをふって完成。"
+      ],
+      "tags": [
+        "定番",
+        "さっぱり"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "side_kabocha_nimono",
+      "name": "かぼちゃの煮物",
+      "type": "side",
+      "cuisine": "和",
+      "protein": "none",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "pumpkin",
+          "name": "かぼちゃ",
+          "qty": 0.25,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 1.5,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mirin",
+          "name": "みりん",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 200,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 20,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 3,
+      "steps": [
+        "かぼちゃは種とわたを取り、一口大に切って面取りする。",
+        "鍋にかぼちゃを皮を下にして並べ、だし200mlを注ぐ。",
+        "醤油大さじ1.5・みりん大さじ1・砂糖大さじ1を加える。",
+        "落としぶたをして弱めの中火で15分ほど、竹串が通るまで煮る。",
+        "火を止めてそのまま味を含ませて完成。"
+      ],
+      "tags": [
+        "定番",
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "side_satoimo_nikkorogashi",
+      "name": "里芋の煮っころがし",
+      "type": "side",
+      "cuisine": "和",
+      "protein": "none",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "satoimo",
+          "name": "里芋",
+          "qty": 6,
+          "unit": "個",
+          "category": "vegetable"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mirin",
+          "name": "みりん",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 200,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 25,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 3,
+      "steps": [
+        "里芋は皮をむき、塩でもんでぬめりを洗い流す。",
+        "鍋に里芋とだし200mlを入れて煮立てる。",
+        "醤油大さじ2・みりん大さじ1・砂糖大さじ1を加える。",
+        "落としぶたをして弱めの中火で15分ほど、煮汁をからめながら煮る。",
+        "竹串がすっと通ったら完成。"
+      ],
+      "tags": [
+        "定番",
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "side_komatsuna_nibitashi",
+      "name": "小松菜の煮浸し",
+      "type": "side",
+      "cuisine": "和",
+      "protein": "soy",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "komatsuna",
+          "name": "小松菜",
+          "qty": 1,
+          "unit": "束",
+          "category": "vegetable"
+        },
+        {
+          "key": "abura_age",
+          "name": "油揚げ",
+          "qty": 1,
+          "unit": "枚",
+          "category": "protein"
+        },
+        {
+          "key": "mentsuyu",
+          "name": "めんつゆ",
+          "qty": 3,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 150,
+          "unit": "ml",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 10,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 2,
+      "steps": [
+        "小松菜は3〜4cm長さに切り、油揚げは細切りにする。",
+        "鍋にだし150mlとめんつゆ大さじ3を入れて煮立てる。",
+        "油揚げと小松菜の茎を先に入れ、続けて葉を加える。",
+        "しんなりするまで2〜3分煮て、味を含ませて完成。"
+      ],
+      "tags": [
+        "定番",
+        "作り置き"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "side_sunomono",
+      "name": "きゅうりとわかめの酢の物",
+      "type": "side",
+      "cuisine": "和",
+      "protein": "none",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "cucumber",
+          "name": "きゅうり",
+          "qty": 1,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "wakame",
+          "name": "わかめ",
+          "qty": 10,
+          "unit": "g",
+          "category": "vegetable"
+        },
+        {
+          "key": "vinegar",
+          "name": "酢",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "sugar",
+          "name": "砂糖",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 0.5,
+          "unit": "tsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 10,
+      "skill": 1,
+      "bento_ok": false,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
+        "freezer_ok": false,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "きゅうりは薄い輪切りにして塩少々をふり、5分おいて水気を絞る。",
+        "乾燥わかめは水で戻し、水気を切る。",
+        "酢大さじ2・砂糖大さじ1・醤油少々を混ぜて合わせ酢を作る。",
+        "きゅうりとわかめを合わせ酢で和えて完成。お好みでしらすを加える。"
+      ],
+      "tags": [
+        "定番",
+        "さっぱり"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "soup_kenchinjiru",
+      "name": "けんちん汁",
+      "type": "soup",
+      "cuisine": "和",
+      "protein": "tofu",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "tofu",
+          "name": "木綿豆腐",
+          "qty": 0.5,
+          "unit": "丁",
+          "category": "protein"
+        },
+        {
+          "key": "daikon",
+          "name": "大根",
+          "qty": 0.15,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "carrot",
+          "name": "にんじん",
+          "qty": 0.5,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "gobo",
+          "name": "ごぼう",
+          "qty": 0.3,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "konnyaku",
+          "name": "こんにゃく",
+          "qty": 0.5,
+          "unit": "枚",
+          "category": "vegetable"
+        },
+        {
+          "key": "green_onion",
+          "name": "長ねぎ",
+          "qty": 0.5,
+          "unit": "本",
+          "category": "vegetable"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 600,
+          "unit": "ml",
+          "category": "seasoning"
+        },
+        {
+          "key": "sesame_oil",
+          "name": "ごま油",
+          "qty": 1,
+          "unit": "tsp",
+          "category": "seasoning"
+        }
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 25,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": true,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "大根・にんじんはいちょう切り、ごぼうはささがき、こんにゃくは手でちぎる。",
+        "鍋にごま油を熱し、豆腐を崩しながら入れ、根菜とこんにゃくを炒める。",
+        "だし600mlを注ぎ、アクを取りながら中火で10分ほど煮る。",
+        "野菜がやわらかくなったら醤油大さじ2で味を調える。",
+        "小口切りの長ねぎを加えてひと煮立ちさせて完成。"
+      ],
+      "tags": [
+        "定番",
+        "具だくさん"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "soup_kakitamajiru",
+      "name": "かきたま汁",
+      "type": "soup",
+      "cuisine": "和",
+      "protein": "egg",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "egg",
+          "name": "卵",
+          "qty": 2,
+          "unit": "個",
+          "category": "protein"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 500,
+          "unit": "ml",
+          "category": "seasoning"
+        },
+        {
+          "key": "soy_sauce",
+          "name": "醤油",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "potato_starch",
+          "name": "片栗粉",
+          "qty": 1,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "mitsuba",
+          "name": "三つ葉",
+          "qty": 0.25,
+          "unit": "束",
+          "category": "vegetable"
+        }
+      ],
+      "allergens": [
+        "egg",
+        "soy",
+        "wheat"
+      ],
+      "cook_time_min": 10,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": false,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "鍋にだし500mlと醤油大さじ1、塩少々を入れて煮立てる。",
+        "水溶き片栗粉（片栗粉大さじ1＋水大さじ2）を回し入れ、軽くとろみをつける。",
+        "煮立った状態で溶き卵を細く回し入れ、ふんわり浮いてきたら火を止める。",
+        "三つ葉を散らして完成。"
+      ],
+      "tags": [
+        "定番",
+        "やさしい味"
+      ],
+      "_steps_enriched": true
+    },
+    {
+      "id": "soup_asari_miso",
+      "name": "あさりの味噌汁",
+      "type": "soup",
+      "cuisine": "和",
+      "protein": "seafood",
+      "richness": 2,
+      "base_servings": 2,
+      "ingredients": [
+        {
+          "key": "clam",
+          "name": "あさり",
+          "qty": 200,
+          "unit": "g",
+          "category": "protein"
+        },
+        {
+          "key": "miso",
+          "name": "味噌",
+          "qty": 2,
+          "unit": "tbsp",
+          "category": "seasoning"
+        },
+        {
+          "key": "dashi",
+          "name": "だし",
+          "qty": 500,
+          "unit": "ml",
+          "category": "seasoning"
+        },
+        {
+          "key": "green_onion",
+          "name": "長ねぎ",
+          "qty": 0.25,
+          "unit": "本",
+          "category": "vegetable"
+        }
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "cook_time_min": 15,
+      "skill": 1,
+      "bento_ok": true,
+      "scalable": true,
+      "bento_safety": {
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
+        "freezer_ok": false,
+        "summer_risk": false
+      },
+      "make_ahead_days": 1,
+      "steps": [
+        "あさりは砂抜きし、殻をこすり合わせて洗う。",
+        "鍋にだし500mlとあさりを入れて中火にかける。",
+        "あさりの口が開いたらアクを取る。",
+        "火を弱めて味噌大さじ2を溶き入れる。",
+        "小口切りの長ねぎを加え、煮立てる直前で火を止めて完成。"
+      ],
+      "tags": [
+        "定番"
       ],
       "_steps_enriched": true
     }
