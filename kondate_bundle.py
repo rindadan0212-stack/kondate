@@ -1230,6 +1230,8 @@ class PlanSession:
         self.request = request
         self.mods = mods or Mods()
         self.plan: Plan | None = None
+        self.liked: set[str] = set()    # いいねした料理id（好み・週をまたいで永続）
+        self.banned: set[str] = set()   # バッドした料理id（提案・候補から恒久除外）
 
     # ----------------------------------------------------------- 再計算
     def regenerate(self, extra_pins: dict[int, str] | None = None) -> Plan:
@@ -1241,7 +1243,8 @@ class PlanSession:
             self.recipes, self.profile, self.request,
             variety_bias=m.variety_bias, include_side=m.include_side,
             include_soup=m.include_soup, washoku_target=m.washoku_target,
-            pins=pins, excluded_ids=m.excluded_ids, force_consume=m.force_consume,
+            pins=pins, excluded_ids=m.excluded_ids | self.banned,
+            force_consume=m.force_consume,
             protein_delta=m.protein_delta, weekday_time_override=m.weekday_time_override,
             rng_seed=m.rng_seed,
         )
@@ -1326,7 +1329,7 @@ class PlanSession:
         for r in self.recipes:
             if not (r.type == "main" or is_one_plate_main(r)):
                 continue
-            if r.id in used_other or not allergy_ok(r, self.profile):
+            if r.id in used_other or r.id in self.banned or not allergy_ok(r, self.profile):
                 continue
             if cuisine and r.cuisine != cuisine:
                 continue
@@ -1344,6 +1347,41 @@ class PlanSession:
             return self.plan
         self.mods.pins[day] = r.id
         return self.regenerate(extra_pins=self._cur_ids(except_day=day))
+
+    # ----------------------------------------------------------- 好み（いいね/バッド）
+    def like(self, recipe_id: str) -> Plan:
+        """いいね（一覧に表示。提案には影響しない）。"""
+        self.liked.add(recipe_id)
+        self.banned.discard(recipe_id)
+        return self.plan
+
+    def unlike(self, recipe_id: str) -> Plan:
+        self.liked.discard(recipe_id)
+        return self.plan
+
+    def ban(self, recipe_id: str) -> Plan:
+        """バッド（今後の提案・候補から除外）。今出ている日だけ差し替える。"""
+        self.banned.add(recipe_id)
+        self.liked.discard(recipe_id)
+        self.mods.pins = {d: i for d, i in self.mods.pins.items() if i != recipe_id}
+        if not self.plan:
+            return self.plan
+        day = next((d for d in range(7)
+                    if self.plan.dinner_mains[d] and self.plan.dinner_mains[d].id == recipe_id), None)
+        return self.regenerate(extra_pins=self._cur_ids(except_day=day))
+
+    def unban(self, recipe_id: str) -> Plan:
+        """バッドを解除して通常プールに戻す（現在の献立は変えない）。"""
+        self.banned.discard(recipe_id)
+        return self.plan
+
+    def pref_list(self, ids: set[str]) -> list[dict]:
+        """好み一覧の表示用（id, 名前, ジャンル, 時間）。"""
+        by = {r.id: r for r in self.recipes}
+        out = [{"id": i, "name": by[i].name, "cuisine": by[i].cuisine, "cook": by[i].cook_time_min}
+               for i in ids if i in by]
+        out.sort(key=lambda x: x["name"])
+        return out
 
     def fix(self, day: int) -> Plan:
         """この日を固定して残りを再生成。"""
@@ -1404,6 +1442,8 @@ class PlanSession:
                 "current_month": self.request.current_month,
             },
             "mods": self.mods.to_dict(),
+            "liked": sorted(self.liked),
+            "banned": sorted(self.banned),
             "plan_ids": [m.id if m else None for m in self.plan.dinner_mains]
             if self.plan else [None] * 7,
         }
@@ -1416,7 +1456,10 @@ class PlanSession:
             inventory=rq["inventory"], missing_staples=rq["missing_staples"],
             current_month=rq["current_month"],
         )
-        return PlanSession(recipes, profile, request, Mods.from_dict(d.get("mods", {})))
+        s = PlanSession(recipes, profile, request, Mods.from_dict(d.get("mods", {})))
+        s.liked = set(d.get("liked", []))
+        s.banned = set(d.get("banned", []))
+        return s
 
 
 
@@ -1620,6 +1663,7 @@ class Core:
             "days": days,
             "shopping": shopping,
             "shopping_excluded": sl.excluded_pantry,
+            "prefs": {"liked": s.pref_list(s.liked), "banned": s.pref_list(s.banned)},
             "metrics": {
                 "washoku": int(m.get("washoku_ratio", 0) * 100),
                 "violations": m.get("violations", []),
@@ -1650,6 +1694,14 @@ class Core:
             s.unpin(int(body["day"]))
         elif cmd == "pick":
             s.pick(int(body["day"]), str(body["id"]))
+        elif cmd == "like":
+            s.like(str(body["id"]))
+        elif cmd == "unlike":
+            s.unlike(str(body["id"]))
+        elif cmd == "ban":
+            s.ban(str(body["id"]))
+        elif cmd == "unban":
+            s.unban(str(body["id"]))
         elif cmd == "more":
             s.category(str(body["group"]), +1)
         elif cmd == "less":

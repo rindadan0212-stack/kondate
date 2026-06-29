@@ -249,6 +249,7 @@ class Core:
             "days": days,
             "shopping": shopping,
             "shopping_excluded": sl.excluded_pantry,
+            "prefs": {"liked": s.pref_list(s.liked), "banned": s.pref_list(s.banned)},
             "metrics": {
                 "washoku": int(m.get("washoku_ratio", 0) * 100),
                 "violations": m.get("violations", []),
@@ -279,6 +280,14 @@ class Core:
             s.unpin(int(body["day"]))
         elif cmd == "pick":
             s.pick(int(body["day"]), str(body["id"]))
+        elif cmd == "like":
+            s.like(str(body["id"]))
+        elif cmd == "unlike":
+            s.unlike(str(body["id"]))
+        elif cmd == "ban":
+            s.ban(str(body["id"]))
+        elif cmd == "unban":
+            s.unban(str(body["id"]))
         elif cmd == "more":
             s.category(str(body["group"]), +1)
         elif cmd == "less":

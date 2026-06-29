@@ -34,8 +34,10 @@ async function command(payload) {
 }
 
 /* ---------------- 描画 ---------------- */
+let likedSet = new Set();
 function render() {
   const s = STATE, m = s.metrics;
+  likedSet = new Set(((s.prefs && s.prefs.liked) || []).map(x => x.id));
   $("#heroMeta").textContent = `夕食${s.profile.dinner}人 ・ 弁当${s.profile.bento}人 ・ ${s.week.month}月`;
 
   const chips = $("#chips"); chips.replaceChildren();
@@ -46,9 +48,41 @@ function render() {
       chips.append(el("span", "chip", `未使用: ${m.inventory_unused.join("・")}`));
     if (m.violations.length) chips.append(el("span", "chip chip--warn", "制約注意"));
   }
-  renderDays(); renderShopping(); syncPanel(); syncTools();
+  renderDays(); renderShopping(); syncPanel(); syncTools(); renderPrefs();
   hasPlan = !!(STATE.days && STATE.days.length && !m.error);
   buildWizSteps();
+}
+
+/* ---------------- 好み（いいね/バッド一覧） ---------------- */
+function renderPrefs() {
+  const p = (STATE && STATE.prefs) || { liked: [], banned: [] };
+  const lw = $("#likedList"); if (lw) {
+    lw.replaceChildren();
+    if (!p.liked.length) lw.append(el("p", "pref__empty", "まだありません。料理カードの ♥ でいいねできます。"));
+    p.liked.forEach(r => lw.append(prefItem(r, "like")));
+  }
+  const bw = $("#bannedList"); if (bw) {
+    bw.replaceChildren();
+    if (!p.banned.length) bw.append(el("p", "pref__empty", "まだありません。料理カードの ✕ で今後の提案から外せます。"));
+    p.banned.forEach(r => bw.append(prefItem(r, "ban")));
+  }
+}
+function prefItem(r, kind) {
+  const row = el("div", "pref-item");
+  const info = el("div", "pref-item__info");
+  info.append(el("div", "pref-item__name", r.name));
+  info.append(el("div", "pref-item__meta", `${CUISINE[r.cuisine] || r.cuisine} ・ ${r.cook}分`));
+  row.append(info);
+  if (kind === "like") {
+    const x = el("button", "pref-item__btn", "解除");
+    x.addEventListener("click", () => command({ cmd: "unlike", id: r.id }));
+    row.append(x);
+  } else {
+    const x = el("button", "pref-item__btn pref-item__btn--accent", "プールに戻す");
+    x.addEventListener("click", () => command({ cmd: "unban", id: r.id }));
+    row.append(x);
+  }
+  return row;
 }
 
 // 材料（分量つき）＋手順の詳細ブロック。献立カードとカレンダーで共用。
@@ -174,6 +208,20 @@ function renderDays() {
     const acts = el("div", "day__acts");
     const editBtn = el("button", "mini" + (openEditorDay === d.idx ? " mini--on" : ""), "変更");
     acts.append(editBtn); row.append(acts);
+    if (d.main) {
+      const react = el("div", "day__react");
+      const liked = likedSet.has(d.main.id);
+      const likeBtn = el("button", "react" + (liked ? " react--liked" : ""), "♥");
+      likeBtn.setAttribute("aria-label", liked ? "いいね済み" : "いいね");
+      likeBtn.addEventListener("click", () => command({ cmd: liked ? "unlike" : "like", id: d.main.id }));
+      const banBtn = el("button", "react react--ban", "✕");
+      banBtn.setAttribute("aria-label", "バッド（今後出さない）");
+      banBtn.addEventListener("click", () => {
+        if (confirm(`「${d.main.name}」を今後の提案から外します。よろしいですか？`)) command({ cmd: "ban", id: d.main.id });
+      });
+      react.append(likeBtn, banBtn);
+      acts.append(react);
+    }
 
     const editor = buildDayEditor(d);
     if (openEditorDay === d.idx) editor.hidden = false;
@@ -386,7 +434,9 @@ function showView(v) {
   document.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("tab-btn--on", b.dataset.view === v));
   $("#viewPlan").hidden = v !== "plan";
   $("#viewCal").hidden = v !== "cal";
+  $("#viewPref").hidden = v !== "pref";
   if (v === "cal") { if (!calMonth) calMonth = ymNow(); renderCalendar(); }
+  if (v === "pref") renderPrefs();
 }
 function ymNow() { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`; }
 function shiftMonth(delta) {

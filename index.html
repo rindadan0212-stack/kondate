@@ -36,6 +36,7 @@
     <nav class="tabs" aria-label="表示切替">
       <button class="tab-btn tab-btn--on" data-view="plan">献立</button>
       <button class="tab-btn" data-view="cal">カレンダー</button>
+      <button class="tab-btn" data-view="pref">好み</button>
     </nav>
 
     <div id="viewPlan">
@@ -159,6 +160,18 @@
       <div class="cal-dow" id="calDow"></div>
       <div id="calGrid" class="cal-grid"></div>
       <div id="calDetail" class="cal-detail"></div>
+    </div>
+
+    <div id="viewPref" hidden>
+      <section class="pref-sec">
+        <h2 class="pref-sec__title">♥ いいねした料理</h2>
+        <div id="likedList" class="pref-list"></div>
+      </section>
+      <section class="pref-sec">
+        <h2 class="pref-sec__title">✕ バッドした料理</h2>
+        <p class="pref-sec__note">今後の提案・候補から外しています。「プールに戻す」で元に戻せます。</p>
+        <div id="bannedList" class="pref-list"></div>
+      </section>
     </div>
 
     <footer class="foot">オフライン版（スマホ内で計算）／実行時LLMなし</footer>
