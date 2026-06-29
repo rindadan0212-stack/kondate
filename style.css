@@ -68,6 +68,10 @@ button { font-family: inherit; cursor: pointer; }
 .day__chosen { display: inline-block; margin-left: 8px; font-size: 10.5px; color: var(--accent);
   background: var(--accent-soft); padding: 1px 8px; border-radius: 999px; letter-spacing: .04em;
   vertical-align: 1px; }
+/* 翌日の弁当に不向きな夕食メインに付く控えめな注記 */
+.day__nobento { display: inline-block; margin-left: 8px; font-size: 10.5px; color: var(--ink-3);
+  background: var(--paper); padding: 1px 8px; border-radius: 999px; letter-spacing: .02em;
+  vertical-align: 1px; box-shadow: inset 0 0 0 1px var(--line); }
 
 /* 日別エディタ（種類変更・入れ替え・差し替え・弁当） */
 .day__edit { grid-column: 1 / -1; margin-top: 13px; padding-top: 13px;

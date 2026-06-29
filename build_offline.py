@@ -147,7 +147,7 @@ class Core:
         return {
             "id": r.id, "name": r.name, "cuisine": r.cuisine, "protein": r.protein,
             "cook": r.cook_time_min, "servings": r.base_servings, "mult": round(mult, 2),
-            "steps": r.steps,
+            "bento": bool(r.bento_ok), "steps": r.steps,
             "ings": [{"name": i.name, "amount": self._ing_amount(i, mult),
                       "seasoning": i.category in ("seasoning", "staple")}
                      for i in r.ingredients],

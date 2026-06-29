@@ -72,7 +72,8 @@
       ],
       "tags": [
         "定番",
-        "ごはんが進む"
+        "ごはんが進む",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -138,7 +139,7 @@
       ],
       "tags": [
         "定番",
-        "弁当向き"
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -211,7 +212,7 @@
       ],
       "tags": [
         "人気",
-        "弁当向き"
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -265,7 +266,7 @@
       ],
       "cook_time_min": 20,
       "skill": 2,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -285,7 +286,8 @@
       ],
       "tags": [
         "ピリ辛",
-        "ごはんが進む"
+        "ごはんが進む",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -360,7 +362,8 @@
       ],
       "tags": [
         "人気",
-        "作り置き可"
+        "作り置き可",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -434,7 +437,7 @@
       ],
       "tags": [
         "和食",
-        "弁当向き"
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -501,7 +504,7 @@
       ],
       "tags": [
         "和食",
-        "弁当向き"
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -574,7 +577,8 @@
       ],
       "tags": [
         "中華",
-        "ピリ辛"
+        "ピリ辛",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -656,7 +660,8 @@
       ],
       "tags": [
         "定番",
-        "煮物"
+        "煮物",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -708,7 +713,7 @@
       ],
       "tags": [
         "さっぱり",
-        "弁当向き"
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -786,7 +791,8 @@
       ],
       "tags": [
         "中華",
-        "甘酢"
+        "甘酢",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -848,7 +854,7 @@
         "needs_full_heat": false,
         "raw_or_undercooked": true,
         "freezer_ok": false,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 0,
       "steps": [
@@ -862,7 +868,8 @@
       ],
       "tags": [
         "丼",
-        "手早い"
+        "手早い",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -929,7 +936,8 @@
       ],
       "tags": [
         "さっぱり",
-        "節約"
+        "節約",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -974,7 +982,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": false
@@ -990,7 +998,8 @@
       ],
       "tags": [
         "作り置き",
-        "あと一品"
+        "あと一品",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1041,7 +1050,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -1054,7 +1063,8 @@
       ],
       "tags": [
         "作り置き",
-        "常備菜"
+        "常備菜",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1104,7 +1114,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": true
@@ -1119,7 +1129,8 @@
       ],
       "tags": [
         "作り置き",
-        "洋風"
+        "洋風",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1177,7 +1188,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -1193,7 +1204,8 @@
       ],
       "tags": [
         "作り置き",
-        "常備菜"
+        "常備菜",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1237,7 +1249,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": false
@@ -1252,7 +1264,8 @@
       ],
       "tags": [
         "あと一品",
-        "緑黄色"
+        "緑黄色",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1311,8 +1324,8 @@
         "蓋を開け、卵巻きを器に盛ります。"
       ],
       "tags": [
-        "弁当向き",
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1355,7 +1368,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": false
@@ -1372,7 +1385,8 @@
       ],
       "tags": [
         "作り置き",
-        "節約"
+        "節約",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1440,7 +1454,7 @@
       ],
       "tags": [
         "作り置き",
-        "弁当向き"
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1513,7 +1527,8 @@
       ],
       "tags": [
         "汁物",
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -1586,7 +1601,8 @@
       ],
       "tags": [
         "汁物",
-        "具だくさん"
+        "具だくさん",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -1613,7 +1629,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -1626,7 +1642,8 @@
         "火から取り除き、10分ほど蒸らします。"
       ],
       "tags": [
-        "主食"
+        "主食",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1699,7 +1716,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -1713,7 +1730,8 @@
         "火を止めてから白いりゴマ適量を振って完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1814,10 +1832,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -1828,7 +1846,8 @@
         "炒めた野菜を前段階の卵に戻して混ぜる。マヨネーズ、オイスターソース、醤油、塩、こしょうを加えて味を調える。全体的によく絡ませてから火を止め、器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1893,7 +1912,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -1907,7 +1926,8 @@
         "最後に蓋をしてさらに3分間煮込んでから火を止め、余熱で味をしみこませる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -1964,7 +1984,7 @@
       "bento_ok": true,
       "scalable": false,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -1979,7 +1999,8 @@
         "完成した海苔巻きはそのまま提供亦しくは冷蔵庫で冷ましてから提供する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2089,7 +2110,8 @@
         "煮込んだ鶏つくねを取り出し、器に盛る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2220,7 +2242,8 @@
         "最後に中蓋をして火を止め、5分ほど置く。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2315,7 +2338,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": false
@@ -2330,7 +2353,8 @@
         "出来上がりの鯛を皿に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2424,7 +2448,8 @@
         "完成した酒蒸しを器に盛り付けます。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2540,7 +2565,8 @@
         "ねぎとごまを散らして、七味を振ります。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2626,7 +2652,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -2641,7 +2667,8 @@
         "片栗粉大さじ3でとろみをつけ、蓋をして5分間蒸す。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2670,7 +2697,7 @@
       "bento_ok": true,
       "scalable": false,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -2685,7 +2712,8 @@
         "冷めたら殻を剥く。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2780,7 +2808,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -2794,7 +2822,8 @@
       ],
       "tags": [
         "定番",
-        "人気"
+        "人気",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2851,10 +2880,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 0,
       "steps": [
@@ -2866,7 +2895,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -2962,7 +2992,8 @@
         "火から取り出し、器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -3074,10 +3105,10 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -3091,7 +3122,8 @@
         "最後にすべての材料が柔らかくなり、味がしみ込んだら火を止め、蓋をして3分間保温します。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -3162,13 +3194,13 @@
       ],
       "cook_time_min": 15,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 0,
       "steps": [
@@ -3180,7 +3212,8 @@
         "すべての材料がよく絡んだら完成。火から取り出し、すぐに盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -3246,7 +3279,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -3261,7 +3294,8 @@
         "きざみねぎを散らし、完成（この時点で火を通す必要はありません）"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -3334,7 +3368,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -3347,7 +3381,8 @@
         "ソースが鶏皮全体に絡むまで1分程度炒め、最後に炒りごま大さじ2を加えて仕上げる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -3404,10 +3439,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -3418,7 +3453,8 @@
         "冷蔵庫で1時間ほど漬け込んでから出汁を取った具材と一緒に提供する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -3544,7 +3580,7 @@
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -3557,7 +3593,8 @@
         "完成した焼きめしは適宜かき混ぜながら調味料がまんべんなくからまるようにする。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -3643,7 +3680,7 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -3659,7 +3696,8 @@
         "器に注ぎ、パセリを散らして完成。とろみが欲しければ水溶き片栗粉を加えて加熱する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -3746,7 +3784,8 @@
         "最後に胡椒適量を振り入れ、完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -3838,7 +3877,7 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -3852,7 +3891,8 @@
         "最後に塩こしょう適量を加えて味を調える。パセリ4枝を刻んで上に散らす。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -3911,7 +3951,7 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -3925,7 +3965,8 @@
         "弱火で10分間煮込み、味が染みわたったら完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -4032,10 +4073,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -4047,7 +4088,8 @@
         "完全に冷めたら器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4111,10 +4153,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -4125,7 +4167,8 @@
         "和えたサラダに残りの調味料（ごま油大さじ1、白すりごま大さじ1）を加え、よく混ぜて完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4213,10 +4256,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 3,
       "steps": [
@@ -4229,7 +4272,8 @@
         "食べ頃になったら出汁を絞って完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4353,7 +4397,8 @@
         "盛り付けて炒りごま大さじ2を振る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4453,7 +4498,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -4467,7 +4512,8 @@
         "片栗粉と水を混ぜた太めの糊状にする。これを加えてさらに1分間煮込み、白胡椒を振って完成させる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4590,7 +4636,8 @@
         "キャベツとピーマンを加え、さらに2分炒め、味がついたら盛り付ける。ねぎの薄切りも加える。（7分）"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4708,7 +4755,8 @@
         "蒸し器で5〜7分蒸す。完成"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4779,7 +4827,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -4793,7 +4841,8 @@
         "最後に塩とコショウで味を調え、蓋をして弱火で約5分蒸し煮にする。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4901,7 +4950,8 @@
         "フライパンを弱火にして蒸らし、表面がカリッとなるまで焼く。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -4980,7 +5030,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -4995,7 +5045,8 @@
         "火から外して出汁の効いた汁気が出てきたら完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5079,7 +5130,7 @@
       ],
       "cook_time_min": 60,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -5096,7 +5147,8 @@
         "最後に長ネギの青い部分を加え、全体が柔らかくなるまで煮る。完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5190,7 +5242,8 @@
         "出来上がりのチャーシューは適度な柔らかさと甘辛い味わいになる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5278,7 +5331,8 @@
         "完成した照り焼きつくねボールを器に盛り付ける。上から白炒りごまを振る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5335,7 +5389,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -5350,7 +5404,8 @@
         "砂糖1.5小匙を加えて全体に絡ませ、味を整える"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5443,8 +5498,8 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
         "freezer_ok": false,
         "summer_risk": true
       },
@@ -5459,7 +5514,8 @@
         "パセリを散らして完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -5525,7 +5581,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -5541,7 +5597,8 @@
         "沸騰したら卵を加え、蓋をして弱火で5分間煮込む。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5634,7 +5691,8 @@
         "最後にみりん大さじ1を加え、さらに1分間煮込んでから火を止め、きざみ生姜小さじ1を振って完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5751,7 +5809,8 @@
         "最後に大葉を加えて全体に絡ませ、完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -5807,7 +5866,7 @@
       ],
       "cook_time_min": 15,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -5824,7 +5883,8 @@
         "オーブンで200度に予熱し、チーズがとろけたら完成。注意深く取り出し、冷めないうちに食べるのがおすすめです。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -5895,7 +5955,8 @@
         "最後に刻みパセリと粉チーズを加えて完成させる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -5950,10 +6011,10 @@
       ],
       "cook_time_min": 5,
       "skill": 1,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -5967,7 +6028,8 @@
         "上記の汁物に醤油7滴を加え、よく混ぜて完成させる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6022,10 +6084,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -6036,7 +6098,8 @@
         "鰹節（お好みで）を振って完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6119,10 +6182,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -6133,7 +6196,8 @@
         "全体的に混ざったら、こしょうで少しつぶして完成させる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6197,7 +6261,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -6212,7 +6276,8 @@
         "味見して必要に応じて微調整し、完成させる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6372,7 +6437,8 @@
       ],
       "tags": [
         "定番",
-        "お子様向け"
+        "お子様向け",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -6464,7 +6530,8 @@
         "カボチャと玉ねぎの液気が引いた後、卵液を流し入れて全体的に広がったら、片面が固まったら反転させる。片面がもう少し固まったら火から取り出し、適度な温度で加熱したプレートに盛る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6545,7 +6612,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -6560,7 +6627,8 @@
       ],
       "tags": [
         "定番",
-        "子供向け"
+        "子供向け",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6627,7 +6695,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -6643,7 +6711,8 @@
         "火から離して冷ます。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6759,7 +6828,8 @@
         "4〜5分後、蓋をしてさらに5分蒸らす。完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6836,10 +6906,10 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -6854,7 +6924,8 @@
         "醤油適量を加え、蓋をして弱火で1分ほど煮る。とろみがついたら完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6935,7 +7006,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -6949,7 +7020,8 @@
         "最後に青のりを振って完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -6982,10 +7054,10 @@
       ],
       "cook_time_min": 30,
       "skill": 1,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -7000,7 +7072,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -7086,7 +7159,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -7100,7 +7173,8 @@
         "醤油大さじ2と塩胡椒必要に応じて適量を加え、全体的に味がついてきたら火を止める。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -7172,7 +7246,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -7186,7 +7260,8 @@
         "両面が固まり、ソースが絡んできたら火から取り出し、とろみをつけた状態で盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -7267,7 +7342,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -7281,7 +7356,8 @@
         "火から離してからごまを振って完成させる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -7355,10 +7431,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -7370,7 +7446,8 @@
         "180度のオーブンで20分焼く。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -7486,7 +7563,8 @@
         "ボロネーゼとパスタを混ぜ合わせ、お好みでパルメザンチーズをまぶしてサーブする。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -7571,7 +7649,8 @@
         "大葉を適量取り、中心に具材を包み込む。注意深くライスペーパーで包んでおく。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -7729,7 +7808,8 @@
         "全体的に味が染み込んだら火を止め、器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -7829,7 +7909,8 @@
         "蓋をして弱火で1分ほど蒸す。完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -7965,7 +8046,8 @@
         "鶏肉となすの上に練りごま 30gと練りがらし 小さじ0.5を振りかける。調味料（塩 適量、酒 適量）で調整し、完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8072,7 +8154,8 @@
         "マッシュポテト適量を豚肉の上にのせる。トマトソースと合わせて全体的にかけ、パセリ適量を散らす。フレンチマスタード適量を加えて完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8168,7 +8251,8 @@
         "調味料を加えて蓋をして弱火で2分間煮込む。その後、火を止めてとろみがついてきたら完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8254,7 +8338,8 @@
         "全体に塩とこしょうで味を調整し、完成。火から取り出し、少し休ませる。(1分)"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8327,10 +8412,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -8340,7 +8425,8 @@
         "完成したツナとアボカドのチーズ焼きを皿に盛り付ける。好みによりさらにチーズを振りかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8457,7 +8543,7 @@
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -8470,7 +8556,8 @@
         "豚カツを盛り付けて、きゅうりと紫たまねぎの千切りを添える。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8577,7 +8664,8 @@
         "豚肉に野菜をトッピングする。好みにより薄味で召し上がる。(2分)"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8653,7 +8741,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -8669,7 +8757,8 @@
         "火から取り出し、盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8757,7 +8846,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -8772,7 +8861,8 @@
         "冷ましてからお皿に盛り付ける。ごまを散らして完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -8908,7 +8998,8 @@
         "お皿にご飯8茶碗軽く1杯盛り付け、カレーソースをかけます。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -8999,13 +9090,13 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
-        "summer_risk": true
+        "summer_risk": false
       },
       "make_ahead_days": 0,
       "steps": [
@@ -9018,7 +9109,8 @@
         "適量の合わせ調味料を天にかけ、完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9113,7 +9205,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -9127,7 +9219,8 @@
         "火を止めてから炒りごま1大を加えて混ぜ合わせ、味を確認して必要に応じて調整する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9213,7 +9306,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -9227,7 +9320,8 @@
         "味噌大さじ1としょうゆ大さじ0.5を加えて混ぜ、さらに1分ほど炒め、とろみがついたら完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9300,7 +9394,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -9315,7 +9409,8 @@
         "器に盛り付けて、ごまを散らして完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9468,7 +9563,8 @@
       ],
       "tags": [
         "定番",
-        "子供向け"
+        "子供向け",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9583,7 +9679,8 @@
         "出来上がりのソースと肉を取り出し、皿に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9666,7 +9763,8 @@
       ],
       "tags": [
         "定番",
-        "幼児食"
+        "幼児食",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9715,10 +9813,10 @@
       ],
       "cook_time_min": 10,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -9732,7 +9830,8 @@
         "完成した照り焼きチキンを皿に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9801,7 +9900,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -9816,7 +9915,8 @@
         "最後にトマト煮が濃縮したら完成。出汁の上から少しだけ水を加えてとろみをつけられるようにする。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -9918,7 +10018,8 @@
         "火から取り出し、適度な温度になったら出汁を振って完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10023,7 +10124,7 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -10040,7 +10141,8 @@
         "蓋をして小沸騰状態で約3分間煮込み、とろみがついたら完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10104,7 +10206,8 @@
         "できあがりの焼き鳥3種は、とろみがついているのでそのまま召し上がれます。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10209,7 +10312,7 @@
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -10222,7 +10325,8 @@
         "揚げた鶏肉に調味した卵液をかけ、その上から玉ねぎマヨネーズをのせ、パセリで飾ります。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10303,7 +10407,8 @@
       ],
       "tags": [
         "定番",
-        "子ども向け"
+        "子ども向け",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10386,7 +10491,8 @@
         "蓋をして約2分間保温し、とろみが付くまで待つ。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10458,7 +10564,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -10472,7 +10578,8 @@
         "出来上がり。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10589,10 +10696,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -10605,7 +10712,8 @@
         "レモン汁大さじ2と塩こしょう適量で味を調整し、サーモンムニエルの添え物として盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10721,10 +10829,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -10736,7 +10844,8 @@
         "出来上がりの鮭を皿に盛り、残ったソースを加熱してとろみをつけ、その上からかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10798,13 +10907,13 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
-        "summer_risk": true
+        "summer_risk": false
       },
       "make_ahead_days": 1,
       "steps": [
@@ -10815,7 +10924,8 @@
         "火から取り出し、余分な汁をきって完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10935,10 +11045,10 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -10951,7 +11061,8 @@
         "鍋に冷水を沸かし、日本酒、三河みりん、水、だしパック、砂糖、濃口醤油を入れて混ぜる。中火で煮詰めてとろみがついたら、イカの上にかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -10987,7 +11098,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -11001,7 +11112,8 @@
         "全体に調味料が絡んで均等に染みてきたら、火を止め皿に盛る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11114,13 +11226,13 @@
       ],
       "cook_time_min": 30,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -11133,7 +11245,8 @@
         "冷凍グリーンピース0少量を散らして完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -11213,7 +11326,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -11227,7 +11340,8 @@
         "200℃のオーブンで約35分程度焼く。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11263,10 +11377,10 @@
       "bento_ok": true,
       "scalable": false,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 0,
       "steps": [
@@ -11277,7 +11391,8 @@
         "両面が焼き目がついてきたら火から取り出し、適度な温度で切って完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11319,13 +11434,13 @@
       ],
       "cook_time_min": 5,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": false,
-        "raw_or_undercooked": false,
+        "raw_or_undercooked": true,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -11336,7 +11451,8 @@
         "冷めた卵を殻から剥き、適量のめんつゆを加えて混ぜ合わせる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -11423,7 +11539,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -11439,7 +11555,8 @@
         "最後に蓋をして30秒ほど蒸らす。完成。出汁の香りが高野豆腐と小松菜によく合うので、蓋をして仕上げるとより美味しくなる."
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11517,10 +11634,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -11532,7 +11649,8 @@
         "最後に青のりを振りかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11605,7 +11723,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -11621,7 +11739,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11679,10 +11798,10 @@
       "bento_ok": true,
       "scalable": false,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 0,
       "steps": [
@@ -11693,7 +11812,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11766,7 +11886,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -11782,7 +11902,8 @@
         "卵とじが完成したら、さつま揚げを戻し入れ、めんつゆを加えて和らげる。出汁を少しだけ加え、とろみをつけた状態になるまで煮る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11859,10 +11980,10 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -11877,7 +11998,8 @@
         "完成したフレンチトーストを皿に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11929,7 +12051,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -11944,7 +12066,8 @@
         "完成したら小ネギを散らして盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -11987,7 +12110,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -12002,7 +12125,8 @@
         "完成したハムエッグを皿に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12093,7 +12217,8 @@
         "両面が固くなったら器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12194,7 +12319,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -12209,7 +12334,8 @@
         "最後に青ネギ小口切りを加えて全体に絡ませ、完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12264,10 +12390,10 @@
       ],
       "cook_time_min": 10,
       "skill": 2,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -12281,7 +12407,8 @@
         "火から取り出し、できあがり。好みで刻んだネギを散らす（オプション）"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -12353,7 +12480,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -12369,7 +12496,8 @@
         "出汁が染み込んだら火を止め、器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12463,7 +12591,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -12477,7 +12605,8 @@
         "最後に炒めた油揚げとさつま揚げを入れて、1分ほど煮込んで完成です"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12535,10 +12664,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -12551,7 +12680,8 @@
         "出来上がりのチーズ焼きを皿に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12638,10 +12768,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -12652,7 +12782,8 @@
       ],
       "tags": [
         "定番",
-        "ヘルシー"
+        "ヘルシー",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12725,10 +12856,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -12742,7 +12873,8 @@
       ],
       "tags": [
         "定番",
-        "居酒屋感"
+        "居酒屋感",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12815,7 +12947,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -12831,7 +12963,8 @@
         "最後に白ゴマを振って完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -12918,7 +13051,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -12932,7 +13065,8 @@
         "蓋をして弱火で5分ほど煮込む。途中でかき混ぜながら調理し、とろみがついてきたら完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13025,7 +13159,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13040,7 +13174,8 @@
         "火を止めて出汁が染み込んだら器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13091,7 +13226,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13106,7 +13241,8 @@
         "完成したなすのチーズ焼きを皿に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13157,7 +13293,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13172,7 +13308,8 @@
         "火から離し、冷まして完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13244,7 +13381,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13260,7 +13397,8 @@
         "食べ頃になったら再度器に盛り付ける"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13333,10 +13471,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -13347,7 +13485,8 @@
         "最後に卵黄を上から流し入れ、全体に絡ませて完成させる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13409,13 +13548,13 @@
       ],
       "cook_time_min": 5,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": false,
-        "raw_or_undercooked": false,
+        "raw_or_undercooked": true,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -13427,7 +13566,8 @@
         "食べ頃になったら、器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -13478,7 +13618,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13493,7 +13633,8 @@
         "全体的に味が染み込んだら完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13546,7 +13687,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13561,7 +13702,8 @@
         "チーズがとろけるまで焼いたら、パセリを散らして完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13620,7 +13762,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13634,7 +13776,8 @@
         "片栗粉を用意し、イワシ全体にまぶす。再度フライパンに少々の油を熱し、中火でまぶしたイワシを揚げる。約2分間揚げ、表面がつるつるとなったら取り出す。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13693,7 +13836,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13706,7 +13849,8 @@
         "火から離しておき、室温で冷ましてから使用する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13785,7 +13929,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13800,7 +13944,8 @@
         "必要な場合は、さらに混ぜ合わせてとろみをつけた状態にする。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13865,7 +14010,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13877,7 +14022,8 @@
         "漬け込み終えたら、ガラス瓶などに移して冷蔵庫で保存。数日後から食べられるが、できれば1週間以上経たせてから味を深めてから食べるといい。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -13949,7 +14095,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -13965,7 +14111,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -14045,10 +14192,10 @@
       "allergens": [],
       "cook_time_min": 45,
       "skill": 2,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -14064,7 +14211,8 @@
       ],
       "tags": [
         "定番",
-        "節約"
+        "節約",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14178,7 +14326,8 @@
         "出来上がった中華スープを器に盛り付ける。完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14261,7 +14410,7 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -14276,7 +14425,8 @@
         "最後に火を止め、完成した鶏ガラスープを器に移す。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14326,7 +14476,7 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -14340,7 +14490,8 @@
         "煮込み終えたら、大さじ1の顆粒コンソメを加えて味を整える。最後に醤油大さじ2とみりん大さじ1を加えて味を深めます。（5ステップ）"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14411,7 +14562,8 @@
         "完成したスープを器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14484,7 +14636,8 @@
         "器に盛り付け、できあがりです。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14593,7 +14746,8 @@
         "最後に、煮込みたっぷりのスープを大皿に盛り付け、ワンタンを浮かべ完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14641,10 +14795,10 @@
       ],
       "cook_time_min": 10,
       "skill": 1,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -14659,7 +14813,8 @@
         "めんつゆ60mlを加え、全体がよく混ざったら火を止める。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -14756,10 +14911,10 @@
       ],
       "cook_time_min": 15,
       "skill": 2,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -14775,7 +14930,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14861,7 +15017,8 @@
         "完成したオニオンスープはそのまま提供可能または、余分な水分を取るための火加減を落として5分間煮詰める（とろみが好みに合った状態になるまで）"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -14969,7 +15126,8 @@
         "最後にえのき茸と刻んだ青ネギを上に乗せ、ごま油大さじ1を熱したものを全体にかけ完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -15054,7 +15212,8 @@
         "味見し、必要に応じて塩コショウを加える。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -15163,7 +15322,8 @@
         "沸騰したら火を弱めて餃子を入れ、全体が温まったら火を止めます。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -15230,10 +15390,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -15245,7 +15405,8 @@
         "器に盛り付けて、ごまを適量ふりかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -15300,13 +15461,13 @@
       ],
       "cook_time_min": 5,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": false,
-        "raw_or_undercooked": false,
+        "raw_or_undercooked": true,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -15319,7 +15480,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -15381,10 +15543,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -15393,7 +15555,8 @@
         "アボカド薄切りを皿に盛り、上から調合したツナソースをかけ、適量でさらにレモン汁を振る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -15474,10 +15637,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -15489,7 +15652,8 @@
       ],
       "tags": [
         "定番",
-        "夏野菜"
+        "夏野菜",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -15577,10 +15741,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -15591,7 +15755,8 @@
         "冷蔵庫で20分程度冷やしてから提供する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -15670,10 +15835,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -15686,7 +15851,8 @@
         "冷蔵庫で10分ほど冷ましてから出汁を振って完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -15772,10 +15938,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -15787,7 +15953,8 @@
         "食べ頃になったら再度よく混ぜて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -15851,7 +16018,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -15866,7 +16033,8 @@
         "蓋をして弱火で5分ほど煮て、とろみがついたら完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -15946,7 +16114,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -15961,7 +16129,8 @@
         "最後に、ボウルの上からごま油適量をかけ、再度よく混ぜ合わせます。冷蔵庫で30分ほどおいて完成です。（ステップ6）"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16049,7 +16218,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -16065,7 +16234,8 @@
         "器に盛り付けて白いりごまを振る"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16144,10 +16314,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -16160,7 +16330,8 @@
         "最後にマヨネーズ大さじ3を加えて全体にからめ、よく混ぜる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16260,10 +16431,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -16274,7 +16445,8 @@
         "マヨネーズソースを全体にかけ、青汁を加えて和える。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16346,10 +16518,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -16359,7 +16531,8 @@
         "サラダの上にパルメザンチーズを振りかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16438,10 +16611,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -16454,7 +16627,8 @@
         "完成した福神漬け入りポテトサラダを器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16528,10 +16702,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -16542,7 +16716,8 @@
         "切ったサニーレタスと水菜を器に盛り、作成したソースをかけたら完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16583,7 +16758,7 @@
       "bento_ok": true,
       "scalable": false,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -16596,7 +16771,8 @@
         "塩昆布とピーマンがよく絡んだら火から取り出し、器に盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16682,7 +16858,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -16696,7 +16872,8 @@
         "火を止め、ネギを加えてさっと炒め、出汁がなす全体に絡むまで混ぜる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16747,10 +16924,10 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -16761,7 +16938,8 @@
         "出来上がり。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16850,7 +17028,7 @@
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 2,
       "steps": [
@@ -16861,7 +17039,8 @@
         "再度中火で温めながらよく混ぜ、とろみがついてきたら火を止めて出汁の味を確認し、必要に応じて塩やケチャップを調節する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -16985,7 +17164,8 @@
         "牛肉を戻し入れて全体的に味がついてきたら完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -17094,7 +17274,8 @@
         "最後に青ネギ小口切り小さじ2を加え、全体的に混ぜて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -17197,7 +17378,8 @@
       ],
       "tags": [
         "定番",
-        "簡単"
+        "簡単",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -17320,7 +17502,8 @@
         "火から取り出し、適量の塩とコショウで味を調整する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -17508,7 +17691,7 @@
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
-        "summer_risk": true
+        "summer_risk": false
       },
       "make_ahead_days": 0,
       "steps": [
@@ -17521,7 +17704,8 @@
         "小松菜を器に入れて、作好的なあんかけラーメンを盛り付ける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -17576,7 +17760,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -17590,7 +17774,8 @@
         "よく混ぜ均匀にマリネ液がついてきたら、冷蔵庫で2〜3時間漬け込む。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -17645,7 +17830,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -17660,7 +17845,8 @@
         "火を止めてホイルに盛り、そのまま出汁やソースをかけて完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -17776,7 +17962,8 @@
         "味塩胡椒で調節して完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -17845,7 +18032,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -17860,7 +18047,8 @@
         "最後にパセリを刻んで加え、全体的に混ぜて完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -17939,7 +18127,8 @@
         "卵の上から炒めたじゃがいもチーズを盛り付け、卵が固まったら完成です。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18065,7 +18254,7 @@
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": false,
-        "summer_risk": true
+        "summer_risk": false
       },
       "make_ahead_days": 1,
       "steps": [
@@ -18077,7 +18266,8 @@
         "ご飯適量を用意し、牛丼を盛り付ける。卵黄適量を割ってかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -18136,7 +18326,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -18151,7 +18341,8 @@
         "出来上がり。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18245,10 +18436,10 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
         "freezer_ok": false,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 0,
       "steps": [
@@ -18260,7 +18451,8 @@
         "ご飯1合を用意し、深皿や丼に盛る。豚肉をのせる。その上から月見ソースを流し入れて完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -18336,7 +18528,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -18351,7 +18543,8 @@
         "完成したラタトゥイユはすぐに召し上がれる状態です。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18429,7 +18622,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -18443,7 +18636,8 @@
         "最後に塩適量を加えて味を調える。火からおろして完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18518,7 +18712,8 @@
         "中火にして少しずつ水分が飛んでくるまで1〜2分煮込み、火を止めて完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18590,7 +18785,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -18603,7 +18798,8 @@
         "両面に焼き色がついたら、火から取り出し、適量の塩を振って完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18706,7 +18902,8 @@
         "手順7: 仕上げに火を止め、火加減は中弱火。蓋をして15分ほど保温し、味を馴染ませて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18808,7 +19005,8 @@
         "完成した野菜餃子は冷ましておき、適宜食べやすく切るかそのまま提供する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -18878,10 +19076,10 @@
       ],
       "cook_time_min": 15,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -18897,7 +19095,8 @@
       ],
       "tags": [
         "定番",
-        "幼児食"
+        "幼児食",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19028,7 +19227,8 @@
         "鶏肉を取り入れて、全体的にソースが絡むまで約2分煮込む。（5分）"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19128,7 +19328,7 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -19146,7 +19346,8 @@
         "出来上がったビビンバを器に盛り付け、炒りごま大さじ1を振って完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -19203,7 +19404,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -19216,7 +19417,8 @@
         "全体的にとろみがついたら、火から離して完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19347,7 +19549,8 @@
         "チーズが溶けたら完成。すぐに食べるために出鍋する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19473,7 +19676,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -19489,7 +19692,8 @@
         "蓋をして弱火で約1分間蒸し焼きにする。完成後、醤油大さじ1、タカラ本みりん小さじ1、ラー油2.3滴、白ごま小さじ1をかけて仕上げる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19577,7 +19781,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -19592,7 +19796,8 @@
         "器に盛り付けて、白ごま大さじ1を振ります。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19640,7 +19845,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -19655,7 +19860,8 @@
         "火から離して、残熱で5分程度煮込む（とろみがついたら完成）。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19705,7 +19911,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -19720,7 +19926,8 @@
         "器に盛り付けて、冷蔵庫で30分間以上置くとよりおいしくなる。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19844,7 +20051,8 @@
         "火を止めて完成。好みでご飯と一緒に食べよう。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19901,7 +20109,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -19915,7 +20123,8 @@
         "冷蔵庫で10分ほど冷ましてから出汁の味が染み込むようにする。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -19996,8 +20205,8 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
         "freezer_ok": false,
         "summer_risk": true
       },
@@ -20010,7 +20219,8 @@
         "パルメザンチーズ大さじ3を加え、ブラックペッパー適量を振って完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -20100,7 +20310,8 @@
         "完成したミネストローネを器に盛り付ける。好みによりチーズやパルメザンチーズをかけて食べても良い。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -20190,7 +20401,7 @@
       ],
       "cook_time_min": 30,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -20209,7 +20420,8 @@
         "火から離れてとろみがついたら出汁を完成させる。適量のチーズを加え、よく混ぜてとろけるチーズが溶けたら完成する。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -20328,7 +20540,8 @@
       ],
       "tags": [
         "定番",
-        "スタミナ"
+        "スタミナ",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -20406,7 +20619,7 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
+        "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -20421,7 +20634,8 @@
         "ご飯をかき混ぜながらオリーブオイルひとまわしと黒胡椒1つまみを加える。好みによりパルメザンチーズをふりかける。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -20535,10 +20749,10 @@
       "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
         "freezer_ok": false,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 0,
       "steps": [
@@ -20550,7 +20764,8 @@
         "ご飯を適量盛り付け、その上にガパオの具材をトッピングする。アーモンド10gを散らし、バジル葉を適量振る。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -20643,7 +20858,8 @@
       ],
       "tags": [
         "定番",
-        "ごはんが進む"
+        "ごはんが進む",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -20725,7 +20941,7 @@
         "needs_full_heat": true,
         "raw_or_undercooked": false,
         "freezer_ok": true,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -20737,7 +20953,8 @@
       ],
       "tags": [
         "定番",
-        "週末ごはん"
+        "週末ごはん",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -20813,7 +21030,7 @@
       ],
       "cook_time_min": 30,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -20831,7 +21048,8 @@
       ],
       "tags": [
         "定番",
-        "週末ごはん"
+        "週末ごはん",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -20939,7 +21157,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21025,7 +21244,8 @@
         "味が染みたら火を止めて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21111,7 +21331,8 @@
         "煮汁が半分ほどになり、大根に味が染みたら完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21188,13 +21409,13 @@
       ],
       "cook_time_min": 25,
       "skill": 2,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
-        "raw_or_undercooked": false,
+        "needs_full_heat": false,
+        "raw_or_undercooked": true,
         "freezer_ok": false,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -21206,7 +21427,8 @@
       ],
       "tags": [
         "定番",
-        "丼"
+        "丼",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -21267,7 +21489,7 @@
       ],
       "cook_time_min": 30,
       "skill": 2,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -21284,7 +21506,8 @@
         "なす・ピーマンを揚げ、衣がカラッとしたら油を切って完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21378,7 +21601,8 @@
       ],
       "tags": [
         "定番",
-        "ごはんが進む"
+        "ごはんが進む",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21478,7 +21702,8 @@
         "170℃の油できつね色になるまで揚げて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21557,7 +21782,8 @@
         "油をよく切り、皿に盛る。お好みでタルタルソースやレモンを添えて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21644,7 +21870,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21723,7 +21950,8 @@
         "油を切って皿に盛って完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21809,7 +22037,8 @@
         "ゆでたスパゲティとバター10gを加えて炒め合わせて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -21878,7 +22107,7 @@
       ],
       "cook_time_min": 40,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -21896,7 +22125,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -21982,7 +22212,8 @@
         "耐熱皿に入れチーズをのせ、トースターで焼き色がつくまで焼いて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22062,7 +22293,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22138,7 +22370,7 @@
       ],
       "cook_time_min": 35,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
         "needs_full_heat": true,
@@ -22155,7 +22387,8 @@
         "とろみがついたら皿によそったご飯にかけて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -22216,7 +22449,7 @@
         "needs_full_heat": false,
         "raw_or_undercooked": true,
         "freezer_ok": false,
-        "summer_risk": false
+        "summer_risk": true
       },
       "make_ahead_days": 1,
       "steps": [
@@ -22227,7 +22460,8 @@
       ],
       "tags": [
         "さっぱり",
-        "あと一品"
+        "あと一品",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -22291,8 +22525,8 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": true,
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": true
       },
@@ -22305,7 +22539,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22384,8 +22619,8 @@
       "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": true,
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": true
       },
@@ -22398,7 +22633,8 @@
       ],
       "tags": [
         "定番",
-        "さっぱり"
+        "さっぱり",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22471,7 +22707,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22544,7 +22781,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22609,7 +22847,8 @@
       ],
       "tags": [
         "定番",
-        "作り置き"
+        "作り置き",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22664,11 +22903,11 @@
       ],
       "cook_time_min": 10,
       "skill": 1,
-      "bento_ok": false,
+      "bento_ok": true,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": false,
-        "raw_or_undercooked": true,
+        "needs_full_heat": true,
+        "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": false
       },
@@ -22681,7 +22920,8 @@
       ],
       "tags": [
         "定番",
-        "さっぱり"
+        "さっぱり",
+        "弁当OK"
       ],
       "_steps_enriched": true
     },
@@ -22764,10 +23004,10 @@
       ],
       "cook_time_min": 25,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": true,
         "summer_risk": false
@@ -22782,7 +23022,8 @@
       ],
       "tags": [
         "定番",
-        "具だくさん"
+        "具だくさん",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -22838,10 +23079,10 @@
       ],
       "cook_time_min": 10,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": false
@@ -22855,7 +23096,8 @@
       ],
       "tags": [
         "定番",
-        "やさしい味"
+        "やさしい味",
+        "弁当不可"
       ],
       "_steps_enriched": true
     },
@@ -22902,10 +23144,10 @@
       ],
       "cook_time_min": 15,
       "skill": 1,
-      "bento_ok": true,
+      "bento_ok": false,
       "scalable": true,
       "bento_safety": {
-        "needs_full_heat": true,
+        "needs_full_heat": false,
         "raw_or_undercooked": false,
         "freezer_ok": false,
         "summer_risk": false
@@ -22919,7 +23161,8 @@
         "小口切りの長ねぎを加え、煮立てる直前で火を止めて完成。"
       ],
       "tags": [
-        "定番"
+        "定番",
+        "弁当不可"
       ],
       "_steps_enriched": true
     }

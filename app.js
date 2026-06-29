@@ -211,6 +211,7 @@ function renderDays() {
     if (d.main) {
       const meta = el("div", "day__sub day__meta",
         `${CUISINE[d.main.cuisine] || d.main.cuisine} ・ ${d.main.cook}分`);
+      if (d.main.bento === false) meta.append(el("span", "day__nobento", "翌日の弁当に不向き"));
       main.append(meta);
     }
     if (d.side) main.append(el("div", "day__sub", "副菜: " + d.side.name));

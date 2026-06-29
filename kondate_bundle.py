@@ -799,10 +799,14 @@ def score_main(r: Recipe, d: int, assigned: list[Recipe | None],
         a and a.protein in ("fish", "seafood") for a in assigned
     ):
         guard += 15
-    # この日の夕食を翌朝の弁当に回す（source day）なら、取り分け可能な弁当適格メインを優先（ソフト）
+    # この日の夕食を翌朝の弁当に回す（source day）なら、弁当に向く主菜を強く優先。
+    # 弁当不可（丼・汁麺・生・半熟卵等）は重く減点し、適格な主菜が他にある限り選ばれないようにする。
     is_source = (request.bento_days[d] and request.dinner_days[d])
-    if is_source and bento_eligible(r, request.is_summer):
-        guard += 8
+    if is_source:
+        if bento_eligible(r, request.is_summer):
+            guard += 12
+        else:
+            guard -= 120
 
     # §7 コマンド由来の調整
     if force_consume and (r_keys & force_consume):       # この余り食材を使い切る
@@ -1561,7 +1565,7 @@ class Core:
         return {
             "id": r.id, "name": r.name, "cuisine": r.cuisine, "protein": r.protein,
             "cook": r.cook_time_min, "servings": r.base_servings, "mult": round(mult, 2),
-            "steps": r.steps,
+            "bento": bool(r.bento_ok), "steps": r.steps,
             "ings": [{"name": i.name, "amount": self._ing_amount(i, mult),
                       "seasoning": i.category in ("seasoning", "staple")}
                      for i in r.ingredients],
