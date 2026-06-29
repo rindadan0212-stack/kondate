@@ -68,13 +68,16 @@ function renderRecipeDetail(r) {
   return det;
 }
 
-// 日別エディタ（ジャンル変更・種類変更・別の料理に）。すべて「その日だけ」変わる。
-const PROTEIN_PICK = [["chicken", "鶏"], ["pork", "豚"], ["beef", "牛"], ["fish", "魚"]];
+// 日別エディタ：ジャンル/種類で「絞り込み」→ 一覧から選ぶ。すべて「その日だけ」変わる。
+const PROTEIN_PICK = [["chicken", "鶏"], ["pork", "豚"], ["beef", "牛"], ["fish", "魚"], ["egg", "卵"], ["tofu", "豆腐"]];
 const CUISINE_PICK = [["和", "和食"], ["洋", "洋食"], ["中", "中華"], ["エスニック", "エスニック"]];
+let filterC = null, filterP = null, editorFilterDay = null;   // 開いているエディタの絞り込み状態
 function currentProteinGroup(main) {
   const p = main && main.protein;
   if (p === "chicken" || p === "pork" || p === "beef") return p;
   if (p === "fish" || p === "seafood") return "fish";
+  if (p === "egg") return "egg";
+  if (p === "tofu" || p === "soy") return "tofu";
   return null;
 }
 function editChip(label, onClick, on) {
@@ -84,26 +87,57 @@ function editChip(label, onClick, on) {
 }
 function buildDayEditor(d) {
   const ed = el("div", "day__edit"); ed.hidden = true;
-  // ジャンルで選ぶ（和/洋/中/エスニック）
+  renderEditorBody(d, ed);
+  return ed;
+}
+function renderEditorBody(d, ed) {
+  if (editorFilterDay !== d.idx) {     // 別の日を開いたら、その日の現在の料理で初期化
+    filterC = d.main ? d.main.cuisine : null;
+    filterP = currentProteinGroup(d.main);
+    editorFilterDay = d.idx;
+  }
+  ed.replaceChildren();
   const crow = el("div", "edit-row");
   crow.append(el("span", "edit-row__label", "ジャンル"));
-  const curC = d.main ? d.main.cuisine : null;
   CUISINE_PICK.forEach(([c, lb]) =>
-    crow.append(editChip(lb, () => command({ cmd: "cuisine", day: d.idx, cuisine: c }), curC === c)));
+    crow.append(editChip(lb, () => { filterC = (filterC === c ? null : c); renderEditorBody(d, ed); }, filterC === c)));
   ed.append(crow);
-  // 肉/魚の種類で選ぶ
   const prow = el("div", "edit-row");
   prow.append(el("span", "edit-row__label", "種類"));
-  const curG = currentProteinGroup(d.main);
   PROTEIN_PICK.forEach(([g, lb]) =>
-    prow.append(editChip(lb, () => command({ cmd: "protein", day: d.idx, group: g }), curG === g)));
+    prow.append(editChip(lb, () => { filterP = (filterP === g ? null : g); renderEditorBody(d, ed); }, filterP === g)));
   ed.append(prow);
-  // 別の料理に／おまかせに戻す
-  const arow = el("div", "edit-row");
-  arow.append(editChip("別の料理に", () => command({ cmd: "swap", day: d.idx })));
-  if (d.pinned) arow.append(editChip("おまかせに戻す", () => command({ cmd: "unpin", day: d.idx })));
+  const list = el("div", "pick-list");
+  list.append(el("div", "pick-list__msg", "探しています…"));
+  ed.append(list);
+  refreshCandidates(d.idx, list, d.main ? d.main.id : null);
+  const arow = el("div", "edit-row edit-row--end");
+  arow.append(editChip("おまかせで別の案", () => command({ cmd: "swap", day: d.idx })));
+  if (d.pinned) arow.append(editChip("自動に戻す", () => command({ cmd: "unpin", day: d.idx })));
   ed.append(arow);
-  return ed;
+}
+async function refreshCandidates(day, listEl, currentId) {
+  let cands = [];
+  try {
+    const r = await api("/api/candidates", { day, cuisine: filterC, protein: filterP });
+    cands = r.candidates || [];
+  } catch (e) { listEl.replaceChildren(el("div", "pick-list__msg", "取得できませんでした")); return; }
+  if (editorFilterDay !== day) return;     // 表示中の日が変わっていたら破棄
+  listEl.replaceChildren();
+  listEl.append(el("div", "pick-list__head", `合う料理 ${cands.length}品（タップで決定）`));
+  if (!cands.length) {
+    listEl.append(el("div", "pick-list__msg", "条件に合う料理がありません。フィルタを外してください。"));
+    return;
+  }
+  const box = el("div", "pick-list__box");
+  cands.forEach(c => {
+    const it = el("button", "pick-item" + (c.id === currentId ? " pick-item--on" : ""));
+    it.append(el("span", "pick-item__name", c.name));
+    it.append(el("span", "pick-item__meta", `${CUISINE[c.cuisine] || c.cuisine}・${c.cook}分`));
+    it.addEventListener("click", () => command({ cmd: "pick", day, id: c.id }));
+    box.append(it);
+  });
+  listEl.append(box);
 }
 
 function renderDays() {

@@ -1316,6 +1316,35 @@ class PlanSession:
         self.mods.pins.pop(day, None)
         return self.regenerate(extra_pins=self._cur_ids(except_day=day))
 
+    def candidates(self, day: int, cuisine=None, protein_group=None) -> list[dict]:
+        """その日に選べる料理一覧（ジャンル/種類で絞り込み）。他曜日と重複する料理は除く。"""
+        if not self.plan:
+            return []
+        used_other = {m.id for d, m in enumerate(self.plan.dinner_mains) if m and d != day}
+        proteins = set(PROTEIN_GROUPS.get(protein_group, [protein_group])) if protein_group else None
+        out = []
+        for r in self.recipes:
+            if not (r.type == "main" or is_one_plate_main(r)):
+                continue
+            if r.id in used_other or not allergy_ok(r, self.profile):
+                continue
+            if cuisine and r.cuisine != cuisine:
+                continue
+            if proteins and r.protein not in proteins:
+                continue
+            out.append({"id": r.id, "name": r.name, "cuisine": r.cuisine,
+                        "protein": r.protein, "cook": r.cook_time_min})
+        out.sort(key=lambda x: (x["cook"], x["name"]))
+        return out
+
+    def pick(self, day: int, recipe_id: str) -> Plan:
+        """一覧から選んだ料理をその日に確定（他曜日は維持・ユーザー選択として記憶）。"""
+        r = next((x for x in self.recipes if x.id == recipe_id), None)
+        if r is None or not (r.type == "main" or is_one_plate_main(r)):
+            return self.plan
+        self.mods.pins[day] = r.id
+        return self.regenerate(extra_pins=self._cur_ids(except_day=day))
+
     def fix(self, day: int) -> Plan:
         """この日を固定して残りを再生成。"""
         cur = self.plan.dinner_mains[day] if self.plan else None
@@ -1619,6 +1648,8 @@ class Core:
             s.set_cuisine(int(body["day"]), str(body["cuisine"]))
         elif cmd == "unpin":
             s.unpin(int(body["day"]))
+        elif cmd == "pick":
+            s.pick(int(body["day"]), str(body["id"]))
         elif cmd == "more":
             s.category(str(body["group"]), +1)
         elif cmd == "less":
@@ -1650,6 +1681,17 @@ class Core:
                       month=body.get("month"), inventory=body.get("inventory"),
                       missing=body.get("missing"))
         return self.state()
+
+    def candidates(self, body):
+        s = self.session
+        if s is None or s.plan is None:
+            return {"candidates": []}
+        try:
+            cands = s.candidates(int(body["day"]), body.get("cuisine") or None,
+                                 body.get("protein") or None)
+        except (KeyError, ValueError, TypeError):
+            return {"candidates": []}
+        return {"candidates": cands}
 
     def recipe(self, rid):
         r = self.by_id.get(rid)

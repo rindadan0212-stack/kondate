@@ -277,6 +277,8 @@ class Core:
             s.set_cuisine(int(body["day"]), str(body["cuisine"]))
         elif cmd == "unpin":
             s.unpin(int(body["day"]))
+        elif cmd == "pick":
+            s.pick(int(body["day"]), str(body["id"]))
         elif cmd == "more":
             s.category(str(body["group"]), +1)
         elif cmd == "less":
@@ -308,6 +310,17 @@ class Core:
                       month=body.get("month"), inventory=body.get("inventory"),
                       missing=body.get("missing"))
         return self.state()
+
+    def candidates(self, body):
+        s = self.session
+        if s is None or s.plan is None:
+            return {"candidates": []}
+        try:
+            cands = s.candidates(int(body["day"]), body.get("cuisine") or None,
+                                 body.get("protein") or None)
+        except (KeyError, ValueError, TypeError):
+            return {"candidates": []}
+        return {"candidates": cands}
 
     def recipe(self, rid):
         r = self.by_id.get(rid)

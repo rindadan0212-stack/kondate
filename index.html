@@ -188,6 +188,7 @@
         if (path === '/api/week') { setArg(body || {}); const d = JSON.parse(py('_core.week(json.loads(ARG))')); persist(); return { ok: true, data: d }; }
         if (path === '/api/command') { setArg(body || {}); const d = JSON.parse(py('_core.command(json.loads(ARG))')); persist(); return { ok: !d.error, data: d }; }
         if (path === '/api/record') { const r = JSON.parse(py('_core.record()')); if (!r.error) mergeCal(r.entries); return { ok: !r.error, data: { recorded: r.recorded } }; }
+        if (path === '/api/candidates') { setArg(body || {}); return { ok: true, data: JSON.parse(py('_core.candidates(json.loads(ARG))')) }; }
         if (path.startsWith('/api/calendar')) return { ok: true, data: getCal(path) };
         if (path.startsWith('/api/recipe/')) { setArg(decodeURIComponent(path.split('/').pop().split('?')[0])); const d = JSON.parse(py('_core.recipe(json.loads(ARG))')); return { ok: !d.error, data: d }; }
         return { ok: false, data: { error: 'unknown ' + path } };
