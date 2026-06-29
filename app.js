@@ -48,7 +48,7 @@ function render() {
       chips.append(el("span", "chip", `未使用: ${m.inventory_unused.join("・")}`));
     if (m.violations.length) chips.append(el("span", "chip chip--warn", "制約注意"));
   }
-  renderDays(); renderShopping(); syncPanel(); syncTools(); renderPrefs();
+  renderDays(); renderShopping(); syncPanel(); renderPrefs();
   hasPlan = !!(STATE.days && STATE.days.length && !m.error);
   buildWizSteps();
 }
@@ -105,7 +105,7 @@ function renderRecipeDetail(r) {
 // 日別エディタ：ジャンル/種類で「絞り込み」→ 一覧から選ぶ。すべて「その日だけ」変わる。
 const PROTEIN_PICK = [["chicken", "鶏"], ["pork", "豚"], ["beef", "牛"], ["fish", "魚"], ["egg", "卵"], ["tofu", "豆腐"]];
 const CUISINE_PICK = [["和", "和食"], ["洋", "洋食"], ["中", "中華"], ["エスニック", "エスニック"]];
-let filterC = null, filterP = null, editorFilterDay = null;   // 開いているエディタの絞り込み状態
+let filterC = null, filterP = null, editorFilterDay = null, editorMode = "choice";   // 開いているエディタの状態
 function currentProteinGroup(main) {
   const p = main && main.protein;
   if (p === "chicken" || p === "pork" || p === "beef") return p;
@@ -120,17 +120,42 @@ function editChip(label, onClick, on) {
   return b;
 }
 function buildDayEditor(d) {
-  const ed = el("div", "day__edit"); ed.hidden = true;
-  renderEditorBody(d, ed);
+  const ed = el("div", "day__edit");
+  ed.hidden = openEditorDay !== d.idx;
+  if (openEditorDay === d.idx) renderEditorBody(d, ed);   // 開いている日だけ描画
   return ed;
 }
+function choiceBtn(label, sub, onClick) {
+  const b = el("button", "edit-choice__btn");
+  b.append(el("span", "edit-choice__t", label));
+  if (sub) b.append(el("span", "edit-choice__s", sub));
+  b.addEventListener("click", onClick);
+  return b;
+}
 function renderEditorBody(d, ed) {
-  if (editorFilterDay !== d.idx) {     // 別の日を開いたら、その日の現在の料理で初期化
+  if (editorFilterDay !== d.idx) {     // 別の日を開いたら初期化（まず2択から）
     filterC = d.main ? d.main.cuisine : null;
     filterP = currentProteinGroup(d.main);
+    editorMode = "choice";
     editorFilterDay = d.idx;
   }
   ed.replaceChildren();
+  if (editorMode === "choice") {       // ① どう変えるかを選ぶ
+    const row = el("div", "edit-choice");
+    row.append(choiceBtn("おまかせで別の案", "自動で別の料理に", () => command({ cmd: "swap", day: d.idx })));
+    row.append(choiceBtn("一覧から選ぶ", "ジャンル・種類で探す", () => { editorMode = "list"; renderEditorBody(d, ed); }));
+    ed.append(row);
+    if (d.pinned) {
+      const r2 = el("div", "edit-row edit-row--end");
+      r2.append(editChip("自動に戻す", () => command({ cmd: "unpin", day: d.idx })));
+      ed.append(r2);
+    }
+    return;
+  }
+  // ② 一覧から選ぶ：ジャンル/種類で絞り込み
+  const back = el("button", "edit-back", "‹ 選び方に戻る");
+  back.addEventListener("click", () => { editorMode = "choice"; renderEditorBody(d, ed); });
+  ed.append(back);
   const crow = el("div", "edit-row");
   crow.append(el("span", "edit-row__label", "ジャンル"));
   CUISINE_PICK.forEach(([c, lb]) =>
@@ -145,10 +170,6 @@ function renderEditorBody(d, ed) {
   list.append(el("div", "pick-list__msg", "探しています…"));
   ed.append(list);
   refreshCandidates(d.idx, list, d.main ? d.main.id : null);
-  const arow = el("div", "edit-row edit-row--end");
-  arow.append(editChip("おまかせで別の案", () => command({ cmd: "swap", day: d.idx })));
-  if (d.pinned) arow.append(editChip("自動に戻す", () => command({ cmd: "unpin", day: d.idx })));
-  ed.append(arow);
 }
 async function refreshCandidates(day, listEl, currentId) {
   let cands = [];
@@ -224,10 +245,9 @@ function renderDays() {
     }
 
     const editor = buildDayEditor(d);
-    if (openEditorDay === d.idx) editor.hidden = false;
     editBtn.addEventListener("click", () => {
-      openEditorDay = (openEditorDay === d.idx) ? null : d.idx;
-      editor.hidden = openEditorDay !== d.idx;
+      if (openEditorDay === d.idx) { openEditorDay = null; editor.hidden = true; }
+      else { openEditorDay = d.idx; renderEditorBody(d, editor); editor.hidden = false; }
       editBtn.classList.toggle("mini--on", openEditorDay === d.idx);
     });
     row.append(editor);
@@ -377,13 +397,6 @@ function buildWizSteps() {
   });
 }
 
-function syncTools() {
-  const pd = STATE.mods.protein_delta || {};
-  $('[data-cmd="more"][data-group="fish"]').classList.toggle("tool--on", (pd.fish || 0) > 0);
-  $('[data-cmd="less"][data-group="meat"]').classList.toggle("tool--on", (pd.chicken || 0) < 0 || (pd.pork || 0) < 0);
-  $('[data-cmd="time"]').classList.toggle("tool--on", STATE.mods.time_override != null);
-}
-
 /* ---------------- 起動・イベント ---------------- */
 function bind() {
   document.querySelectorAll("[data-go]").forEach(b =>
@@ -411,14 +424,10 @@ function bind() {
       toast("献立を作りました");
     } catch (e) { toast("エラー: " + e.message, true); } finally { busy = false; }
   });
-  document.querySelectorAll(".tool").forEach(b => b.addEventListener("click", () => {
-    const cmd = b.dataset.cmd;
-    if (cmd === "reset" && !confirm("手直しを全部捨てて、素の提案に戻します。よろしいですか？")) return;
-    const p = { cmd };
-    if (b.dataset.group) p.group = b.dataset.group;
-    if (b.dataset.min) p.minutes = parseInt(b.dataset.min);
-    command(p);
-  }));
+  const resetBtn = $(".reset-quiet");
+  if (resetBtn) resetBtn.addEventListener("click", () => {
+    if (confirm("献立を最初から（全部おまかせ）に戻します。よろしいですか？")) command({ cmd: "reset" });
+  });
 
   document.querySelectorAll(".tab-btn").forEach(b =>
     b.addEventListener("click", () => showView(b.dataset.view)));

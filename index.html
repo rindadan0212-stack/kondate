@@ -121,16 +121,7 @@
           <div class="chips" id="chips"></div>
         </div>
         <main id="days" class="days" aria-live="polite"></main>
-        <details class="tweak">
-          <summary class="tweak__label">気に入らない所だけ手直し</summary>
-          <div class="toolbar" aria-label="献立の手直し">
-            <button class="tool" data-cmd="more" data-group="fish">魚を増やす</button>
-            <button class="tool" data-cmd="less" data-group="meat">肉を減らす</button>
-            <button class="tool" data-cmd="time" data-min="20">時短（20分）</button>
-            <button class="tool" data-cmd="shuffle">シャッフル</button>
-            <button class="tool tool--quiet" data-cmd="reset">最初から</button>
-          </div>
-        </details>
+        <div class="reset-line"><button class="reset-quiet" data-cmd="reset">最初からやり直す</button></div>
         <div class="screen__nav">
           <button class="ghost" data-go="2" data-dir="back">条件を変える</button>
           <button class="primary" data-go="4" data-dir="fwd">次へ：買い物リスト</button>

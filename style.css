@@ -46,7 +46,7 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ---- 日別リスト（面で区切る＝1日1サーフェス。線は引かない） ---- */
 .days { display: flex; flex-direction: column; gap: 10px; }
-.day { display: grid; grid-template-columns: 52px 1fr auto; gap: 14px; align-items: start;
+.day { display: grid; grid-template-columns: 52px 1fr; gap: 8px 14px; align-items: start;
   background: var(--surface); border-radius: 10px; padding: 14px 16px; box-shadow: var(--elev); }
 .day__date { padding-top: 3px; }
 .day__dow { font-family: var(--serif); font-size: 15px; color: var(--accent); }
@@ -64,7 +64,7 @@ button { font-family: inherit; cursor: pointer; }
 .tag { font-size: 11px; color: var(--ink-2); background: var(--panel); padding: 2px 8px;
   border-radius: 999px; letter-spacing: .03em; }
 .tag--wa { color: var(--accent); background: var(--accent-soft); }
-.day__acts { display: flex; flex-direction: column; gap: 6px; align-items: flex-end; }
+.day__acts { grid-column: 2; display: flex; flex-direction: row; gap: 8px; align-items: center; }
 .day__chosen { display: inline-block; margin-left: 8px; font-size: 10.5px; color: var(--accent);
   background: var(--accent-soft); padding: 1px 8px; border-radius: 999px; letter-spacing: .04em;
   vertical-align: 1px; }
@@ -103,7 +103,7 @@ button { font-family: inherit; cursor: pointer; }
 .edit-row--end { margin-top: 4px; }
 
 /* いいね/バッド（日カード） */
-.day__react { display: flex; gap: 6px; margin-top: 2px; }
+.day__react { display: flex; gap: 6px; margin-left: auto; }
 .react { width: 40px; height: 34px; border: none; border-radius: 8px; background: var(--card);
   box-shadow: inset 0 0 0 1px var(--line); color: var(--ink-3); font-size: 15px; line-height: 1;
   display: grid; place-items: center; cursor: pointer; transition: background .14s ease, color .14s ease; }
@@ -129,6 +129,26 @@ button { font-family: inherit; cursor: pointer; }
   min-height: 40px; cursor: pointer; }
 .pref-item__btn:hover { background: var(--panel); }
 .pref-item__btn--accent { color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+
+/* 変更エディタの2択（おまかせ/一覧） */
+.edit-choice { display: flex; gap: 8px; }
+.edit-choice__btn { flex: 1; border: none; background: var(--paper); box-shadow: inset 0 0 0 1px var(--line);
+  border-radius: 10px; padding: 13px 10px; cursor: pointer; display: flex; flex-direction: column;
+  align-items: center; gap: 3px; min-height: 58px; justify-content: center;
+  transition: background .14s ease; }
+.edit-choice__btn:hover { background: var(--panel); }
+.edit-choice__btn:active { transform: scale(.99); }
+.edit-choice__t { font-size: 14px; color: var(--ink); font-weight: 600; }
+.edit-choice__s { font-size: 11px; color: var(--ink-3); }
+.edit-back { border: none; background: transparent; color: var(--ink-2); font-size: 12.5px;
+  padding: 2px 0 8px; cursor: pointer; letter-spacing: .03em; }
+.edit-back:hover { color: var(--accent); }
+
+/* 最初からやり直す（控えめ） */
+.reset-line { text-align: center; margin: 14px 0 2px; }
+.reset-quiet { border: none; background: transparent; color: var(--ink-3); font-size: 12.5px;
+  padding: 8px 14px; cursor: pointer; letter-spacing: .03em; }
+.reset-quiet:hover { color: var(--accent); }
 
 /* ---- ボタン ---- */
 .ghost, .primary, .tool, .mini {
@@ -323,11 +343,7 @@ button:disabled { opacity: .45; cursor: default; }
 
 /* ---- レスポンシブ ---- */
 @media (max-width: 560px) {
-  /* 狭い画面：操作ボタンは献立の下にフル幅で置き、献立を広く使う */
   .day { grid-template-columns: 44px 1fr; }
-  .day__acts { grid-column: 1 / -1; flex-direction: row; gap: 8px; margin: 6px 0 0 58px;
-    align-items: stretch; }
-  .day__acts .mini { flex: 1; max-width: 140px; }
 }
 @media (min-width: 720px) {
   .wrap { padding: 44px 24px 110px; }
