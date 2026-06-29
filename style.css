@@ -73,8 +73,10 @@ button { font-family: inherit; cursor: pointer; }
 .day__edit { grid-column: 1 / -1; margin-top: 13px; padding-top: 13px;
   border-top: 1px solid var(--line); display: flex; flex-direction: column; gap: 10px; }
 .day__edit[hidden] { display: none; }   /* display:flex が [hidden] を上書きするのを防ぐ */
-.edit-row { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
-.edit-row__label { font-size: 11px; color: var(--ink-3); letter-spacing: .08em; min-width: 30px; }
+.edit-row { display: flex; align-items: flex-start; gap: 8px; }
+.edit-row__label { font-size: 11px; color: var(--ink-3); letter-spacing: .08em; min-width: 30px;
+  flex: none; padding-top: 11px; }
+.edit-row__chips { display: flex; flex-wrap: wrap; gap: 7px; flex: 1; }
 .echip { border: none; background: var(--paper); color: var(--ink); border-radius: 8px;
   padding: 7px 13px; font-size: 13px; box-shadow: inset 0 0 0 1px var(--line); min-height: 38px;
   transition: background .14s ease, color .14s ease; }
@@ -89,13 +91,14 @@ button { font-family: inherit; cursor: pointer; }
 .pick-list__msg { font-size: 12.5px; color: var(--ink-3); padding: 8px 0; line-height: 1.6; }
 .pick-list__box { display: flex; flex-direction: column; gap: 6px; max-height: 264px; overflow-y: auto;
   -webkit-overflow-scrolling: touch; padding-right: 2px; }
-.pick-item { display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+.pick-item { display: flex; justify-content: space-between; align-items: center; gap: 10px;
   width: 100%; text-align: left; border: none; background: var(--paper); border-radius: 9px;
-  padding: 11px 13px; box-shadow: inset 0 0 0 1px var(--line); min-height: 46px; }
+  padding: 10px 13px; box-shadow: inset 0 0 0 1px var(--line); min-height: 46px; }
 .pick-item:hover { background: var(--panel); }
 .pick-item:active { transform: scale(.99); }
 .pick-item--on { background: var(--accent-soft); box-shadow: inset 0 0 0 1px var(--accent); }
-.pick-item__name { font-size: 14px; color: var(--ink); font-weight: 500; }
+.pick-item__name { font-size: 14px; color: var(--ink); font-weight: 500; flex: 1; min-width: 0;
+  line-height: 1.4; overflow-wrap: anywhere; }
 .pick-item--on .pick-item__name { color: var(--accent); }
 .pick-item--on .pick-item__name::before { content: "✓ "; font-weight: 700; }
 .pick-item__meta { font-size: 11px; color: var(--ink-3); white-space: nowrap; flex: none;

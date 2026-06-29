@@ -46,7 +46,6 @@ function render() {
     chips.append(el("span", "chip chip--accent", `和食 ${m.washoku}%`));
     if (m.inventory_unused && m.inventory_unused.length)
       chips.append(el("span", "chip", `未使用: ${m.inventory_unused.join("・")}`));
-    if (m.violations.length) chips.append(el("span", "chip chip--warn", "制約注意"));
   }
   renderDays(); renderShopping(); syncPanel(); renderPrefs();
   hasPlan = !!(STATE.days && STATE.days.length && !m.error);
@@ -158,14 +157,16 @@ function renderEditorBody(d, ed) {
   ed.append(back);
   const crow = el("div", "edit-row");
   crow.append(el("span", "edit-row__label", "ジャンル"));
+  const cchips = el("div", "edit-row__chips");
   CUISINE_PICK.forEach(([c, lb]) =>
-    crow.append(editChip(lb, () => { filterC = (filterC === c ? null : c); renderEditorBody(d, ed); }, filterC === c)));
-  ed.append(crow);
+    cchips.append(editChip(lb, () => { filterC = (filterC === c ? null : c); renderEditorBody(d, ed); }, filterC === c)));
+  crow.append(cchips); ed.append(crow);
   const prow = el("div", "edit-row");
   prow.append(el("span", "edit-row__label", "種類"));
+  const pchips = el("div", "edit-row__chips");
   PROTEIN_PICK.forEach(([g, lb]) =>
-    prow.append(editChip(lb, () => { filterP = (filterP === g ? null : g); renderEditorBody(d, ed); }, filterP === g)));
-  ed.append(prow);
+    pchips.append(editChip(lb, () => { filterP = (filterP === g ? null : g); renderEditorBody(d, ed); }, filterP === g)));
+  prow.append(pchips); ed.append(prow);
   const list = el("div", "pick-list");
   list.append(el("div", "pick-list__msg", "探しています…"));
   ed.append(list);
@@ -210,7 +211,6 @@ function renderDays() {
     if (d.main) {
       const meta = el("div", "day__sub day__meta",
         `${CUISINE[d.main.cuisine] || d.main.cuisine} ・ ${d.main.cook}分`);
-      if (d.pinned) meta.append(el("span", "day__chosen", "選択済"));
       main.append(meta);
     }
     if (d.side) main.append(el("div", "day__sub", "副菜: " + d.side.name));
